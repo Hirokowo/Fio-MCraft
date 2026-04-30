@@ -1,0 +1,5 @@
+
+[visuals]
+	#Enable Debug Visualizers (Hitboxes, Timers, Hunger Bar analysis)
+	debugMode = false
+

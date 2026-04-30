@@ -1,0 +1,13 @@
+name = "Excalibur | Just Enough Items (JEI) Support"
+filename = "Excalibur Jei Support 1.3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e1480f4feb1789d068afd199348c2a8bdcbc029f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7219830
+project-id = 1248163

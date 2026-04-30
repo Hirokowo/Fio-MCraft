@@ -1,0 +1,7 @@
+
+[general]
+	#Enable winter leafless effect.
+	enabled = true
+	#Hide snow layer rendered above leaves hidden by this mod.
+	hide_snow_above_hidden_leaves = true
+

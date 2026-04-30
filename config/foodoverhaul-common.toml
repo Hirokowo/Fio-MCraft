@@ -1,0 +1,21 @@
+
+[mechanics]
+	#Base duration for any food in ticks (Default: 2400 = 2 minutes)
+	#Range: > 0
+	baseTimeTicks = 2400
+	#Ticks added per point of Nutrition (Default: 600)
+	#Range: > 0
+	nutritionMultiplier = 700
+	#Ticks added per point of Saturation * Nutrition (Default: 1200)
+	#Range: > 0
+	saturationMultiplier = 1400
+	#Health multiplier per point of Nutrition (Default: 0.5 = 1 HP per 2 Nutrition)
+	#Range: 0.0 ~ 10.0
+	healthMultiplier = 0.5
+	#The absolute tick threshold where the hunger bar starts visually dropping. (Default: 37200 = 31 minutes)
+	#Range: > 1
+	hungerThresholdTicks = 37200
+	#How many ticks of food duration are lost when 1 hunger point is externally drained (e.g. Vein Mining). (Default: 300)
+	#Range: > 0
+	externalDrainPenalty = 300
+

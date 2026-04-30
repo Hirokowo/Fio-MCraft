@@ -1,0 +1,31 @@
+{
+  "dependencies": ["start"],
+  "tasks": {
+    "craft_core": {
+      "type": "heracles:item",
+      "item": "valkyrienskies:physics_infuser",
+      "amount": 1
+    }
+  },
+  "display": {
+    "title": { "translate": "Severing the Anchor" },
+    "subtitle": { "translate": "The earth is cursed. Take to the skies." },
+    "description": [
+      "The Skulk spreads from the center. The hordes break through walls.",
+      "Static defenses are coffins.",
+      "",
+      "By infusing a structure with physics, you turn a house into a vehicle.",
+      "Build your ship. assemble your crew. Run.",
+      "",
+      "---",
+      "Goal: Craft a Physics Infuser."
+    ],
+    "groups": {
+      "The Great Migration": { "position": [0, 0] }
+    },
+    "icon": {
+      "item": { "id": "valkyrienskies:physics_infuser" },
+      "type": "heracles:item"
+    }
+  }
+}

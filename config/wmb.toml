@@ -1,0 +1,202 @@
+#WMB config schema version. The mod will auto-upgrade older configs by adding missing keys.
+configVersion = 5
+
+#Distance-based AI throttling (DAB).
+#d0/d1/d2 are distance thresholds in blocks.
+#Entities within d0 use 'near' multiplier; between d0..d1 'mid'; d1..d2 'far'; beyond d2 'distant'.
+#Multipliers are tick intervals (1=every tick, 2=every other tick, etc.).
+#hysteresisBlocks adds a deadband around thresholds to prevent thrashing when hovering near boundaries.
+#You can override per-entity with [dab.perEntity."namespace:id"] and per-dimension with [dab.perDimension."minecraft:the_nether"].
+[dab]
+	#Enable/disable DAB globally. True=throttle AI by distance; False=vanilla behavior.
+	enabled = false
+	#Nearest distance threshold (blocks). Entities nearer than d0 run at 'near' multiplier.
+	d0 = 32.0
+	#Middle distance threshold (blocks). Entities between d0..d1 run at 'mid' multiplier.
+	d1 = 64.0
+	#Far distance threshold (blocks). Entities between d1..d2 run at 'far' multiplier, beyond d2 'distant'.
+	d2 = 128.0
+	#Deadband size in blocks applied around d0/d1/d2 to stabilize bucket transitions.
+	hysteresisBlocks = 0.0
+
+	#Tick interval multipliers per distance bucket. 1=near, 2=mid, 4=far, 8=distant by default.
+	[dab.multipliers]
+		#Tick interval for NEAR bucket. 1=every tick (no throttle). Typical 1-2.
+		near = 1
+		#Tick interval for MID bucket. Typical 2-4.
+		mid = 2
+		#Tick interval for FAR bucket. Typical 4-8.
+		far = 4
+		#Tick interval for DISTANT bucket. Typical 8-16.
+		distant = 8
+
+#Asynchronous entity spawning worker pool.
+[asyncSpawn]
+	#Enable/disable off-thread entity spawn preparation.
+	enabled = false
+	#Number of worker threads for async spawn tasks. 1-4 recommended.
+	threadPoolSize = 2
+
+#Asynchronous player->entity tracking decisions and packet prep.
+[asyncTracker]
+	#Enable/disable async entity tracker.
+	enabled = false
+	#Worker threads for tracker tasks. Can share with spawn when low.
+	threadPoolSize = 2
+	#Ticks between recalculations per player.
+	updateInterval = 5
+	#Ticks to reuse visibility result before re-evaluating.
+	cacheDuration = 20
+	#If true, use one executor per dimension (overworld/nether/end) to isolate load.
+	perDimensionPools = false
+	#Core threads for each per-dimension tracker executor when perDimensionPools is true.
+	threadPoolSizePerDim = 1
+	#Maximum block distance for tracking decisions (2D horizontal). Typical 96-160.
+	maxTrackingDistance = 96.0
+
+#Proximity snapshot service used by DAB.
+#updateIntervalTicks controls how often player positions are snapshotted (default 5 ticks).
+#Larger values reduce CPU overhead but can make DAB react a bit slower to fast-moving players.
+[proximity]
+	#Ticks between proximity snapshot refreshes. Set 1-10 for a good balance.
+	updateIntervalTicks = 5
+
+#Vanilla safety checks tuned for performance.
+[checks]
+	#Ticks between suffocation checks per entity (higher=less CPU, slower response).
+	suffocationInterval = 20
+
+#Pathfinding scheduler and caches.
+[pathfinding]
+	#Enable pathfinding optimizations and scheduling tweaks.
+	enabled = false
+	#Minimum ticks between path recalculations per mob (actuator used by tuner).
+	minRecalcInterval = 10
+	#Window size in ticks to group mobs and stagger recalculations.
+	groupWindowTicks = 5
+	#How long cached paths are kept before expiring.
+	cacheTtlTicks = 20
+	#Experimental: share path results across similar mobs. May be unstable.
+	experimentalShareEnabled = false
+	#TTL for shared path entries if sharing is enabled.
+	shareTtlTicks = 10
+
+#Lightweight internal counters for /wmb stats. Small overhead when enabled.
+[metrics]
+	#Enable/disable WMB metrics collection.
+	enabled = false
+
+#Auto-tuning of performance-sensitive parameters.
+#targetTickMs: target average tick duration (ms).
+#windowTicks: number of ticks per averaging window.
+#cooldownTicks: minimum ticks between adjustments.
+#minRecalcMin/max: clamps for pathfinding.minRecalcInterval (actuator).
+#kp/ki/kd: PID gains. If all zero, falls back to simple step controller.
+#maxStepPerWindow: maximum integer change applied per window.
+#integralMaxAbs: absolute clamp for the integral term to avoid windup.
+[tuning]
+	#Enable/disable the auto tuner.
+	enabled = true
+	#Target average tick duration in milliseconds (50.0 ms for 20 TPS).
+	targetTickMs = 45.0
+	#How many ticks to average over before considering an adjustment.
+	windowTicks = 200
+	#Minimum ticks to wait between successive adjustments.
+	cooldownTicks = 200
+	#Lower bound clamp for pathfinding.minRecalcInterval adjustments.
+	minRecalcMin = 0
+	#Upper bound clamp for pathfinding.minRecalcInterval adjustments.
+	minRecalcMax = 40
+	#Proportional gain. Reacts to current error (target - average). Higher=more aggressive.
+	kp = 0.0
+	#Integral gain. Reacts to accumulated error over time. Helps eliminate steady-state offset.
+	ki = 0.0
+	#Derivative gain. Reacts to change in error, damping overshoot and oscillation.
+	kd = 0.0
+	#Maximum absolute change applied to minRecalcInterval per window.
+	maxStepPerWindow = 1
+	#Clamp for integral term to avoid windup (absolute value).
+	integralMaxAbs = 200.0
+
+#Optional: skip AI for far, idle mobs with multiple safety gates.
+[culling]
+	#Enable/disable culling rules.
+	enabled = false
+	#Only consider mobs at least this many blocks from nearest player.
+	minDistance = 160.0
+	#Require that the mob currently has no target to be eligible.
+	requireNoTarget = true
+	#Require that the mob currently has no path to be eligible.
+	requireNoPath = true
+	#Require that the mob is moving slower than lowMotionSpeed.
+	requireLowMotion = true
+	#Low motion threshold in blocks/tick to consider mob 'idle'.
+	lowMotionSpeed = 0.01
+	#Even when eligible, allow AI every N ticks to avoid starvation.
+	allowEveryNTicks = 200
+	#Never cull named mobs.
+	exemptNamed = true
+	#Never cull leashed mobs.
+	exemptLeashed = true
+	#Never cull tamed/owned mobs.
+	exemptOwned = true
+	#Never cull mobs marked persistent.
+	exemptPersistent = true
+
+#Optional: skip AI for mobs far outside any player's chunk range, with safety gates.
+[visibility]
+	#Enable/disable visibility-based culling rules.
+	enabled = false
+	#Chebyshev chunk distance around players considered 'active'.
+	playerChunkRange = 3
+	#Require that the mob currently has no target to be eligible.
+	requireNoTarget = true
+	#Require that the mob currently has no path to be eligible.
+	requireNoPath = true
+	#Require that the mob is moving slower than lowMotionSpeed.
+	requireLowMotion = true
+	#Low motion threshold in blocks/tick to consider mob 'idle'.
+	lowMotionSpeed = 0.01
+	#Even when eligible, allow AI every N ticks to avoid starvation.
+	allowEveryNTicks = 200
+	#Never apply visibility culling to named mobs.
+	exemptNamed = true
+	#Never apply visibility culling to leashed mobs.
+	exemptLeashed = true
+	#Never apply visibility culling to tamed/owned mobs.
+	exemptOwned = true
+	#Never apply visibility culling to mobs marked persistent.
+	exemptPersistent = true
+
+#Regional TPS scaling across square regions of chunks.
+#regionSize: chunks per side per region (default 4).
+#thresholds: avg region AI ms/tick and entity counts that trigger scaling.
+#scaling.levels: named levels mapping to tick interval multipliers.
+#hysteresisPct: percentage deadband for demotions to reduce flip-flopping near thresholds.
+#staticRegions: map of 'dimension:rx,rz' -> level (e.g., critical) to always apply.
+[regionalTPS]
+	#Enable/disable Regional TPS.
+	enabled = true
+	#Chunks per side per region square. 1=per-chunk; typical 2-8.
+	regionSize = 4
+	#Smoothing window for per-region averages (ticks).
+	windowTicks = 200
+	#Percentage deadband applied when demoting levels to avoid thrashing (0.0 - 0.45). Default 0.15.
+	hysteresisPct = 0.15
+
+	[regionalTPS.thresholds]
+		#If region average AI ms/tick exceeds this, increase scaling.
+		maxTickMs = 5.0
+		#If region AI step count per tick exceeds this, increase scaling.
+		maxEntities = 500
+		#If region block entity ticks per tick exceed this, increase scaling.
+		maxBlockEntities = 200
+
+	[regionalTPS.scaling]
+
+		#Named scaling levels mapping to tick interval multipliers.
+		[regionalTPS.scaling.levels]
+			normal = 1
+			warning = 2
+			critical = 4
+

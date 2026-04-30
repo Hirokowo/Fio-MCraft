@@ -1,0 +1,29 @@
+{
+  "dependencies": ["start"],
+  "tasks": {
+    "craft_mallet": {
+      "type": "heracles:item",
+      "item": "tetra:wooden_mallet",
+      "amount": 1
+    }
+  },
+  "display": {
+    "title": { "translate": "Reinventing the Wheel" },
+    "description": [
+      "The old ways of crafting are gone.",
+      "You cannot slap wood and stone together on a table anymore.",
+      "",
+      "You must carve, forge, and engineer your survival.",
+      "",
+      "---",
+      "Goal: Craft a Tetra Mallet to begin modifying tools."
+    ],
+    "groups": {
+      "Survival Instincts": { "position": [0, 30] }
+    },
+    "icon": {
+      "item": { "id": "tetra:holo" },
+      "type": "heracles:item"
+    }
+  }
+}

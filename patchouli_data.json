@@ -1,0 +1,45 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "simplyswords:runic_grimoire": {
+      "viewedEntries": [
+        "simplyswords:weapon_variants/entry_chakram"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:adventure/affix_loot/gems"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "alexsmobsinteraction:amiwiki": {
+      "viewedEntries": [
+        "alexsmobsinteraction:add_targets",
+        "alexsmobsinteraction:void_worm",
+        "alexsmobsinteraction:food_fx",
+        "alexsmobsinteraction:tamed_friendlies",
+        "alexsmobsinteraction:mob_transformation",
+        "alexsmobsinteraction:egg_attack",
+        "alexsmobsinteraction:combust"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "the_vmod:vmod_guide": {
+      "viewedEntries": [
+        "the_vmod:physgun/controls"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ice_and_fire_delight:cookbook": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

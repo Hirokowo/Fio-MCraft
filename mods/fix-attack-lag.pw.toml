@@ -1,0 +1,13 @@
+name = "Fix Attack Lag"
+filename = "fix_attack_lag-1.2.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa73c3f54f93051c1c77862fefcdad58dea70d7f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6726144
+project-id = 1297930

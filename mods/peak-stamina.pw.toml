@@ -1,0 +1,16 @@
+name = "Peak Stamina"
+filename = "peak_stamina-1.8.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b80a04e2ce183800433171e80077ecf7b3cce4c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7858417
+project-id = 1412640
+
+[option]
+optional = true

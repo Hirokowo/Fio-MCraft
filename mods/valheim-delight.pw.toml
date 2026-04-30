@@ -1,0 +1,13 @@
+name = "Valheim Delight"
+filename = "valheim_delight-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a89e181f278205ffec784eb33ec24a45a18ee63"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6683265
+project-id = 1291981

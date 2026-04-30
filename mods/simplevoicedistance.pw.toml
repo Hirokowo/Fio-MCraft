@@ -1,0 +1,13 @@
+name = "Simple Voice Distance"
+filename = "simplevoicedistance-1.4-forge1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bb5fd1d03d7b38458119bdf95e85418b8914dc80"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7438328
+project-id = 1285917

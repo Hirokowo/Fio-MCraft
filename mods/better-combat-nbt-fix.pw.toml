@@ -1,0 +1,13 @@
+name = "Better Combat NBT fix"
+filename = "bc_nbt_fix-1.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a74c56d98159ae358faf16a97956a026a108918"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5651702
+project-id = 1088480

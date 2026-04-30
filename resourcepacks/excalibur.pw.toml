@@ -1,0 +1,13 @@
+name = "Excalibur"
+filename = "Excalibur_V1.20.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a49050cd16d898a29d329c21a3006b2381a0dcc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4724952
+project-id = 326818

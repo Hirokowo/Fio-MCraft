@@ -1,0 +1,52 @@
+LootJS.modifiers(event => {
+    // Target absolutely every way loot can be generated in the world
+    const allLootSources =[
+        LootType.CHEST, 
+        LootType.ENTITY, 
+        LootType.BLOCK, 
+        LootType.FISHING, 
+        LootType.GIFT
+    ];
+
+    const modifier = event.addLootTypeModifier(allLootSources);
+
+    // 1. Vanilla & Common Modded Materials (Mirroring your Recipe Script)
+    const tools =['sword', 'pickaxe', 'axe', 'shovel', 'hoe'];
+    const materials =['wood', 'stone', 'iron', 'gold', 'diamond', 'netherite', 'lead', 'silver'];
+
+    tools.forEach(tool => {
+        materials.forEach(material => {
+            let itemId = `minecraft:${material}_${tool}`;
+            
+            // Handle Vanilla naming quirks
+            if (material === 'wood') itemId = `minecraft:wooden_${tool}`;
+            if (material === 'gold') itemId = `minecraft:golden_${tool}`;
+            
+            // If the material is lead or silver, it belongs to a mod (like Ice & Fire or Thermal)
+            // We use KubeJS regex syntax /.*:item/ to catch it regardless of the mod ID.
+            if (material === 'lead' || material === 'silver') {
+                modifier.removeLoot(`/.*:${material}_${tool}/`);
+            } else {
+                modifier.removeLoot(itemId);
+            }
+        });
+    });
+
+    // 2. Ice and Fire Tools (Mirroring '#forge:tools')
+    // This catches dragonbone, myrmex, silver, copper, and all other I&F tools and daggers
+    modifier.removeLoot(/iceandfire:.*_(sword|pickaxe|axe|shovel|hoe|dagger)/);
+
+    // 3. No Tree Punching Tools
+    // This catches flint, iron, gold, diamond, and netherite variants of knives, saws, and mattocks
+    modifier.removeLoot(/notreepunching:.*_knife/);
+    modifier.removeLoot(/notreepunching:.*_saw/);
+    modifier.removeLoot(/notreepunching:.*_mattock/);
+
+    // 4. Vanilla Ranged Weapons & Shields
+    modifier.removeLoot([
+        'minecraft:bow', 
+        'minecraft:crossbow', 
+        'minecraft:shield', 
+        'minecraft:trident'
+    ]);
+});

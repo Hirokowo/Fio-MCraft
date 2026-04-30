@@ -1,0 +1,13 @@
+name = "Craftable Campfire"
+filename = "craftable-campfire-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6676c7253f3072eec8da8eda4fc0d71623d8642a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5867874
+project-id = 1132896

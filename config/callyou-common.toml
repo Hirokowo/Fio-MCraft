@@ -1,0 +1,23 @@
+
+[mentions]
+	#Maximum number of effective mentions (i.e. tokens that resolve to a MentionType) allowed per single chat message. 0 = no limit.
+	#Range: 0 ~ 100
+	maxMentionsPerMessage = 5
+	#Maximum number of target players a single mention is allowed to ping. 0 = no limit.
+	#Range: 0 ~ 200
+	maxTargetsPerMention = 16
+	#Global cooldown in ticks between chat messages that contain at least one mention. 0 = no limit.
+	#Range: 0 ~ 1200
+	globalCooldownTicks = 20
+	#Cooldown in ticks between mentions from the same sender to the same target. 0 = no limit.
+	#Range: 0 ~ 1200
+	perTargetCooldownTicks = 40
+	#Whether to store mention history on the server for players to review later.
+	enableServerSideHistory = true
+	#How many days to keep mention history records on the server. 0 = never expire.
+	#Range: 0 ~ 365
+	historyRetentionDays = 7
+	#Maximum number of mention history records stored per player. 0 = no limit.
+	#Range: 0 ~ 500
+	maxHistoryPerPlayer = 50
+

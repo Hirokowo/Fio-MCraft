@@ -1,0 +1,13 @@
+name = "Fio'MCraft"
+author = "Hiroko"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a4b928c9fdf38331bfba725a846ca1731bf8509580b3915c7d8844820a2af8d2"
+
+[versions]
+forge = "47.4.16"
+minecraft = "1.20.1"

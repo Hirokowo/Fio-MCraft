@@ -1,0 +1,13 @@
+name = "Multiplayer Bosses"
+filename = "multiplayerbosses-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8705d1e9695a17c6b6c9f7294b49fa71476cec5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5945996
+project-id = 1086755

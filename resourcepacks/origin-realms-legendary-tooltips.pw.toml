@@ -1,0 +1,13 @@
+name = "Origin Realms - Legendary Tooltips"
+filename = "OR - LegendaryTooltips v1.3.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6605aaf8d4f803a777e0e228b8a7f321bf884359"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4716904
+project-id = 836909

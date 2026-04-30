@@ -1,0 +1,13 @@
+name = "Medieval Origins Revival"
+filename = "medievalorigins-forge-1.20.1-6.7.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "074f7b5608652f0697c69be6d8a1a4bfe639d13b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7764068
+project-id = 897171

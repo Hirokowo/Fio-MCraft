@@ -1,0 +1,66 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "sculkhorde",
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
+    "mindaycount": 0,
+    "maxdaycount": 4,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
+    "mindaycount": 200,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
+    "mindaycount": 200,
+    "mintime": 13001,
+    "maxtime": 23999,
+    "mincount": {
+      "amount": 35,
+      "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"]
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
+    "maxdaycount": 199,
+    "daycount": "repeat(15,10,14)",
+    "minlight": 2,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
+    "mindaycount": 5,
+    "maxdaycount": 199,
+    "daycount": "repeat(15,0,9)",
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
+    "mindaycount": 5,
+    "maxdaycount": 199,
+    "daycount": "repeat(15,0,9)",
+    "mintime": 13001,
+    "maxtime": 23999,
+    "mincount": {
+      "amount": 35,
+      "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"]
+    },
+    "result": "deny"
+  }
+]

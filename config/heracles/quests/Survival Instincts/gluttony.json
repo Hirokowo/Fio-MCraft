@@ -1,0 +1,38 @@
+{
+  "dependencies": ["start"],
+  "tasks": {
+    "eat_food": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_beef",
+      "amount": 1,
+      "collection_type": "CONSUME"
+    }
+  },
+  "rewards": {
+    "xp_reward": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "title": { "translate": "Vitality Through Consumption" },
+    "subtitle": { "translate": "Food is not just fuel; it is life." },
+    "description": [
+      "Your body is frail. Standard rations will not suffice.",
+      "",
+      "To grow your health pool beyond 3 hearts, you must consume diverse, high-quality meals.",
+      "As the taste fades, so does your strength.",
+      "",
+      "---",
+      "Goal: Eat a Cooked Beef (or better)."
+    ],
+    "groups": {
+      "Survival Instincts": { "position": [30, 0] }
+    },
+    "icon": {
+      "item": { "id": "minecraft:apple" },
+      "type": "heracles:item"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Fresh Waystones Texture"
+filename = "waystones_update_2_1.20.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "abf9f23a50a733502a34726e4ddcc1bdbd2bf21a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6875000
+project-id = 860903

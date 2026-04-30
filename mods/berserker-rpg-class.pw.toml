@@ -1,0 +1,13 @@
+name = "Berserker (RPG Series Plus)"
+filename = "berserker-class-mod-1.2.5-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e23019ca286d58530ccc05ba77e223303b53e762"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7153971
+project-id = 991968

@@ -1,0 +1,16 @@
+name = "Apotheotic Creation"
+filename = "apotheoticcreation-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5ec0f996f0252591a4064121a024caf344a5e69e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5515420
+project-id = 956637
+
+[option]
+optional = true

@@ -1,0 +1,15 @@
+#The maximum scale a hitbox can be (8 or lower recommended for performance sake when larger)
+maxHitboxScale = 8.0
+#The maximum scale an entity can become, set to 0 for no cap (cannot be below 1)
+maxEntityScale = 2.0
+#the largest someone can be while wearing the paper wings item (an elytra in all ways that matter)
+maxWingsScale = 0.05
+#the scale an entity should be before ambient particles are disabled on them
+minParticleScale = 0.5
+#should a players mining speed be linked to their scale (faster for larger folk slower for smaller folk)
+miningSpeedScaleLink = true
+#should the damage a player takes be linked to their scale (less for larger folk more for smaller folk)
+damageTakenScaleLink = true
+#this isnt used currently
+playerChatScale = true
+

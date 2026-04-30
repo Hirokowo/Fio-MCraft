@@ -1,0 +1,13 @@
+name = "Excalibur | Clarent Edition"
+filename = "Clarent_12110_1201_v3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "adf68e8e794e5410eaf41ac454610da6ee9a0da0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7412327
+project-id = 1006193

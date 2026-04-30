@@ -1,0 +1,13 @@
+name = "Animal Hats"
+filename = "animalhatmod-1.1.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2a576361372006b9a605b8c76586b624da3b2e1c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7411967
+project-id = 1313913

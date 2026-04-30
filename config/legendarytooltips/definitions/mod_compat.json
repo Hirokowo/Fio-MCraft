@@ -1,0 +1,121 @@
+{
+  "definitions": [
+    {
+      "comment": "FOOD & CONSUMABLES - Uses 'Nature/Rose' style from Origin Realms",
+      "predicate": {
+        "type": "regex",
+        "pattern": ".*(farmersdelight|tide|alexsmobs|sushi|brew|vinery|bakery|crabbersdelight|corn_delight|cuisine).*:.*(burger|sandwich|slice|cake|pie|dough|soup|stew|salad|meal|rice|taco|burrito|roll|maki|tea|coffee|drink|bottle|feast|curry|pasta|skillet|cod|salmon|snapper|tuna|trout|shrimp|squid|crab|lobster|eel|fish|raw|cooked|mutton|beef|pork|chicken|kelp|berries|seeds|cookie|chocolate|sweet|honey|jam|glaze|brisket|ribs|sauce).*"
+      },
+      "image": "legendarytooltips:textures/gui/tooltip_reborders.png",
+      "startColor": "#FF5C4C2D",
+      "endColor": "#FF5C4C2D",
+      "bgStartColor": "#F0160A00",
+      "bgEndColor": "#F0160A00",
+      "priority": 10
+    },
+    {
+      "comment": "WEAPONS - Uses 'Iron Plating' style from Assembled",
+      "predicate": {
+        "type": "regex",
+        "pattern": ".*:.*(sword|blade|katana|claymore|rapier|cutlass|saber|scythe|glaive|spear|halberd|dagger|knife|machete|battleaxe).*"
+      },
+      "image": "legendarytooltips:textures/gui/1.png",
+      "startColor": "#FF7D8A91",
+      "endColor": "#FF7D8A91",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 10
+    },
+    {
+      "comment": "TOOLS - Uses 'Iron Plating' style from Assembled",
+      "predicate": {
+        "type": "regex",
+        "pattern": ".*:.*(pickaxe|axe|shovel|hoe|paxel|mattock|hammer|excavator|multitool|saw|drill).*"
+      },
+      "image": "legendarytooltips:textures/gui/1.png",
+      "startColor": "#FF7D8A91",
+      "endColor": "#FF7D8A91",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 10
+    },
+    {
+      "comment": "BOWS & GUNS - Uses 'Wood' style from Assembled (Index 0)",
+      "predicate": {
+        "type": "regex",
+        "pattern": ".*:.*(bow|crossbow|musket|gun|pistol|rifle|blaster|cannon).*"
+      },
+      "image": "legendarytooltips:textures/gui/wood.png",
+      "startColor": "#A38A61",
+      "endColor": "#A38A61",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 10
+    },
+    {
+      "comment": "ARMOR - Uses 'Iron Plating' style from Assembled",
+      "predicate": {
+        "type": "regex",
+        "pattern": ".*:.*(helmet|chestplate|leggings|boots|pauldron|robe|mask|hood|crown|cap|tunic|pants|elytra).*"
+      },
+      "image": "legendarytooltips:textures/gui/1.png",
+      "startColor": "#FF7D8A91",
+      "endColor": "#FF7D8A91",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 10
+    },
+    {
+      "comment": "TETRA WEAPONS - Forces Iron Plating",
+      "predicate": {
+        "type": "regex",
+        "pattern": "tetra:modular_sword"
+      },
+      "image": "legendarytooltips:textures/gui/1.png",
+      "startColor": "#FF7D8A91",
+      "endColor": "#FF7D8A91",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 15
+    },
+    {
+      "comment": "TETRA TOOLS - Forces Iron Plating",
+      "predicate": {
+        "type": "regex",
+        "pattern": "tetra:modular_(double|single)"
+      },
+      "image": "legendarytooltips:textures/gui/1.png",
+      "startColor": "#FF7D8A91",
+      "endColor": "#FF7D8A91",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 15
+    },
+    {
+      "comment": "TETRA SHIELDS - Forces Iron Plating",
+      "predicate": {
+        "type": "regex",
+        "pattern": "tetra:modular_shield"
+      },
+      "image": "legendarytooltips:textures/gui/1.png",
+      "startColor": "#FF7D8A91",
+      "endColor": "#FF7D8A91",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 15
+    },
+    {
+      "comment": "TETRA BOWS - Forces Wood/Bow style",
+      "predicate": {
+        "type": "regex",
+        "pattern": "tetra:modular_(bow|crossbow)"
+      },
+      "image": "legendarytooltips:textures/gui/wood.png",
+      "startColor": "#A38A61",
+      "endColor": "#A38A61",
+      "bgStartColor": "#0C0C0C+v15",
+      "bgEndColor": "#0C0C0C+v5",
+      "priority": 15
+    }
+  ]
+}

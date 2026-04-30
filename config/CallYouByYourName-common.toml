@@ -1,0 +1,6 @@
+#Cooldown (in milliseconds) between mention notifications sent by the same player.
+#Range: 0 ~ 9223372036854775807
+mentionCooldownMs = 5000
+#Whether to play a sound for mentioned players.
+enableMentionSound = true
+

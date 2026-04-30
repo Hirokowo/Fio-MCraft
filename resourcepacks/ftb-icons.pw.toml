@@ -1,0 +1,13 @@
+name = "FTB Icons"
+filename = "FTB Icons.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "523b32c1e5e3593c413543ba40f449da5e6db659"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6833122
+project-id = 1318102

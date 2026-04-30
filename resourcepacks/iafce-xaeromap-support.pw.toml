@@ -1,0 +1,13 @@
+name = "IAFCE - XaeroMap Support"
+filename = "IAFCE - XaeroMap Support V1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5992bb89007cbaea5ac6e036b2db28feab50def"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7518880
+project-id = 1443034

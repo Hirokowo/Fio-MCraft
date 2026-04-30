@@ -1,0 +1,13 @@
+name = "Crystal Tooltips"
+filename = "Crystal-Tooltips.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e547e83c68f217b6e31dbaf997b2f9095a4bad77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7591509
+project-id = 1373065

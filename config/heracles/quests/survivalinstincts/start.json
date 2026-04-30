@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "boot_up": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "starter_bandage": {
+      "item": {
+        "id": "legendarysurvivaloverhaul:bandage",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You are weak. You are hunted."
+    },
+    "description": [
+      "a",
+      "<italic>Your heart beats slowly. Only three hits will end you.</italic>",
+      "",
+      "The air is cold, your throat is dry, and the ground beneath you trembles.",
+      "Staying in one place is a death sentence.",
+      "",
+      "---",
+      "Goal: Check the box to acknowledge your mortality."
+    ],
+    "groups": {
+      "Survival Instincts": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fragile Existence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

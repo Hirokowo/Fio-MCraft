@@ -1,0 +1,13 @@
+name = "Water Wells Updated"
+filename = "water-wells-updated-3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bec0f70e70ed7d8c5e4cad3d14a40379b3d873a7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7657023
+project-id = 1461920

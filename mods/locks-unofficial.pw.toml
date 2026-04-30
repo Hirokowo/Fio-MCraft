@@ -1,0 +1,13 @@
+name = "Locks-Unofficial"
+filename = "Locks-Unoffical-forge-1.20.1-1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8f36065a705984324ab39107fa6de969a022522"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6115787
+project-id = 1128357

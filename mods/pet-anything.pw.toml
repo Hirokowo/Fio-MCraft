@@ -1,0 +1,13 @@
+name = "pet anything"
+filename = "pet_anything-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21c0f84f4dbb74a08d99bbb7d02eed3b55af3209"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6602233
+project-id = 1277418

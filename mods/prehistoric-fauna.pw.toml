@@ -1,0 +1,13 @@
+name = "Prehistoric Fauna"
+filename = "Prehistoric_Fauna-2.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3d8d3593bffb8d0c839f0192279b88420e8b385"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6302778
+project-id = 311600

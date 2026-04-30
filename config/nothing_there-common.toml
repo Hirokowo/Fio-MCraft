@@ -1,0 +1,73 @@
+
+[spawning]
+	#Minimum distance between entity spawn locations
+	#Decreasing this will make encounters more common (default: 80)
+	#Range: 0 ~ 1024
+	minimumDistance = 80
+	#Maximum light level for the entity to spawn
+	#The entity will become invisible if the light level exceeds this value (default: 6)
+	#Range: 0 ~ 15
+	maximumLightLevel = 6
+	#Whether the entity is only allowed to spawn underground (default: true)
+	undergroundOnly = true
+	#Maximum block height at which the entity can spawn (default: 48)
+	#Range: -64 ~ 320
+	maximumSpawnHeight = 48
+	#Whether the entity is only allowed to spawn in the Overworld (default: true)
+	overworldOnly = true
+
+[aggression]
+	#Chance for the jumpscare to reduce health to 1 (default: 0.15)
+	#Range: 0.0 ~ 1.0
+	harmChance = 0.15
+	#Chance for the jumpscare to occur when a player approaches the entity
+	#If the chance fails, the entity will silently disappear (default: 0.7)
+	#Range: 0.0 ~ 1.0
+	jumpscareChance = 0.7
+	#How close the entity must be to trigger a jumpscare (default: 6.0)
+	#Range: 0.0 ~ 64.0
+	leapRange = 6.0
+	#Chance (per second) for the entity to break the nearest light source while it is invisible (default: 0.1)
+	#Range: 0.0 ~ 1.0
+	torchBreakChance = 0.1
+	#Chance for certain instances of the entity to be able to walk towards their target
+	#Set to 0 to disable (default: 0.03)
+	#Range: 0.0 ~ 1.0
+	walkerChance = 0.03
+	#The time (in ticks) that the player is allowed to stare at the entity before the entity attempts a jumpscare
+	#Set to -1 to disable (default: 120)
+	#Range: > -1
+	maxStareDuration = 120
+
+[despawning]
+	#The lifetime (in ticks) of the entity
+	#Lifetime counts down when the entity is in light or too far from a player (default: 1600)
+	#Range: > 20
+	lifeTime = 1600
+	#The distance (in blocks) that the entity can track the player
+	#The entity's lifetime will count down if its distance to the player exceeds this value (default: 64)
+	#Range: 0.0 ~ 1024.0
+	trackingDistance = 64.0
+
+[rendering]
+	#Whether the entity becomes invisible in client-sided lighting
+	#This allows the entity to respond to dynamic and handheld lighting added by other mods, but it is purely visual and otherwise does not affect the entity's behavior (default: true)
+	respectClientLighting = true
+	#How much the entity twitches when it is agitated
+	#Set to 0 to disable (default: 32)
+	#Range: 0.0 ~ 128.0
+	twitchiness = 32.0
+	#Whether the entity twitches while it is being stared at (default: true)
+	twitchWhenStaring = true
+
+[audio]
+	#Whether the jumpscare plays a sound (default: true)
+	jumpscareNoise = true
+	#The volume of the entity's ambient breathing sounds
+	#Set to 0 to disable (default: 0.25)
+	#Range: 0.0 ~ 10.0
+	breathVolume = 0.25
+	#Chance for certain instances of the entity to not emit ambient sounds (default: 0.3)
+	#Range: 0.0 ~ 1.0
+	silentChance = 0.3
+

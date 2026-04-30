@@ -1,0 +1,16 @@
+name = "Dynamic Trees - Soils Compat - Immersive Weathering/Grounded/Unearthed Soils"
+filename = "DynamicTrees-Soils-Compat-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55074dec61228392ce9f67baac1089720c954639"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7740807
+project-id = 1185895
+
+[option]
+optional = true

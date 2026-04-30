@@ -1,0 +1,13 @@
+name = "Epic Terrain Compatible"
+filename = "epic-terrain_compatible-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b61824429f2c96aa8a5f73c34dd5af8e3d5aca2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6908716
+project-id = 1137535

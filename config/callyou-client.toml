@@ -1,0 +1,6 @@
+
+[mentions]
+	#Client-only: where to render @item icons. INLINE = in chat line, HOVER = left of cursor, NONE = disable icon rendering.
+	#Allowed Values: INLINE, HOVER, NONE
+	itemIconRenderMode = "INLINE"
+

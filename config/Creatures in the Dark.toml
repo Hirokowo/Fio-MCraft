@@ -1,0 +1,22 @@
+
+[Grum]
+	"Enable/Disable Grum Spawns" = true
+
+[Anima]
+	"Enable/Disable Anima Spawns" = true
+
+[Lenny]
+	"Enable/Disable Lenny Spawns" = true
+
+[Gerald]
+	"Enable/Disable Gerald Spawns" = true
+
+[Watcher]
+	"Enable/Disable Watcher Spawns" = true
+
+[Wayfarer]
+	"Enable/Disable Wayfarer Spawns" = true
+
+["Umbral Imp"]
+	"Enable/Disable Umbral Imp Spawns" = true
+

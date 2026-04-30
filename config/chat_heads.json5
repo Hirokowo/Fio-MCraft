@@ -1,0 +1,17 @@
+{
+	"renderPosition": "BEFORE_NAME",
+	"threeDeeNess": 0.0,
+	"offsetNonPlayerText": true,
+	"senderDetection": "UUID_AND_HEURISTIC",
+	"smartHeuristics": true,
+	"handleSystemMessages": true,
+	"drawShadow": true,
+	"nameAliases": {
+		"Shawwillson": "incapacitated!",
+		"Hirokowo": "incapacitated!",
+		"Sky_Pig_The_Arty": "incapacitated!",
+		"Command": "WIP.",
+		"YEEtora": "incapacitated!",
+		"Ulnny": "incapacitated!"
+	}
+}

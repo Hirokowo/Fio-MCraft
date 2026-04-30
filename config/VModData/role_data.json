@@ -1,0 +1,33 @@
+{
+  "rolesPermissions" : {
+    "default" : [ "Allow SensorMode", "Allow VEntityChanger", "Allow RopeMode", "Allow ScaleMode", "Allow StripMode", "Allow SchemMode", "Allow GravChangerMode", "Allow MassChangerMode", "Allow ShipRemoverMode", "Allow Command Usage", "Allow ConnectionMode", "Allow HydraulicsMode", "Allow ThrusterMode", "Allow DisableCollisionsMode" ]
+  },
+  "playersRoles" : {
+    "5e52eaac-df84-4dda-a362-15fbc47262d0" : {
+      "uuid" : "5e52eaac-df84-4dda-a362-15fbc47262d0",
+      "nickname" : "Hirokowo",
+      "role" : "default"
+    },
+    "0334eea1-727a-45a5-8839-8bc82efc8159" : {
+      "uuid" : "0334eea1-727a-45a5-8839-8bc82efc8159",
+      "nickname" : "Shawwillson",
+      "role" : "default"
+    },
+    "c1957ec8-36e6-454d-8938-b2e3d95e7aab" : {
+      "uuid" : "c1957ec8-36e6-454d-8938-b2e3d95e7aab",
+      "nickname" : "Sky_Pig_The_Arty",
+      "role" : "default"
+    },
+    "e2780e74-b777-44a0-a913-8f59e1aecf8a" : {
+      "uuid" : "e2780e74-b777-44a0-a913-8f59e1aecf8a",
+      "nickname" : "Ulnny",
+      "role" : "default"
+    },
+    "0d354da7-eb15-4c44-9bcd-0c107b9d4ebe" : {
+      "uuid" : "0d354da7-eb15-4c44-9bcd-0c107b9d4ebe",
+      "nickname" : "YEEtora",
+      "role" : "default"
+    }
+  },
+  "allRoles" : [ "default" ]
+}

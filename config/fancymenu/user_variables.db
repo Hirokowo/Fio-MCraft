@@ -1,0 +1,38 @@
+type = user_variables
+
+variable {
+  name = date
+  value = Monday
+  reset_on_launch = false
+}
+
+variable {
+  name = eyesy
+  value = -61.262532392100795
+  reset_on_launch = false
+}
+
+variable {
+  name = eyesx
+  value = 176
+  reset_on_launch = false
+}
+
+variable {
+  name = capsule
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = raw_date
+  value = 4
+  reset_on_launch = false
+}
+
+variable {
+  name = eyes
+  value = 262.00500000000005
+  reset_on_launch = false
+}
+

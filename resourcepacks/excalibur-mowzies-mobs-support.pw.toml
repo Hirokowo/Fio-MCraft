@@ -1,0 +1,13 @@
+name = "Excalibur | Mowzie's Mobs Support"
+filename = "Excalibur Mowzie's Mobs 1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86e244b65efa68797f27a1d338df683a9f0839c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7277317
+project-id = 1394985
