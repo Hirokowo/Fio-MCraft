@@ -1,0 +1,1 @@
+{"jarName":"polytone-1.20-3.5.25.jar","modId":"polytone","version":"1.20-3.5.25","mixinConfigs":["polytone.mixins.json","polytone-common.mixins.json"],"jarJarMods":[{"jarName":"exp4j-0.4.8.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}],"curseForgeHash":550305274,"modrinthHash":"047e65b7a73306f025b3938bb1aa2ed4ade7ccf4"}

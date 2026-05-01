@@ -1,0 +1,1 @@
+{"jarName":"Heracles-forge-1.20.1-1.1.13.jar","modId":"heracles","version":"1.1.13","mixinConfigs":["heracles-common.mixins.json"],"jarJarMods":[{"jarName":"hermes-forge-1.20-1.6.0.jar","modId":"hermes","version":"1.6.0","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}],"curseForgeHash":1903886862,"modrinthHash":"ca6de15e1631ccbf5463fcf3df6d3ad37aa5d6e5"}

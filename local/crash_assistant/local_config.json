@@ -1,0 +1,14 @@
+{
+	"shown_reasons": {
+		"Jvm": true,
+		"MedievalOriginsVsForgeOrigins": true,
+		"InsufficientMemory": true,
+		"MissingUnsupportedDependencies": true,
+		"MixinApply": true,
+		"WasClosedByWindows": true,
+		"ModuleResolution": true
+	},
+	"intel_corrupted": {
+		"dont_show_again": true
+	}
+}
