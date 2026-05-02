@@ -6,9 +6,18 @@
   },
   {
     "dimension": "minecraft:overworld",
+    "mob":["forbidden_arcanus:lost_soul"],
+    "mincount": {
+      "amount": 1,
+      "mob":["forbidden_arcanus:lost_soul"]
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
     "mob":["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider"],
     "mindaycount": 0,
-    "maxdaycount": 4,
+    "maxdaycount": 1,
     "result": "deny"
   },
   {

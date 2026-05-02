@@ -1,5 +1,9 @@
 {
 	appearance: {
+		# Default: 100
+		# Range: 0 ~ 255
+		quest_hover_glow_alpha: 100
+		
 		# Default: 40
 		# Range: 0 ~ 255
 		button_hover_glow_alpha: 40
@@ -9,25 +13,21 @@
 		
 		# Default: false
 		shader_background: false
-		
-		# Default: 100
-		# Range: 0 ~ 255
-		quest_hover_glow_alpha: 100
 	}
 	animations: {
 		# Default: true
-		panel_button_hover: true
+		panel_animation: true
 		
 		# Default: true
-		quest_hover: true
+		panel_button_hover: true
 		
 		# Default: true
 		smooth_scrolling: true
 		
 		# Default: true
-		panel_animation: true
+		smooth_chapter_panel: true
 		
 		# Default: true
-		smooth_chapter_panel: true
+		quest_hover: true
 	}
 }

@@ -2,6 +2,10 @@
   "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs":[
+    "vanilla",
+    "mod_resources",
+    "fabric",
+    "Moonlight Mods Dynamic Assets",
     "file/Excalibur_V1.20.zip",
     "file/Excalibur_UClarent_12110_1201_v3.zip",
     "file/Excalibur Additions_Minor Mod Support 1.6.zip",
@@ -19,6 +23,7 @@
     "file/Excalibur Amendments 1.7.zip",
     "file/FarmersDelightExcaliburSupport.zip",
     "file/Aquaculture 2 Excalibur Support.zip",
+    "file/Excalibur Vanilla  Copper Age Backport 1.8.zip",
     "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
     "file/waystones_update_2_1.20.1.zip",
     "file/Simple Grass Flowers v1.9.6.zip",
@@ -27,7 +32,7 @@
     "file/OR - LegendaryTooltips v1.3.1.zip",
     "file/OR - LTooltips DLC v1.2.0.zip",
     "file/Neko_Language_Pack_HKsC_Addon_v2.22.zip",
-    "file/MC_Dungeons_Crit [1.20-1.20.1].zip",
+    "file/MC_Dungeons_Crit[1.20-1.20.1].zip",
     "file/Icon Xaero's 1.22.zip",
     "file/Ice and Fire - Visual Rework v1.2.zip",
     "file/IAFCE - XaeroMap Support V1.zip",
@@ -40,12 +45,15 @@
     "file/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip",
     "file/Ars Nouveau Refresh 1.0.zip",
     "file/1Official Evengard Resource Pack.zip",
-    "file/\u00A7eXaero's-Map-Frame-Hard.zip",
+    "file/Xaero's-Map-Frame-Hard.zip",
     "file/Xaero's Vanilla GUI.zip",
-    "file/\u00A76Immersive\u00A78_\u00A76Interfaces\u00A78.zip",
-    "file/\u00A76Immersive\u00A78_\u00A76Interfaces\u00A78_\u00A76Modded\u00A78.zip"
+    "file/Immersive_Interfaces.zip",
+    "file/Immersive_Interfaces_Modded.zip"
   ],
   "default_overrides": {
-    "force_compatible": true
+    "force_compatible": true,
+    "required": true,
+    "fixed_position": true
   }
 }
+  

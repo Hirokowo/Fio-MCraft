@@ -1,25 +1,56 @@
 # Auto Generated, do not touch
 config_version = 4
-# If set to true, the mod creates a new global folder, that is global for your user on your computer.
-# The created folders will be:
-# <user_home>/.minecraft_global_packs/<version>/required_datapacks
-# <user_home>/.minecraft_global_packs/<version>/optional_datapacks
-# <user_home>/.minecraft_global_packs/<version>/required_resourcepacks
-# <user_home>/.minecraft_global_packs/<version>/optional_resourcepacks
 enable_system_global_packs = false
-# This prints Pack IDs into the logs, using this you can force enable builtin resourcepacks from mods, further down in the config.
 log_pack_ids = false
 
-# This config allows you to add or remove folders or single files as Data-/Resourcepacks
-# For that simply specify the file path to the folder/file relative to your <instance> folder
 [resourcepacks]
-	required = ["global_packs/required_resources/"]
-	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
-	# Search for "# Listing Resource Packs #" inside the log
+	required =[
+		"resourcepacks/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+		"resourcepacks/Excalibur_V1.20.zip",
+		"resourcepacks/Excalibur_UClarent_12110_1201_v3.zip",
+		"resourcepacks/Excalibur Additions_Minor Mod Support 1.6.zip",
+		"resourcepacks/Excalibur_Supplementaries_1.0_1.20.1.zip",
+		"resourcepacks/Excalibur_SmallShips_1.1_1.20.1.zip",
+		"resourcepacks/Excalibur_Lootr_v1.1.zip",
+		"resourcepacks/Excalibur_Irons_Spells_n_Spellbooks_v1.2.zip",
+		"resourcepacks/Excalibur_Handcrafted_1.0_1.20.1.zip",
+		"resourcepacks/Excalibur_Create Addon_Forge_v2.1.zip",
+		"resourcepacks/Excalibur Serene Seasons.zip",
+		"resourcepacks/Excalibur Mowzie's Mobs 1.0.zip",
+		"resourcepacks/Excalibur Jei Support 1.3.zip",
+		"resourcepacks/Excalibur Curios & Accessories 1.3.zip",
+		"resourcepacks/Excalibur Bosses'Rise 1.4.zip",
+		"resourcepacks/Excalibur Amendments 1.7.zip",
+		"resourcepacks/FarmersDelightExcaliburSupport.zip",
+		"resourcepacks/Aquaculture 2 Excalibur Support.zip",
+		"resourcepacks/Excalibur Vanilla  Copper Age Backport 1.8.zip",
+		"resourcepacks/waystones_update_2_1.20.1.zip",
+		"resourcepacks/Simple Grass Flowers v1.9.6.zip",
+		"resourcepacks/Ribbits_ Excalibur-Addon_Resource _Pack_1.0.zip",
+		"resourcepacks/OR - LegendaryTooltips v1.3.1.zip",
+		"resourcepacks/OR - LTooltips DLC v1.2.0.zip",
+		"resourcepacks/Neko_Language_Pack_HKsC_Addon_v2.22.zip",
+		"resourcepacks/MC_Dungeons_Crit [1.20-1.20.1].zip",
+		"resourcepacks/Icon Xaero's 1.22.zip",
+		"resourcepacks/Ice and Fire - Visual Rework v1.2.zip",
+		"resourcepacks/IAFCE - XaeroMap Support V1.zip",
+		"resourcepacks/GoetyXaerosCompat.zip",
+		"resourcepacks/FTB Icons.zip",
+		"resourcepacks/Crystal-Tooltips.zip",
+		"resourcepacks/Comforts Modernized - V1.1.zip",
+		"resourcepacks/Better-Leaves-9.5.zip",
+		"resourcepacks/AssembledLegendaryTooltips-1.20.1-1.5.0.zip",
+		"resourcepacks/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip",
+		"resourcepacks/Ars Nouveau Refresh 1.0.zip",
+		"resourcepacks/1Official Evengard Resource Pack.zip",
+		"resourcepacks/Xaero's-Map-Frame-Hard.zip",
+		"resourcepacks/Xaero's Vanilla GUI.zip",
+		"resourcepacks/Immersive_Interfaces.zip",
+		"resourcepacks/Immersive_Interfaces_Modded.zip"
+	]
 	enable_builtin = []
 
 [datapacks]
-	required = ["datapacks/", "resourcepacks/", "global_packs/required_data/"]
+	required =["datapacks/", "global_packs/required_data/"]
 	optional = ["global_packs/optional_data/"]
 	enable_builtin = []
-
