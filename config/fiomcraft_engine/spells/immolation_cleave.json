@@ -1,0 +1,37 @@
+{
+  "_comment_1": "=== IDENTITY & TARGET ===",
+  "spell_id": "immolation_cleave",
+  "target_item": "cataclysm:the_immolator",
+  "_comment_tetra": "List of valid Tetra parts that can cast this spell.",
+  "tetra_parts":[
+    "sword",
+    "machete",
+    "katana",
+    "blade"
+  ],
+  "_comment_2": "=== ANIMATION & APEX TIMING ===",
+  "_comment_delay": "Triggers quickly (6 ticks) for a fast, one-handed slash.",
+  "proxy_delay_ticks": 6,
+  "_comment_anim": "Forces a wide 1-handed sweeping slash from Better Combat.",
+  "custom_animation": "bettercombat:one_handed_slash_horizontal_right",
+  "_comment_3": "=== BEHAVIOR ===",
+  "_comment_action": "Use 'ground_hit' for slams, 'air_swing' for slashes, or 'charge' for bows.",
+  "action_type": "air_swing",
+  "charge_ticks": 0,
+  "_comment_4": "=== SPELL STATS ===",
+  "cooldown_seconds": 12,
+  "mana_cost": 30,
+  "max_level": 3,
+  "school": "irons_spellbooks:fire",
+  "spell_icon": "",
+  "_comment_5": "=== RARITY SCALING ===",
+  "_comment_rarity": "Scales through 3 levels.",
+  "rarity":[
+    "UNCOMMON",
+    "RARE",
+    "EPIC"
+  ],
+  "_comment_6": "=== LOOTING ===",
+  "_comment_loot": "If true, this scroll can drop randomly from Iron's Spells mobs/chests.",
+  "allow_looting": false
+}

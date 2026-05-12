@@ -1,10 +1,10 @@
 {
-  "progressionMode": false,
+  "progressionMode": true,
   "progressionModePlus": false,
   "animationsEnabled": true,
   "showConfigScreen": true,
   "openButtonEnabled": true,
-  "searchBarEnabled": false,
+  "searchBarEnabled": true,
   "progressBarEnabled": true,
   "statisticsTabEnabled": true,
   "openButtonYOffset": 0

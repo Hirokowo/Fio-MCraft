@@ -1,5 +1,5 @@
 
-#ClientSide Config Settings, These mostly exist as preference setting so you dont need to customise them every server you join
+#ClientSide Config Settings, These mostly exist as preference setting so you dont need to customise them every server you join (currently these do nothing and are just placeholders)
 ["Size Preferences"]
 	#The minimum scale that you can be set to
 	scaleMinimum = 0.0
@@ -12,7 +12,7 @@
 	#If your inventory can be accessed and changed by a player who is carrying you
 	inventoryCanBeAccessed = true
 	#Prevent players you are carrying from dismounting by 'shifting'
-	trapCarriedPlayer = true
+	trapCarriedPlayer = false
 	#allow yourself to be prevented from dismounting by players carrying you that have the above option enabled
-	canBeTrappedWhileCarried = true
+	canBeTrappedWhileCarried = false
 

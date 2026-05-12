@@ -4,6 +4,7 @@
 		"MedievalOriginsVsForgeOrigins": true,
 		"InsufficientMemory": true,
 		"MissingUnsupportedDependencies": true,
+		"AzureLibAddons": true,
 		"MixinApply": true,
 		"WasClosedByWindows": true,
 		"ModuleResolution": true

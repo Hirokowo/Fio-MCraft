@@ -54,6 +54,22 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -64,13 +80,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "alekiships": {
-    "furnace": true,
-    "jukebox": true,
-    "brewing_stand": true,
-    "block": true,
-    "note_block": true
   },
   "apotheosis": {
     "adventure": true,

@@ -1,0 +1,9 @@
+
+[Items]
+	#Enable cape animation for the Apprentice Mage Robe.
+	enableApprenticeMageRobeCapeAnimation = true
+
+[Blocks]
+	#Disable Essence Smoker particle texture analysis and always use fallback colors.
+	disableEssenceSmokerParticleTextureAnalysis = false
+

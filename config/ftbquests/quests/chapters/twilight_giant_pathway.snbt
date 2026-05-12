@@ -1,0 +1,647 @@
+{
+	id: "A1B2C3D4E5F60000"
+	group: "1000000000000001"
+	order_index: 0
+	filename: "twilight_giant"
+	title: "Pathway of the Twilight Giant"
+	icon: "fiomcraft_engine:juggernaut_core_0"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	disable_toast: true
+	hide_quest_until_deps_complete: true
+	quest_links: [ ]
+	quests:[
+		{
+			id: "A1B2C3D4E5F60009"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			title: "The Unawakened"
+			disable_toast: true
+			subtitle: "Forge your Blank Core and step onto the path of the Vanguard."
+			description:[
+				"Before you can ascend, you must prepare the vessel."
+				""
+				"Craft a Blank Core and equip it into your Spellbook accessory slot. It will bind to your soul forever."
+			]
+			tasks:[{
+				id: "B1B2C3D4E5F60009"
+				type: "item"
+				item: "fiomcraft_engine:blank_core"
+			}]
+		}
+		
+		// ==========================================
+		// SEQUENCE 9: WARRIOR (Y: 4.0)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60010"
+			dependencies:["A1B2C3D4E5F60009"]
+			x: -1.5d
+			y: 2.0d
+			shape: "square"
+			title: "Physical Conditioning"
+			subtitle: "Slay the undead."
+			tasks:[{ id: "B1B2C3D4E5F60010", type: "kill", entity: "minecraft:zombie", value: 50L }]
+		}
+		{
+			id: "A1B2C3D4E5F60011"
+			dependencies:["A1B2C3D4E5F60009"]
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
+			title: "The First Weapon"
+			subtitle: "Craft a basic Tetra Broadsword or Hammer."
+			tasks:[{ id: "B1B2C3D4E5F60011", type: "item", item: "tetra:modular_sword" }]
+		}
+		{
+			id: "A1B2C3D4E5F60012"
+			dependencies:["A1B2C3D4E5F60010", "A1B2C3D4E5F60011"]
+			x: 0.0d
+			y: 4.0d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 9: Warrior"
+			subtitle: "Drink the potion to awaken your Core."
+			tasks:[{ id: "B1B2C3D4E5F60012", type: "item", item: "fiomcraft_engine:potion_juggernaut_9" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 8: GLADIATOR (Y: 8.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60020"
+			dependencies:["A1B2C3D4E5F60012"]
+			x: -3.0d
+			y: 6.5d
+			shape: "circle"
+			title: "Max Sequence 9 Skills"
+			subtitle: "Unlock all 7 nodes in the Puffish Skill Tree."
+			tasks:[{ id: "B1B2C3D4E5F60020", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60021"
+			dependencies:["A1B2C3D4E5F60012"]
+			x: 0.0d
+			y: 6.0d
+			shape: "square"
+			title: "Gladiator's Trial"
+			subtitle: "Defeat a Ravager."
+			tasks:[{ id: "B1B2C3D4E5F60021", type: "kill", entity: "minecraft:ravager", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60022"
+			dependencies:["A1B2C3D4E5F60012"]
+			x: 3.0d
+			y: 6.5d
+			shape: "square"
+			title: "The Arena's Blood"
+			subtitle: "Gather materials of vitality."
+			tasks:[{ id: "B1B2C3D4E5F60022", type: "item", item: "irons_spellbooks:blood_vial", count: 5L }]
+		}
+		{
+			id: "A1B2C3D4E5F60023"
+			dependencies:["A1B2C3D4E5F60020", "A1B2C3D4E5F60021", "A1B2C3D4E5F60022"]
+			x: 0.0d
+			y: 8.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 8: Gladiator"
+			subtitle: "Ascend further."
+			tasks:[{ id: "B1B2C3D4E5F60023", type: "item", item: "fiomcraft_engine:potion_juggernaut_8" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 7: WEAPON MASTER (Y: 13.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60030"
+			dependencies:["A1B2C3D4E5F60023"]
+			x: -4.5d
+			y: 11.0d
+			shape: "circle"
+			title: "Max Sequence 8 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60030", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60031"
+			dependencies:["A1B2C3D4E5F60023"]
+			x: -1.5d
+			y: 10.5d
+			shape: "octagon"
+			title: "Mastery: Infernal Smash"
+			subtitle: "Craft the FioMEngine scroll to prove your progression."
+			tasks:[{
+				id: "B1B2C3D4E5F60031"
+				type: "item"
+				match_nbt: true
+				item: {
+					id: "irons_spellbooks:scroll"
+					Count: 1b
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data:[{ id: "fiomcraft_engine:infernal_smash", index: 0, level: 1, locked: 1b }]
+							maxSpells: 1, mustEquip: 0b, spellWheel: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			id: "A1B2C3D4E5F60032"
+			dependencies:["A1B2C3D4E5F60023"]
+			x: 1.5d
+			y: 10.5d
+			shape: "square"
+			title: "Acting Method: The Iron Chef"
+			description:[
+				"To truly master the blade, you must understand how flesh yields."
+				""
+				"Discard your heavy weapons. Forge a Tetra Skillet or Cleaver."
+			]
+			tasks:[{ id: "B1B2C3D4E5F60032", type: "item", item: "farmersdelight:skillet" }]
+		}
+		{
+			id: "A1B2C3D4E5F60033"
+			dependencies:["A1B2C3D4E5F60032"]
+			x: 4.5d
+			y: 11.0d
+			shape: "square"
+			title: "A Feast for Gods"
+			tasks:[
+				{ id: "B1B2C3D4E5F60033", type: "item", item: "farmersdelight:roast_chicken_block", count: 5L }
+				{ id: "B1B2C3D4E5F60034", type: "item", item: "farmersdelight:honey_glazed_ham_block", count: 5L }
+			]
+		}
+		{
+			id: "A1B2C3D4E5F60035"
+			dependencies:["A1B2C3D4E5F60030", "A1B2C3D4E5F60031", "A1B2C3D4E5F60033"]
+			x: 0.0d
+			y: 13.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 7: Weapon Master"
+			subtitle: "You have digested the Iron Chef persona."
+			tasks:[{ id: "B1B2C3D4E5F60035", type: "item", item: "fiomcraft_engine:potion_juggernaut_7" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 6: DAWN PALADIN (Y: 19.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60040"
+			dependencies:["A1B2C3D4E5F60035"]
+			x: -6.0d
+			y: 17.0d
+			shape: "circle"
+			title: "Max Sequence 7 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60040", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60041"
+			dependencies:["A1B2C3D4E5F60035"]
+			x: -3.0d
+			y: 16.5d
+			shape: "square"
+			title: "Embrace the Dawn"
+			tasks:[{ id: "B1B2C3D4E5F60041", type: "item", item: "irons_spellbooks:divine_pearl", count: 10L }]
+		}
+		{
+			id: "A1B2C3D4E5F60042"
+			dependencies:["A1B2C3D4E5F60035"]
+			x: 3.0d
+			y: 16.5d
+			shape: "square"
+			title: "Vanquish the Cold"
+			tasks:[{ id: "B1B2C3D4E5F60042", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60043"
+			dependencies:["A1B2C3D4E5F60035"]
+			x: 6.0d
+			y: 17.0d
+			shape: "square"
+			title: "Purge the Ocean"
+			tasks:[{ id: "B1B2C3D4E5F60043", type: "kill", entity: "aquamirae:captain_cornelia", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60044"
+			dependencies:["A1B2C3D4E5F60040", "A1B2C3D4E5F60041", "A1B2C3D4E5F60042", "A1B2C3D4E5F60043"]
+			x: 0.0d
+			y: 19.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 6: Dawn Paladin"
+			tasks:[{ id: "B1B2C3D4E5F60044", type: "item", item: "fiomcraft_engine:potion_juggernaut_6" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 5: GUARDIAN (Y: 26.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60050"
+			dependencies:["A1B2C3D4E5F60044"]
+			x: -7.5d
+			y: 24.0d
+			shape: "circle"
+			title: "Max Sequence 6 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60050", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60051"
+			dependencies:["A1B2C3D4E5F60044"]
+			x: -3.5d
+			y: 23.5d
+			shape: "octagon"
+			title: "Mastery: Divine Smite"
+			tasks:[{
+				id: "B1B2C3D4E5F60051"
+				type: "item"
+				match_nbt: true
+				item: {
+					id: "irons_spellbooks:scroll"
+					Count: 1b
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data:[{ id: "fiomcraft_engine:divine_smite", index: 0, level: 1, locked: 1b }]
+							maxSpells: 1, mustEquip: 0b, spellWheel: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			id: "A1B2C3D4E5F60052"
+			dependencies:["A1B2C3D4E5F60044"]
+			x: 3.5d
+			y: 23.5d
+			shape: "square"
+			title: "Breaking the Unbreakable"
+			tasks:[{ id: "B1B2C3D4E5F60052", type: "kill", entity: "cataclysm:ender_golem", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60053"
+			dependencies: ["A1B2C3D4E5F60044"]
+			x: 7.5d
+			y: 24.0d
+			shape: "square"
+			title: "Golem Cores"
+			tasks:[{ id: "B1B2C3D4E5F60053", type: "item", item: "cataclysm:void_core", count: 3L }]
+		}
+		{
+			id: "A1B2C3D4E5F60054"
+			dependencies:["A1B2C3D4E5F60050", "A1B2C3D4E5F60051", "A1B2C3D4E5F60052", "A1B2C3D4E5F60053"]
+			x: 0.0d
+			y: 26.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 5: Guardian"
+			tasks:[{ id: "B1B2C3D4E5F60054", type: "item", item: "fiomcraft_engine:potion_juggernaut_5" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 4: DEMON HUNTER (Y: 34.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60060"
+			dependencies: ["A1B2C3D4E5F60054"]
+			x: -9.0d
+			y: 31.5d
+			shape: "circle"
+			title: "Max Sequence 5 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60060", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60061"
+			dependencies:["A1B2C3D4E5F60054"]
+			x: -4.5d
+			y: 31.0d
+			shape: "square"
+			title: "To Hunt a Demon"
+			tasks:[{ id: "B1B2C3D4E5F60061", type: "dimension", dimension: "minecraft:the_nether" }]
+		}
+		{
+			id: "A1B2C3D4E5F60062"
+			dependencies:["A1B2C3D4E5F60054"]
+			x: 4.5d
+			y: 31.0d
+			shape: "square"
+			title: "The Monstrosity"
+			tasks:[{ id: "B1B2C3D4E5F60062", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60063"
+			dependencies:["A1B2C3D4E5F60054"]
+			x: 9.0d
+			y: 31.5d
+			shape: "square"
+			title: "Monstrous Horns"
+			tasks:[{ id: "B1B2C3D4E5F60063", type: "item", item: "cataclysm:monstrous_horn", count: 2L }]
+		}
+		{
+			id: "A1B2C3D4E5F60064"
+			dependencies:["A1B2C3D4E5F60060", "A1B2C3D4E5F60061", "A1B2C3D4E5F60062", "A1B2C3D4E5F60063"]
+			x: 0.0d
+			y: 34.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 4: Demon Hunter"
+			tasks:[{ id: "B1B2C3D4E5F60064", type: "item", item: "fiomcraft_engine:potion_juggernaut_4" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 3: SILVER KNIGHT (Y: 43.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60070"
+			dependencies:["A1B2C3D4E5F60064"]
+			x: -10.5d
+			y: 40.0d
+			shape: "circle"
+			title: "Max Sequence 4 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60070", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60071"
+			dependencies:["A1B2C3D4E5F60064"]
+			x: -5.0d
+			y: 39.5d
+			shape: "octagon"
+			title: "Mastery: Demon's Bane"
+			tasks:[{
+				id: "B1B2C3D4E5F60071"
+				type: "item"
+				match_nbt: true
+				item: {
+					id: "irons_spellbooks:scroll"
+					Count: 1b
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data:[{ id: "fiomcraft_engine:demons_bane", index: 0, level: 1, locked: 1b }]
+							maxSpells: 1, mustEquip: 0b, spellWheel: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			id: "A1B2C3D4E5F60072"
+			dependencies:["A1B2C3D4E5F60064"]
+			x: 5.0d
+			y: 39.5d
+			shape: "square"
+			title: "The Dragon's Roar"
+			tasks:[{ id: "B1B2C3D4E5F60072", type: "kill", entity: "iceandfire:fire_dragon", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60073"
+			dependencies:["A1B2C3D4E5F60064"]
+			x: 10.5d
+			y: 40.0d
+			shape: "square"
+			title: "Dragon Forged"
+			tasks:[{ id: "B1B2C3D4E5F60073", type: "item", item: "iceandfire:dragonbone", count: 16L }]
+		}
+		{
+			id: "A1B2C3D4E5F60074"
+			dependencies:["A1B2C3D4E5F60070", "A1B2C3D4E5F60071", "A1B2C3D4E5F60072", "A1B2C3D4E5F60073"]
+			x: 0.0d
+			y: 43.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 3: Silver Knight"
+			tasks:[{ id: "B1B2C3D4E5F60074", type: "item", item: "fiomcraft_engine:potion_juggernaut_3" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 2: GLORY (Y: 53.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60080"
+			dependencies:["A1B2C3D4E5F60074"]
+			x: -12.0d
+			y: 49.5d
+			shape: "circle"
+			title: "Max Sequence 3 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60080", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60081"
+			dependencies: ["A1B2C3D4E5F60074"]
+			x: -6.0d
+			y: 49.0d
+			shape: "square"
+			title: "Radiant Flame"
+			tasks:[{ id: "B1B2C3D4E5F60081", type: "kill", entity: "cataclysm:ignis", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60082"
+			dependencies:["A1B2C3D4E5F60074"]
+			x: 6.0d
+			y: 49.0d
+			shape: "square"
+			title: "Abyssal Leviathan"
+			tasks:[{ id: "B1B2C3D4E5F60082", type: "kill", entity: "cataclysm:the_leviathan", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60083"
+			dependencies:["A1B2C3D4E5F60074"]
+			x: 12.0d
+			y: 49.5d
+			shape: "square"
+			title: "Godly Materials"
+			tasks:[{ id: "B1B2C3D4E5F60083", type: "item", item: "cataclysm:ignitium_ingot", count: 4L }]
+		}
+		{
+			id: "A1B2C3D4E5F60084"
+			dependencies:["A1B2C3D4E5F60080", "A1B2C3D4E5F60081", "A1B2C3D4E5F60082", "A1B2C3D4E5F60083"]
+			x: 0.0d
+			y: 53.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 2: Glory"
+			tasks:[{ id: "B1B2C3D4E5F60084", type: "item", item: "fiomcraft_engine:potion_juggernaut_2" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 1: HAND OF GOD (Y: 64.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60090"
+			dependencies:["A1B2C3D4E5F60084"]
+			x: -13.5d
+			y: 60.0d
+			shape: "circle"
+			title: "Max Sequence 2 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60090", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60091"
+			dependencies:["A1B2C3D4E5F60084"]
+			x: -6.5d
+			y: 59.5d
+			shape: "octagon"
+			title: "Mastery: Aura of Glory"
+			tasks:[{
+				id: "B1B2C3D4E5F60091"
+				type: "item"
+				match_nbt: true
+				item: {
+					id: "irons_spellbooks:scroll"
+					Count: 1b
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data:[{ id: "fiomcraft_engine:aura_of_glory", index: 0, level: 1, locked: 1b }]
+							maxSpells: 1, mustEquip: 0b, spellWheel: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			id: "A1B2C3D4E5F60092"
+			dependencies:["A1B2C3D4E5F60084"]
+			x: 6.5d
+			y: 59.5d
+			shape: "square"
+			title: "Night Lich"
+			tasks:[{ id: "B1B2C3D4E5F60092", type: "kill", entity: "bosses_of_mass_destruction:lich", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60093"
+			dependencies:["A1B2C3D4E5F60084"]
+			x: 13.5d
+			y: 60.0d
+			shape: "square"
+			title: "Stars of the Void"
+			tasks:[{ id: "B1B2C3D4E5F60093", type: "item", item: "minecraft:nether_star", count: 4L }]
+		}
+		{
+			id: "A1B2C3D4E5F60094"
+			dependencies:["A1B2C3D4E5F60090", "A1B2C3D4E5F60091", "A1B2C3D4E5F60092", "A1B2C3D4E5F60093"]
+			x: 0.0d
+			y: 64.5d
+			shape: "diamond"
+			size: 1.5d
+			title: "Sequence 1: Hand of God"
+			tasks:[{ id: "B1B2C3D4E5F60094", type: "item", item: "fiomcraft_engine:potion_juggernaut_1" }]
+		}
+
+		// ==========================================
+		// SEQUENCE 0: TWILIGHT GIANT (Y: 76.5)
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60100"
+			dependencies: ["A1B2C3D4E5F60094"]
+			x: -15.0d
+			y: 71.5d
+			shape: "circle"
+			title: "Max Sequence 1 Skills"
+			tasks:[{ id: "B1B2C3D4E5F60100", type: "checkmark" }]
+		}
+		{
+			id: "A1B2C3D4E5F60101"
+			dependencies:["A1B2C3D4E5F60094"]
+			x: -7.5d
+			y: 71.0d
+			shape: "square"
+			title: "The Harbinger"
+			tasks:[{ id: "B1B2C3D4E5F60101", type: "kill", entity: "cataclysm:the_harbinger", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60102"
+			dependencies: ["A1B2C3D4E5F60094"]
+			x: 7.5d
+			y: 71.0d
+			shape: "square"
+			title: "The Obsidian Monolith"
+			tasks:[{ id: "B1B2C3D4E5F60102", type: "kill", entity: "bosses_of_mass_destruction:obsidilith", value: 1L }]
+		}
+		{
+			id: "A1B2C3D4E5F60103"
+			dependencies:["A1B2C3D4E5F60094"]
+			x: 15.0d
+			y: 71.5d
+			shape: "square"
+			title: "Witherite & Void"
+			tasks:[{ id: "B1B2C3D4E5F60103", type: "item", item: "cataclysm:witherite_ingot", count: 10L }]
+		}
+		{
+			id: "A1B2C3D4E5F60104"
+			dependencies:["A1B2C3D4E5F60100", "A1B2C3D4E5F60101", "A1B2C3D4E5F60102", "A1B2C3D4E5F60103"]
+			x: 0.0d
+			y: 76.5d
+			shape: "hexagon"
+			size: 2.0d
+			title: "Sequence 0: Twilight Giant"
+			subtitle: "Drink the final potion. Break the limits of the mortal world."
+			tasks:[{ id: "B1B2C3D4E5F60104", type: "item", item: "fiomcraft_engine:potion_juggernaut_0" }]
+		}
+
+		// ==========================================
+		// POST-SEQUENCE 0: PRESTIGE & CORRUPTION
+		// ==========================================
+		{
+			id: "A1B2C3D4E5F60110"
+			dependencies:["A1B2C3D4E5F60104"]
+			hide_dependency_lines: true
+			x: -4.0d
+			y: 82.0d
+			shape: "gear"
+			size: 1.5d
+			title: "Renewal (Prestige)"
+			subtitle: "Burn away your godhood to start anew."
+			description:[
+				"Should you choose to begin again, you will release your powers and return to the state of an Unawakened, free to choose a different Pathway."
+			]
+			tasks:[{ id: "B1B2C3D4E5F60110", type: "checkmark", title: "Sacrifice Godhood" }]
+			rewards:[
+				{
+					id: "C1B2C3D4E5F60111"
+					type: "command"
+					title: "Reset Skill Tree"
+					icon: "minecraft:experience_bottle"
+					command: "/puffish_skills category reset @p fiomcraft:classes"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C1B2C3D4E5F60112"
+					type: "command"
+					title: "Reset Pathway Progress"
+					icon: "minecraft:clock"
+					command: "/ftbquests change_progress @p reset A1B2C3D4E5F60000"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "A1B2C3D4E5F60115"
+			dependencies:["A1B2C3D4E5F60104"]
+			hide_dependency_lines: true
+			x: 4.0d
+			y: 82.0d
+			shape: "octagon"
+			size: 1.5d
+			title: "Domain Convergence"
+			subtitle: "Unlock the secrets of the Prisoner and Red Priest Pathways."
+			description:[
+				"As a master of the Vanguard Domain, you may now unlock the knowledge to traverse the other martial paths without losing your current progress."
+			]
+			tasks:[{ id: "B1B2C3D4E5F60115", type: "item", item: "minecraft:nether_star" }]
+			rewards:[
+				{
+					id: "C1B2C3D4E5F60116"
+					type: "command"
+					title: "Unlock Brawler Pathway"
+					icon: "minecraft:iron_sword"
+					command: "/tellraw @p \"You have unlocked the Brawler questlines!\""
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}

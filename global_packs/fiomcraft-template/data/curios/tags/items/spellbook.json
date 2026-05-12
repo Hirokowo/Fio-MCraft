@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values":[
+    "fiomcraft_engine:blank_core",
+    "fiomcraft_engine:twilight_core_9",
+    "fiomcraft_engine:twilight_core_8",
+    "fiomcraft_engine:twilight_core_7",
+    "fiomcraft_engine:twilight_core_6",
+    "fiomcraft_engine:twilight_core_5",
+    "fiomcraft_engine:twilight_core_4",
+    "fiomcraft_engine:twilight_core_3",
+    "fiomcraft_engine:twilight_core_2",
+    "fiomcraft_engine:twilight_core_1",
+    "fiomcraft_engine:twilight_core_0",
+    "fiomcraft_engine:ghost_core_9",
+    "fiomcraft_engine:ghost_core_8",
+    "fiomcraft_engine:elementalist_core_9",
+    "fiomcraft_engine:elementalist_core_8"
+  ]
+}

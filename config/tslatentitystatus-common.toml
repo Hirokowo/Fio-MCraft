@@ -134,7 +134,7 @@
 
 ["Particle Settings"]
 	#Whether TES should do particles for various status changes such as damage dealt or health healed
-	tesParticlesEnabled = true
+	tesParticlesEnabled = false
 	#What style TES particles' font should render in
 	#Allowed Values: NORMAL, DROP_SHADOW, GLOWING, OUTLINED
 	particleFontStyle = "OUTLINED"

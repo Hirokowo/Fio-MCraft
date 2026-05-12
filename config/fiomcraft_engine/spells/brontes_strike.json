@@ -1,0 +1,35 @@
+{
+  "_comment_1": "=== IDENTITY & TARGET ===",
+  "spell_id": "brontes_strike",
+  "target_item": "cataclysm:brontes",
+  "_comment_tetra": "List of valid Tetra parts that can cast this spell.",
+  "tetra_parts":[
+    "claymore",
+    "heavy_blade",
+    "hammer"
+  ],
+  "_comment_2": "=== ANIMATION & APEX TIMING ===",
+  "_comment_delay": "Longer delay (14 ticks) to match a heavy, 2-handed jump slam.",
+  "proxy_delay_ticks": 5,
+  "_comment_anim": "Forces an overhead 2-handed slam from Better Combat.",
+  "custom_animation": "bettercombat:two_handed_slam_heavy",
+  "_comment_3": "=== BEHAVIOR ===",
+  "_comment_action": "Use 'ground_hit' for slams, 'air_swing' for slashes, or 'charge' for bows.",
+  "action_type": "air_swing",
+  "charge_ticks": 0,
+  "_comment_4": "=== SPELL STATS ===",
+  "cooldown_seconds": 18,
+  "mana_cost": 50,
+  "max_level": 2,
+  "school": "irons_spellbooks:lightning",
+  "spell_icon": "",
+  "_comment_5": "=== RARITY SCALING ===",
+  "_comment_rarity": "High tier lighting attack, only 2 levels.",
+  "rarity": [
+    "EPIC",
+    "LEGENDARY"
+  ],
+  "_comment_6": "=== LOOTING ===",
+  "_comment_loot": "If true, this scroll can drop randomly from Iron's Spells mobs/chests.",
+  "allow_looting": false
+}

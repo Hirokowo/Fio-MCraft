@@ -1,0 +1,38 @@
+{
+  "_comment_1": "=== IDENTITY & TARGET ===",
+  "spell_id": "infernal_smash",
+  "target_item": "cataclysm:infernal_forge",
+  "_comment_tetra": "List of valid Tetra parts that can cast this spell (e.g. hammer, axe, claymore).",
+  "tetra_parts": [
+    "hammer",
+    "axe",
+    "mace"
+  ],
+  "_comment_2": "=== ANIMATION & APEX TIMING ===",
+  "_comment_delay": "proxy_delay_ticks (20 ticks = 1 sec). The spell triggers after this delay to match the apex of your swing.",
+  "proxy_delay_ticks": 10,
+  "_comment_anim": "Leave custom_animation empty to use the weapon's default Better Combat swing. Or force one like 'bettercombat:two_handed_slam'",
+  "custom_animation": "bettercombat:two_handed_slam",
+  "_comment_3": "=== BEHAVIOR ===",
+  "_comment_action": "Use 'ground_hit' for slams, 'air_swing' for slashes, or 'charge' for bows.",
+  "action_type": "ground_hit",
+  "charge_ticks": 10,
+  "_comment_4": "=== SPELL STATS ===",
+  "cooldown_seconds": 8,
+  "mana_cost": 20,
+  "max_level": 1,
+  "school": "irons_spellbooks:evocation",
+  "spell_icon": "",
+  "_comment_5": "=== RARITY SCALING ===",
+  "_comment_rarity": "If max_level is higher than 1, add a rarity for each level.",
+  "rarity": [
+    "EPIC",
+    "COMMON",
+    "UNCOMMON",
+    "RARE",
+    "LEGENDARY"
+  ],
+  "_comment_6": "=== LOOTING ===",
+  "_comment_loot": "If true, this scroll can drop randomly from Iron's Spells mobs/chests.",
+  "allow_looting": false
+}

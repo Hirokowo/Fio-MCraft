@@ -22,6 +22,50 @@
         "value": 512
       }
     },
+    "additional_attributes:spell/apprenticecodex/arcane_beam": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/jet_steam": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/fiomcraft_engine/maelstrom_barrage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "obscure_api:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "more_rpg_classes:arcane_fuse_modifier": {
       "enabled": false,
       "min": {
@@ -33,7 +77,7 @@
         "value": 1024
       }
     },
-    "obscure_api:dodge": {
+    "additional_attributes:spell_type_summon_ender_chest": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -55,17 +99,6 @@
         "value": 1000
       }
     },
-    "additional_attributes:spell_type_summon_ender_chest": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:armor_shred": {
       "enabled": false,
       "min": {
@@ -77,6 +110,50 @@
         "value": 2
       }
     },
+    "additional_attributes:spell/traveloptics/void_eruption": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/burning_judgment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/summon_desert_dwellers": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/fiomcraft_engine/brontes_strike": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "tetra:ability_damage": {
       "enabled": false,
       "min": {
@@ -86,6 +163,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/mana_charge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "peakstamina:current_stamina": {
@@ -110,6 +198,28 @@
         "value": 2048
       }
     },
+    "additional_attributes:spell/apprenticecodex/deep_sensor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/archer_multiple": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_portal": {
       "enabled": false,
       "min": {
@@ -132,6 +242,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/earth_forge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "goety:frost_potency": {
       "enabled": false,
       "min": {
@@ -141,6 +262,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/the_forgotten_beast": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "peakstamina:weight_calculation_multiplier": {
@@ -187,7 +319,40 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/lava_bomb": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/long_stride": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/touch_dig": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/astral_sense": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -242,6 +407,17 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/eternal_sentinel": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peak_stamina:current_weight": {
       "enabled": false,
       "min": {
@@ -264,6 +440,28 @@
         "value": 1024
       }
     },
+    "additional_attributes:innate_spell/traveloptics/apex_harvest": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/the_howling_tempest": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/icicle": {
       "enabled": false,
       "min": {
@@ -275,7 +473,40 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/palette_shift": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/tsunami": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/echo_of_the_abyss": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -319,7 +550,29 @@
         "value": 1024
       }
     },
+    "additional_attributes:spell/traveloptics/rainfall": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/angel_wing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/arcane_blast": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -363,7 +616,73 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/assist_wings": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_pocket_dimension": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/fly_swatter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/herald_of_acropolis": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/overflow": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/skypiercer": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/blink": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -385,6 +704,17 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/bubble_spray": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peak_stamina:penalty_gain_multiplier": {
       "enabled": false,
       "min": {
@@ -396,7 +726,29 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/moon_light": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_ice_tomb": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/shear_of_the_stars": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -419,6 +771,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/planar_sight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/search_beacon": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -471,6 +834,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:spell/traveloptics/nocturnal_swarm": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/nocturnal_swarm": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_icicle": {
@@ -583,7 +968,29 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/despair": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/shadow_slash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/abyssal_blast": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -693,6 +1100,17 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/summon_desert_dwellers": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additionalentityattributes:dropped_experience": {
       "enabled": false,
       "min": {
@@ -702,6 +1120,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:spell/traveloptics/blood_howl": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/higanbana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "goety:spell_velocity": {
@@ -737,6 +1177,28 @@
         "value": 128
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/illuminate_stellar": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/world_flatter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:healing_received": {
       "enabled": false,
       "min": {
@@ -746,6 +1208,28 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/primal_pack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/sky_edge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "peak_stamina:sprint_speed": {
@@ -781,7 +1265,51 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/rift_hole": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peakstamina:penalty_amount_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/serpentide": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/eternal_sentinel": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/graced_rain": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -863,6 +1391,39 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/reversal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/ashen_breath": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/magnetron_deployment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -957,6 +1518,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/hydroshot": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peak_stamina:attack_cost_multiplier": {
       "enabled": false,
       "min": {
@@ -1012,7 +1584,29 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/spectral_blink": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_teleport": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/slash_blade": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1056,6 +1650,39 @@
         "value": 1024
       }
     },
+    "additional_attributes:innate_spell/traveloptics/burning_judgment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/vortex_punch": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/aqua_missiles": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -1083,6 +1710,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/breaching_enemy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -1177,6 +1815,17 @@
         "value": 2048
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/slash_blade": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "ranged_weapon:damage": {
       "enabled": false,
       "min": {
@@ -1208,6 +1857,17 @@
       "max": {
         "default": 4,
         "value": 4
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/thermal_process": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/summon_ender_chest": {
@@ -1254,6 +1914,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/supernova": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "eternal_attributes:destruction": {
       "enabled": false,
       "min": {
@@ -1287,6 +1958,28 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/ignited_onslaught": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/meteor_storm": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:current_hp_damage": {
       "enabled": false,
       "min": {
@@ -1296,6 +1989,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/flames_reborn": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "fluffy_fur:camera_distance_amplifier": {
@@ -1419,6 +2123,28 @@
         "value": 10
       }
     },
+    "additional_attributes:innate_spell/traveloptics/axe_of_the_doomed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/primal_pack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/earthquake": {
       "enabled": false,
       "min": {
@@ -1463,6 +2189,17 @@
         "value": 1024
       }
     },
+    "additional_attributes:spell/traveloptics/em_pulse": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/teleport": {
       "enabled": false,
       "min": {
@@ -1490,6 +2227,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/tsunami": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -1529,6 +2277,28 @@
         "value": 100000
       }
     },
+    "additional_attributes:innate_spell/fiomcraft_engine/immolation_cleave": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/extinction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/poison_breath": {
       "enabled": false,
       "min": {
@@ -1562,7 +2332,29 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/shadowed_miasma": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/acid_orb": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/nullflare": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1585,6 +2377,39 @@
       }
     },
     "additional_attributes:spell_type_frostbite": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/force_field": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/fly_swatter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/vigor_siphon": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1618,6 +2443,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/flaming_strike": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/herald_of_acropolis": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1694,7 +2530,40 @@
         "value": 1000000
       }
     },
+    "additional_attributes:spell/apprenticecodex/mage_light": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/ray_of_frost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/psychic_bolt": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/mana_charge": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1717,6 +2586,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/fang_ward": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/phalanx_charge": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1793,6 +2673,17 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/rift_hole": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "manaunification:mana_regen": {
       "enabled": false,
       "min": {
@@ -1802,6 +2693,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/coral_barrage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_magic_arrow": {
@@ -1826,6 +2728,17 @@
         "value": 10000
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/treasure_divination": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_school_evocation": {
       "enabled": false,
       "min": {
@@ -1848,7 +2761,40 @@
         "value": 1000
       }
     },
+    "additional_attributes:spell/traveloptics/annihilation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/manifestation_grimoire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/wall_of_fire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/illuminate_stellar": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1879,6 +2825,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/harvest_moon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/auto_turret": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additionalentityattributes:generic.jump_height": {
@@ -1969,6 +2937,17 @@
         "value": 100
       }
     },
+    "additional_attributes:school/traveloptics/aqua": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/blood_slash": {
       "enabled": false,
       "min": {
@@ -2013,6 +2992,17 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/bullet_stream": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.spell_damage": {
       "enabled": false,
       "min": {
@@ -2022,6 +3012,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/healing_bloom": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/sculk_tentacles": {
@@ -2044,6 +3045,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/phalanx_charge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/commence_fire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/echoing_strikes": {
@@ -2101,6 +3124,17 @@
         "value": 1
       }
     },
+    "additional_attributes:innate_spell/traveloptics/rainfall": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "witherstormmod:target_stationary_flying_speed": {
       "enabled": false,
       "min": {
@@ -2134,6 +3168,28 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/overflow": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/manifestation_grimoire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/portal": {
       "enabled": false,
       "min": {
@@ -2146,6 +3202,50 @@
       }
     },
     "additional_attributes:spell_type_divine_smite": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/the_howling_tempest": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/aerial_collapse": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/conjure_void_tomes": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/mana_slash": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2200,11 +3300,66 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/unite_luna": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/tamers_pocket": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/shear_of_the_stars": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/shadowed_miasma": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/sticky_steed_summon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -2223,6 +3378,17 @@
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/summon_polar_bear": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/skypiercer": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2256,6 +3422,28 @@
       }
     },
     "additional_attributes:spell_type_abyssal_shroud": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/compound_phial": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/sense_evil": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2310,7 +3498,7 @@
         "value": 2048
       }
     },
-    "spell_power:resistance.generic": {
+    "additional_attributes:spell_type_shadow_slash": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2321,7 +3509,7 @@
         "value": 100
       }
     },
-    "additional_attributes:spell_type_shadow_slash": {
+    "spell_power:resistance.generic": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2354,15 +3542,15 @@
         "value": 100
       }
     },
-    "eternal_attributes:creation": {
+    "additional_attributes:spell/apprenticecodex/sky_edge": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2048,
-        "value": 2048
+        "default": 100,
+        "value": 100
       }
     },
     "tetra:ability_cooldown": {
@@ -2381,6 +3569,28 @@
       "min": {
         "default": 0,
         "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "eternal_attributes:creation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "traveloptics:aqua_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
       },
       "max": {
         "default": 100,
@@ -2409,7 +3619,51 @@
         "value": 2048
       }
     },
+    "additional_attributes:innate_spell/traveloptics/stele_cascade": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_gust": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/jet_steam": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/arcane_beam": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/blink": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2431,6 +3685,28 @@
         "value": 512
       }
     },
+    "kubejs:martial_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/mantis_leap": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peakstamina:block_break_cost_multiplier": {
       "enabled": false,
       "min": {
@@ -2440,6 +3716,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:spell/traveloptics/orbital_void": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_school/irons_spellbooks/evocation": {
@@ -2473,6 +3760,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "additional_attributes:spell/traveloptics/axe_of_the_doomed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_magma_bomb": {
@@ -2519,6 +3817,39 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/nullflare": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/violent_skreech": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/irons_spellbooks/divine_smite": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "eternal_attributes:blood": {
       "enabled": false,
       "min": {
@@ -2530,7 +3861,7 @@
         "value": 2048
       }
     },
-    "additional_attributes:innate_spell/irons_spellbooks/divine_smite": {
+    "additional_attributes:innate_spell/traveloptics/primordial_steed": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2572,6 +3903,39 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/blackout": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/world_flatter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "gtbcs_spell_lib:spell_crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "additional_attributes:spell_type_devour": {
@@ -2684,7 +4048,29 @@
         "value": 2048
       }
     },
+    "additional_attributes:spell/apprenticecodex/precision_jack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_burning_dash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/meteor_storm": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2726,6 +4112,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "additional_attributes:spell/traveloptics/apex_harvest": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/blood_step": {
@@ -2794,7 +4191,40 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/bullet_stream": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_lightning_bolt": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/feather_rush": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/lingering_strain": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2816,6 +4246,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "additional_attributes:spell_type_sacrifice": {
       "enabled": false,
       "min": {
@@ -2827,6 +4268,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:magic_projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "peak_stamina:sprint_cost_multiplier": {
       "enabled": false,
       "min": {
@@ -2836,6 +4288,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/halberd_horizon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_volt_strike": {
@@ -2915,6 +4378,17 @@
         "value": 1024
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/tamers_pocket": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peak_stamina:stamina_regen": {
       "enabled": false,
       "min": {
@@ -2924,6 +4398,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/cursed_minefield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/frost_step": {
@@ -2937,7 +4422,51 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/blackout": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/void_eruption": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/auto_magnet": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/haste": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/call_forth_the_dead_king": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -2979,6 +4508,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/spectral_wing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_cleanse": {
@@ -3047,6 +4587,39 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/gyro_slash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/extinction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/em_pulse": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_evasion": {
       "enabled": false,
       "min": {
@@ -3069,7 +4642,29 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/death_laser": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_wall_of_fire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/irons_spellbooks/shockwave": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3091,7 +4686,7 @@
         "value": 2048
       }
     },
-    "additional_attributes:innate_spell/irons_spellbooks/shockwave": {
+    "additional_attributes:spell/apprenticecodex/spectral_wing": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3125,6 +4720,17 @@
       }
     },
     "additional_attributes:innate_school/irons_spellbooks/holy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/demicreator_wings": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3201,6 +4807,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/echo_of_the_abyss": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_gluttony": {
       "enabled": false,
       "min": {
@@ -3234,11 +4851,66 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/flood_slash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "legendarysurvivaloverhaul:chest_resistance": {
       "enabled": false,
       "min": {
         "default": -200,
         "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/fiomcraft_engine/infernal_smash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/rapid_laser": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/tiny_lumberjack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/astral_sense": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
@@ -3257,6 +4929,17 @@
       }
     },
     "additional_attributes:spell_type_raise_hell": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/commence_fire": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3287,17 +4970,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "eternal_attributes:death": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
       }
     },
     "block_factorys_bosses:roll_count": {
@@ -3331,6 +5003,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "eternal_attributes:death": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "additional_attributes:spell_type_guiding_bolt": {
@@ -3432,6 +5115,17 @@
         "value": 1024
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/feather_rush": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/magic_arrow": {
       "enabled": false,
       "min": {
@@ -3476,6 +5170,50 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/healing_bloom": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/vortex_punch": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/mechanized_predator": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/treasure_divination": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "fluffy_fur:size_scale": {
       "enabled": false,
       "min": {
@@ -3488,6 +5226,17 @@
       }
     },
     "additional_attributes:spell_type_invisibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/companion_trunk": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3531,7 +5280,40 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/galena_shatter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/slow": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/personal_shelf": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/halberd_horizon": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3565,6 +5347,17 @@
       }
     },
     "additional_attributes:spell_type_stomp": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/auto_turret": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3619,6 +5412,28 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/aqua_missiles": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/annihilation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "irons_spellbooks:eldritch_magic_resist": {
       "enabled": false,
       "min": {
@@ -3652,17 +5467,6 @@
         "value": 100
       }
     },
-    "spell_power:earth": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "additional_attributes:spell_type_blood_needles": {
       "enabled": false,
       "min": {
@@ -3685,6 +5489,17 @@
         "value": 100
       }
     },
+    "spell_power:earth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "death_knights:unholy": {
       "enabled": false,
       "min": {
@@ -3694,6 +5509,39 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "additional_attributes:spell/fiomcraft_engine/immolation_cleave": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "puffish_attributes:stamina": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "additional_attributes:spell/traveloptics/cursed_minefield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "more_rpg_classes:rage_modifier": {
@@ -3738,6 +5586,28 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "apprenticecodex:max_enchantment_table_level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/shock": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additionalentityattributes:water_speed": {
@@ -3806,6 +5676,17 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/conjure_void_tomes": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_firebolt": {
       "enabled": false,
       "min": {
@@ -3828,6 +5709,17 @@
         "value": 1
       }
     },
+    "additional_attributes:spell/traveloptics/eek": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "legendarysurvivaloverhaul:head_resistance": {
       "enabled": false,
       "min": {
@@ -3839,7 +5731,84 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/eek": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/archer_multiple": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/graced_rain": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_chain_creeper": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/deep_sensor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/cursed_revenants": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/death_laser": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/higanbana": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3883,7 +5852,29 @@
         "value": 2048
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/remote_eye": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/guiding_bolt": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/violent_skreech": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3905,6 +5896,28 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/sword_of_the_ancients": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/rapid_laser": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peakstamina:sprint_speed": {
       "enabled": false,
       "min": {
@@ -3916,7 +5929,40 @@
         "value": 1024
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/quick_arms": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/chain_lightning": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/hydroshot": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/irons_spellbooks/blight": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3938,7 +5984,40 @@
         "value": 512
       }
     },
-    "additional_attributes:innate_spell/irons_spellbooks/blight": {
+    "additional_attributes:spell/traveloptics/vortex_of_the_deep": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/galena_shatter": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/compound_phial": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/spectral_blink": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3958,6 +6037,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/grind_runner": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "eternal_attributes:unholy": {
@@ -3982,6 +6072,17 @@
         "value": 10
       }
     },
+    "additional_attributes:spell/traveloptics/flood_slash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:life_steal": {
       "enabled": false,
       "min": {
@@ -3991,6 +6092,28 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "additional_attributes:spell/traveloptics/primordial_steed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/long_stride": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:ghost_health": {
@@ -4004,6 +6127,17 @@
         "value": 1000
       }
     },
+    "additional_attributes:spell/apprenticecodex/breaching_enemy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -4013,6 +6147,28 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/vigor_siphon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/sticky_steed_summon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/pocket_dimension": {
@@ -4035,6 +6191,28 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/personal_shelf": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/shock": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "peakstamina:elytra_cost_multiplier": {
@@ -4070,6 +6248,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:spell_crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/starfall": {
       "enabled": false,
       "min": {
@@ -4092,6 +6281,39 @@
         "value": 100
       }
     },
+    "spellranks:overload_hearts_per_second": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/thermal_process": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/aerial_collapse": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_touch_dig": {
       "enabled": false,
       "min": {
@@ -4104,6 +6326,28 @@
       }
     },
     "additional_attributes:spell_school_ender": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/despair": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/supernova": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4156,6 +6400,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/blood_howl": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "goety:storm_potency": {
@@ -4213,7 +6468,73 @@
         "value": 128
       }
     },
+    "additional_attributes:innate_spell/fiomcraft_engine/infernal_smash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/search_beacon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/tiny_lumberjack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/vortex_of_the_deep": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_firecracker": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/serpentide": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell_type_scorch": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4235,17 +6556,6 @@
         "value": 2048
       }
     },
-    "additional_attributes:spell_type_scorch": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "goety:abyss_potency": {
       "enabled": false,
       "min": {
@@ -4257,6 +6567,17 @@
         "value": 2048
       }
     },
+    "additional_attributes:innate_spell/traveloptics/tidal_grasp": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -4266,6 +6587,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/mage_light": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/ice_tomb": {
@@ -4299,6 +6631,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "additional_attributes:spell/traveloptics/mechanized_predator": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/magic_missile": {
@@ -4367,6 +6710,39 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/arcane_blast": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/fiomcraft_engine/brontes_strike": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/assist_wings": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
       "min": {
@@ -4379,6 +6755,17 @@
       }
     },
     "additional_attributes:spell_type_frostwave": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/earth_forge": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4422,6 +6809,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/companion_trunk": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peakstamina:attack_cost_multiplier": {
       "enabled": false,
       "min": {
@@ -4442,6 +6840,39 @@
       "max": {
         "default": 34,
         "value": 34
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/remote_eye": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/flames_reborn": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/harvest_moon": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/blood_needles": {
@@ -4510,6 +6941,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/apprenticecodex/quick_arms": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_ice_spikes": {
       "enabled": false,
       "min": {
@@ -4533,6 +6975,28 @@
       }
     },
     "additional_attributes:spell_type_acupuncture": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/orbital_void": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/stele_cascade": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4620,17 +7084,6 @@
         "value": 40000
       }
     },
-    "spell_power:arcane": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "additional_attributes:spell_general": {
       "enabled": false,
       "min": {
@@ -4651,6 +7104,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "spell_power:arcane": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/fireball": {
@@ -4741,7 +7205,51 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/mantis_leap": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/counterspell": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/mana_slash": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/unite_luna": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/gyro_slash": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -4862,6 +7370,39 @@
         "value": 1024
       }
     },
+    "additional_attributes:spell/traveloptics/sword_of_the_ancients": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/palette_shift": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/precision_jack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {
@@ -4884,6 +7425,17 @@
         "value": 2048
       }
     },
+    "additional_attributes:spell/traveloptics/lingering_strain": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_haste": {
       "enabled": false,
       "min": {
@@ -4895,6 +7447,17 @@
         "value": 100
       }
     },
+    "kubejs:martial_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "attributeslib:fire_damage": {
       "enabled": false,
       "min": {
@@ -4904,6 +7467,28 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/sense_evil": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/ashen_breath": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "legendarysurvivaloverhaul:heating_temperature": {
@@ -4939,6 +7524,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell/traveloptics/floodgate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peakstamina:current_weight": {
       "enabled": false,
       "min": {
@@ -4948,6 +7544,28 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/ignited_onslaught": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/magnetron_deployment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:crit_damage": {
@@ -4962,6 +7580,17 @@
       }
     },
     "additional_attributes:spell_type_firefly_swarm": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/tidal_grasp": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -5005,6 +7634,17 @@
         "value": 100
       }
     },
+    "traveloptics:aqua_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additionalentityattributes:generic.lava_speed": {
       "enabled": false,
       "min": {
@@ -5014,6 +7654,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "additional_attributes:spell/traveloptics/cursed_revenants": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/reversal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_blood_step": {
@@ -5047,6 +7709,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/moon_light": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "additional_attributes:spell_type_dragon_breath": {
@@ -5126,6 +7799,17 @@
         "value": 100
       }
     },
+    "additional_attributes:spell_type_summon_horse": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "eternal_attributes:nature": {
       "enabled": false,
       "min": {
@@ -5137,7 +7821,29 @@
         "value": 2048
       }
     },
-    "additional_attributes:spell_type_summon_horse": {
+    "additional_attributes:spell/traveloptics/call_forth_the_dead_king": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/psychic_bolt": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/the_forgotten_beast": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -5160,6 +7866,50 @@
       }
     },
     "additional_attributes:spell_type_counterspell": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/force_field": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/lava_bomb": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/bubble_spray": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/apprenticecodex/demicreator_wings": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -5280,7 +8030,40 @@
         "value": 1
       }
     },
+    "additional_attributes:innate_spell/apprenticecodex/grind_runner": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/traveloptics/abyssal_blast": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "additional_attributes:spell_type_ice_block": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/traveloptics/coral_barrage": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -5313,7 +8096,62 @@
         "value": 100
       }
     },
+    "additional_attributes:innate_spell/traveloptics/floodgate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/apprenticecodex/auto_magnet": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_school/traveloptics/aqua": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:spell/fiomcraft_engine/maelstrom_barrage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "peak_stamina:penalty_decay_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "additional_attributes:innate_spell/irons_spellbooks/thunderstorm": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -5333,17 +8171,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "additional_attributes:innate_spell/irons_spellbooks/thunderstorm": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "additional_attributes:spell_type_cone_of_cold": {

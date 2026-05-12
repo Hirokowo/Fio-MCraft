@@ -19,3 +19,23 @@
 	#Range: > 0
 	externalDrainPenalty = 300
 
+[healing]
+	#Healing module mode.
+	#VANILLA: Heals naturally over time when food level is high.
+	#PARTIAL: Heals exactly the extra max HP granted by eating new foods slowly over time.
+	#NONE: No natural healing.
+	#Allowed Values: VANILLA, PARTIAL, NONE
+	healingMode = "PARTIAL"
+	#If VANILLA mode is selected, how many ticks between each 1 HP heal? (Default: 80)
+	#Range: > 1
+	vanillaHealingRate = 80
+	#Minimum hunger level required to heal in VANILLA mode (Default: 18)
+	#Range: 0 ~ 20
+	vanillaHealingHungerThreshold = 18
+	#If VANILLA mode is selected, how much exhaustion to apply per 1 HP healed? (Default: 6.0)
+	#Range: 0.0 ~ 40.0
+	vanillaHealingExhaustion = 6.0
+	#If PARTIAL mode is selected, how many ticks between each 1 HP heal for the bonus HP? (Default: 20 = 1 second)
+	#Range: > 1
+	partialHealingRate = 20
+

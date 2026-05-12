@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "summoner_path"
+	group: "0000424F4F504154"
+	hide_quest_until_deps_complete: true
+	icon: "irons_spellbooks:conjurers_talisman"
+	id: "224F9C621DB8796A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "269A1B940E8F970C"
+			invisible: true
+			rewards: [{
+				command: "/spellranks set @p summoner 4"
+				elevate_perms: true
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "30B2BE882F2E4358"
+				silent: true
+				title: "Rank 4 of Summoner Path"
+				type: "command"
+			}]
+			subtitle: "Welcome to the Summoner Path"
+			tasks: [{
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "2B40C3EA6ED11D76"
+				title: "Summoner"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["269A1B940E8F970C"]
+			id: "000053554D4D5234"
+			rewards: [{
+				command: "/spellranks set @p summoner 3"
+				elevate_perms: true
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "64827697F0C99ED6"
+				silent: true
+				title: "Rank 3 of Summoner Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 4 of the Summoner Path"
+			tasks: [
+			]
+			title: "Master Rank 4"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5234"]
+			id: "000053554D4D5233"
+			rewards: [{
+				command: "/spellranks set @p summoner 2"
+				elevate_perms: true
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "61EAB65187996738"
+				silent: true
+				title: "Rank 2 of Summoner Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 3 of the Summoner Path"
+			tasks: [
+			]
+			title: "Master Rank 3"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5233"]
+			id: "000053554D4D5232"
+			rewards: [{
+				command: "/spellranks set @p summoner 1"
+				elevate_perms: true
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "06652B346E5B5C3F"
+				silent: true
+				title: "Rank 1 of Summoner Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 2 of the Summoner Path"
+			tasks: [
+			]
+			title: "Master Rank 2"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5232"]
+			id: "000053554D4D5231"
+			rewards: [{
+				command: "/spellranks set @p summoner 0"
+				elevate_perms: true
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "5664CD5FEBF1A2F3"
+				silent: true
+				title: "Rank 0 of Summoner Path"
+				type: "command"
+			}]
+			subtitle: "Master Rank 1 of the Summoner Path"
+			tasks: [
+			]
+			title: "Master Rank 1"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5231"]
+			id: "000053554D4D5230"
+			subtitle: "Master Rank 0 of the Summoner Path"
+			tasks: [
+			]
+			title: "Master Rank 0"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "Summoner Path"
+}

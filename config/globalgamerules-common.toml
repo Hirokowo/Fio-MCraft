@@ -353,6 +353,9 @@
 			"snowrealmagic:blizzardFrequency" = 10000
 			"snowrealmagic:blizzardStrength" = 0
 
+		[gamerules.modded.chat]
+			"puffish_skills:announceNewPoints" = true
+
 #Configs related to difficulty changes
 [difficulty]
 	#If the difficulty should be set on world load

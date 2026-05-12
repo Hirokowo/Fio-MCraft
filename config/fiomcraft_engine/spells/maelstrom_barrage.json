@@ -1,0 +1,38 @@
+{
+  "_comment_1": "=== IDENTITY & TARGET ===",
+  "spell_id": "maelstrom_barrage",
+  "target_item": "cataclysm:gauntlet_of_maelstrom",
+  "_comment_tetra": "List of valid Tetra parts that can cast this spell.",
+  "tetra_parts":[
+    "claw",
+    "gauntlet",
+    "fist",
+    "short_blade"
+  ],
+  "_comment_2": "=== ANIMATION & APEX TIMING ===",
+  "_comment_delay": "Delay is 0 because the charge bar handles the timing.",
+  "proxy_delay_ticks": 0,
+  "_comment_anim": "Left blank so it doesn't force a swing while the player is charging up.",
+  "custom_animation": "",
+  "_comment_3": "=== BEHAVIOR ===",
+  "_comment_action": "Use 'ground_hit' for slams, 'air_swing' for slashes, or 'charge' for bows.",
+  "action_type": "charge",
+  "charge_ticks": 30,
+  "_comment_4": "=== SPELL STATS ===",
+  "cooldown_seconds": 25,
+  "mana_cost": 80,
+  "max_level": 4,
+  "school": "irons_spellbooks:evocation",
+  "spell_icon": "",
+  "_comment_5": "=== RARITY SCALING ===",
+  "_comment_rarity": "Rarity progression scales smoothly through 4 levels.",
+  "rarity":[
+    "COMMON",
+    "UNCOMMON",
+    "RARE",
+    "EPIC"
+  ],
+  "_comment_6": "=== LOOTING ===",
+  "_comment_loot": "If true, this scroll can drop randomly from Iron's Spells mobs/chests.",
+  "allow_looting": false
+}

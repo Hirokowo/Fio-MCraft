@@ -2,7 +2,7 @@ type = layout_editor_widget_settings
 
 settings {
   offset_x = -432.0
-  offset_y = -479.5
+  offset_y = -153.59998
   inner_width = 200.0
   inner_height = 954.0
   snapping_side = top-right

@@ -16,6 +16,9 @@
 	}
 	animations: {
 		# Default: true
+		smooth_chapter_panel: true
+		
+		# Default: true
 		panel_animation: true
 		
 		# Default: true
@@ -23,9 +26,6 @@
 		
 		# Default: true
 		smooth_scrolling: true
-		
-		# Default: true
-		smooth_chapter_panel: true
 		
 		# Default: true
 		quest_hover: true

@@ -1,0 +1,46 @@
+#Enable custom spell selection interface
+#true: Use custom UI
+#false: Use vanilla UI
+"Enable Custom Bar" = true
+#Enable spell selection interface background
+#true: Render background
+#false: Do not render background
+"Enable Background" = true
+#Background X Offset
+#Horizontal offset of the spell selection background
+#Unit: pixels
+"Background X Offset" = 0
+#Background Y Offset
+#Vertical offset of the spell selection background
+#Unit: pixels
+"Background Y Offset" = 0
+#Spell X Offset
+#Horizontal offset of the spell icons
+#Unit: pixels
+"Spell X Offset" = 0
+#Spell Y Offset
+#Vertical offset of the spell icons
+#Unit: pixels
+"Spell Y Offset" = 0
+#Focus state additional height
+#Height that the spell group moves up when it gains focus
+#Unit: pixels
+"Focus Height" = 10
+#Custom spell count limit
+#Controls the maximum number of spells that use custom UI
+#Spells beyond this limit will fall back to the vanilla system
+#Default: 8 (first 8 spells use custom UI)
+#Set to 0: Completely use vanilla system
+#Set to a large value (e.g., 999): All spells use custom UI
+"Mine Custom Spell" = 9
+#Animation easing mode for spell slot transitions
+#Controls the movement animation curve when spell groups move between states
+#Available modes:
+#  0 - Smoothstep: Smooth acceleration and deceleration (recommended for most users)
+#  1 - EaseOutBack: Fast movement with ~20% overshoot bounce effect (dynamic, eye-catching)
+#  2 - EaseOutCubic: Fast start, smooth stop, no bounce (quick and clean)
+#  Other values - Linear: Constant speed (simple, no easing)
+#Default: 0 (Smoothstep)
+#Range: 0 ~ 2
+"Speed Line Mode" = 1
+

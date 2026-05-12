@@ -2,7 +2,7 @@
   "optifine_limitRandomVariantGapsBy10": true,
   "optifine_allowWeirdSkipsInTrueRandom": true,
   "optifine_preventBaseTextureInOptifineDirectory": true,
-  "illegalPathSupportMode": "None",
+  "illegalPathSupportMode": "All",
   "enableCustomTextures": true,
   "enableCustomBlockEntities": true,
   "textureUpdateFrequency_V2": "Fast",
@@ -13,7 +13,7 @@
   "alwaysCheckVanillaEmissiveSuffix": true,
   "enableArmorAndTrims": true,
   "skinFeaturesEnabled": true,
-  "skinTransparencyMode": "ETF_SKINS_ONLY",
+  "skinTransparencyMode": "ALL",
   "skinTransparencyInExtraPixels": true,
   "skinFeaturesEnableTransparency": true,
   "skinFeaturesEnableFullTransparency": false,
@@ -23,17 +23,21 @@
   "blinkFrequency": 150,
   "blinkLength": 1,
   "advanced_IncreaseCacheSizeModifier": 1.0,
-  "debugLoggingMode": "None",
+  "debugLoggingMode": "Log",
   "logTextureDataInitialization": false,
   "hideConfigButton": false,
   "configButtonLoc": "BOTTOM_RIGHT",
   "disableVanillaDirectoryVariantTextures": false,
   "use3DSkinLayerPatch": true,
   "enableFullBodyWardenTextures": true,
-  "entityEmissiveOverrides": {},
+  "entityEmissiveOverrides": {
+    "entity.easy_npc.zombie": false
+  },
   "propertiesDisabled": [],
   "propertyInvertUpdatingOverrides": [],
-  "entityRandomOverrides": {},
+  "entityRandomOverrides": {
+    "entity.easy_npc.zombie": false
+  },
   "entityEmissiveBrightOverrides": {},
   "entityRenderLayerOverrides": {},
   "entityLightOverrides": {}

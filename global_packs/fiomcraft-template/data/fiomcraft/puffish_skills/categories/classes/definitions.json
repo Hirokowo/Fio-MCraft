@@ -1,0 +1,408 @@
+{
+	"vanguard_root": {
+		"title": "Domain of the Vanguard",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"metadata": {
+			"icon": "06e8710wvn0cbzb1"
+		}
+	},
+	"vg_health": {
+		"title": "Vanguard Vitality",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "zqi64ynqb5o2255i"
+		}
+	},
+	"vg_damage": {
+		"title": "Vanguard Might",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"vg_haste": {
+		"title": "Vanguard Reflexes",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aygd8qzjbo1nibsg"
+		}
+	},
+	"vg_speed": {
+		"title": "Vanguard Agility",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hfxz2b7ina1uoeoe"
+		}
+	},
+	"vg_armor": {
+		"title": "Vanguard Plating",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6wpwtisrxxwq4q1c"
+		}
+	},
+	"vg_toughness": {
+		"title": "Vanguard Resilience",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q98kyfusa8e613k3"
+		}
+	},
+	"vg_knockback": {
+		"title": "Vanguard Stance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bx6tqweldpruwd11"
+		}
+	},
+	"vg_reach": {
+		"title": "Vanguard Reach",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"cost": 1,
+		"rewards":[
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:entity_reach",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iue0714ut65wdycu"
+		}
+	},
+	"twilight_9_def": {
+		"title": "Sequence 9: Warrior",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_9"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_9"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "pxd1xmo7fs3wr1fk"
+		}
+	},
+	"twilight_8_def": {
+		"title": "Sequence 8: Gladiator",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_8"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_8"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dvj88xj39v8s9xs6"
+		}
+	},
+	"twilight_7_def": {
+		"title": "Sequence 7: Weapon Master",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_7"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_7"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ksyn3no3wz8fjzx9"
+		}
+	},
+	"twilight_6_def": {
+		"title": "Sequence 6: Dawn Paladin",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_6"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_6"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "el1lwj71fhksh0bp"
+		}
+	},
+	"twilight_5_def": {
+		"title": "Sequence 5: Guardian",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_5"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_5"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tqsxjytzko8qszzp"
+		}
+	},
+	"twilight_4_def": {
+		"title": "Sequence 4: Demon Hunter",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_4"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_4"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "61pajpyf1uhw2qvb"
+		}
+	},
+	"twilight_3_def": {
+		"title": "Sequence 3: Silver Knight",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_3"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_3"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nrf2kzbz8xo7hp6m"
+		}
+	},
+	"twilight_2_def": {
+		"title": "Sequence 2: Glory",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_2"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_2"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d3a4o1fwx800iz5f"
+		}
+	},
+	"twilight_1_def": {
+		"title": "Sequence 1: Hand of God",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_1"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "u58qlxgvd44p96eq"
+		}
+	},
+	"twilight_0_def": {
+		"title": "Sequence 0: Twilight Giant",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:twilight_core_0"
+			}
+		},
+		"cost": 0,
+		"requirements":[
+			{
+				"type": "puffish_skills:predicate",
+				"data": {
+					"predicate": "fiomcraft:unlocked_twilight_0"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ufc7ax5k90zzmcpr"
+		}
+	}
+}
