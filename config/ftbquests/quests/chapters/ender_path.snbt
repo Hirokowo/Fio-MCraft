@@ -4156,7 +4156,6 @@
 			dependencies: [
 				"0000454E444D5230"
 				"000045564F4D5230"
-				"0000484F4C4D5230"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:echo_shard"
@@ -4302,7 +4301,6 @@
 			dependencies: [
 				"0000454E444D5230"
 				"000045564F4D5230"
-				"0000484F4C4D5230"
 			]
 			hide_dependency_lines: true
 			id: "51C1D54067BD630D"

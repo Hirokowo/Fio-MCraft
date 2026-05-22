@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": false,
+	"title": "Eclipse Domain",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "fiomcraft_engine:blank_core"
+		}
+	},
+	"background": "minecraft:textures/block/Purple_Concrete.png"
+}

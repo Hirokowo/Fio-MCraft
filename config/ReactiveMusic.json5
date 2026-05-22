@@ -4,7 +4,13 @@
 	debugModeEnabled: false,
 	loadedUserSongpack: "Bears_Fantasy_Songpack",
 	blacklistedDimensions: [],
-	savedHomePositions: {},
+	savedHomePositions: {
+		saved: {
+			f_82479_: 86.5,
+			f_82480_: 106.5625,
+			f_82481_: -1985.5
+		}
+	},
 	soundsMuteMusic: [],
 	hasForcedInitialVolume: true
 }

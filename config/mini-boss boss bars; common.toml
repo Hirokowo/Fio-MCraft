@@ -1,7 +1,7 @@
 
 ["Mini-Boss Boss Bars - Disable Boss Bars"]
 	#Prevents boss bar activation for all listed mobs (please put minecraft:warden if you aren't using any mods that treat it like a boss)
-	"Disable boss bar for" = ["examplemod:examplemob1", "examplemod:examplemob2"]
+	"Disable boss bar for" = ["examplemod:examplemob1", "minecraft:warden"]
 
 ["Mini-Boss Boss Bars - Disable Boss Bars (Extended mod support)"]
 	#Used for mods where the mobs supported by this mod don't come with their own registry IDs

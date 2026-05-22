@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": false,
+	"title": "Weaver Domain",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:ender_eye"
+		}
+	},
+	"background": "minecraft:textures/block/sculk.png"
+}

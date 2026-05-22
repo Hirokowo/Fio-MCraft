@@ -1,20 +1,8 @@
 {
-	appearance: {
-		# Default: 100
-		# Range: 0 ~ 255
-		quest_hover_glow_alpha: 100
-		
-		# Default: 40
-		# Range: 0 ~ 255
-		button_hover_glow_alpha: 40
-		
-		# Default: true
-		smooth_animations: true
-		
-		# Default: false
-		shader_background: false
-	}
 	animations: {
+		# Default: true
+		panel_button_hover: true
+		
 		# Default: true
 		smooth_chapter_panel: true
 		
@@ -22,12 +10,24 @@
 		panel_animation: true
 		
 		# Default: true
-		panel_button_hover: true
+		quest_hover: true
 		
 		# Default: true
 		smooth_scrolling: true
-		
+	}
+	appearance: {
 		# Default: true
-		quest_hover: true
+		smooth_animations: true
+		
+		# Default: 40
+		# Range: 0 ~ 255
+		button_hover_glow_alpha: 40
+		
+		# Default: false
+		shader_background: true
+		
+		# Default: 100
+		# Range: 0 ~ 255
+		quest_hover_glow_alpha: 100
 	}
 }

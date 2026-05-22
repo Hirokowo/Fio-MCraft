@@ -1,0 +1,6836 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "eclipse"
+	group: ""
+	icon: "minecraft:book"
+	id: "223D8E657DA198AB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "fiomcraft_engine:fool_core_0"
+			id: "579062A3AE284B1E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "200C1C66B43D39D5"
+				item: "fiomcraft_engine:blank_core"
+				type: "item"
+			}]
+			title: "Pathway of the Fool"
+			x: 1.41d
+			y: 1.42d
+		}
+		{
+			dependencies: ["579062A3AE284B1E"]
+			id: "0217B362B57E45C8"
+			tasks: [{
+				consume_items: false
+				id: "240EEC2988376103"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Gather Ender Pearl"
+			x: 3.05d
+			y: 3.02d
+		}
+		{
+			dependencies: ["579062A3AE284B1E"]
+			id: "2118F15133994EB6"
+			tasks: [{
+				consume_items: false
+				id: "795175F1DDAF4B4D"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Gather Animal Dictionary"
+			x: 1.62d
+			y: 3.48d
+		}
+		{
+			dependencies: [
+				"0217B362B57E45C8"
+				"2118F15133994EB6"
+			]
+			id: "0F7B710AB2C14D22"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_unawakened"
+					id: "62B6C381162BA758"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "78DEE8137862BD37"
+					item: "fiomcraft_engine:potion_fool_9"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "3ED7F88F8D202481"
+				item: "fiomcraft_engine:potion_fool_9"
+				type: "item"
+			}]
+			title: "Craft Potion of Seer Ascension"
+			x: 2.68d
+			y: 5.37d
+		}
+		{
+			dependencies: ["0F7B710AB2C14D22"]
+			id: "223F097BD4174DE8"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "6FB659206F8F46A8"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 9: Seer"
+			x: 2.38d
+			y: 7.64d
+		}
+		{
+			dependencies: ["223F097BD4174DE8"]
+			id: "2341719096D6D04A"
+			tasks: [{
+				consume_items: false
+				id: "05DBF63A4EBF4DE2"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			title: "Gather Whoopee Cushion"
+			x: 2.71d
+			y: 10.67d
+		}
+		{
+			dependencies: ["223F097BD4174DE8"]
+			id: "76EBF27C2635B900"
+			tasks: [{
+				consume_items: false
+				id: "32487852B32486E9"
+				item: "alexsmobs:mimic_octopus_bucket"
+				type: "item"
+			}]
+			title: "Gather Mimic Octopus Bucket"
+			x: 1.42d
+			y: 9.9d
+		}
+		{
+			dependencies: ["223F097BD4174DE8"]
+			id: "2E26DC97797A4871"
+			tasks: [{
+				consume_items: false
+				id: "60ACD38E9B089A4B"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			title: "Gather Snowball"
+			x: 0.13d
+			y: 9.13d
+		}
+		{
+			dependencies: ["2E26DC97797A4871"]
+			id: "564DD816AE264AAE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_9"
+					id: "22ACDFB7FCC930CF"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4312BDE072694844"
+					item: "fiomcraft_engine:potion_fool_8"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "2A413BC07C74470E"
+				item: "fiomcraft_engine:potion_fool_8"
+				type: "item"
+			}]
+			title: "Craft Potion of Clown Ascension"
+			x: -0.21d
+			y: 12.0d
+		}
+		{
+			dependencies: ["564DD816AE264AAE"]
+			id: "16C50F2C4B496D10"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "366F26541AFDEF66"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 8: Clown"
+			x: -2.47d
+			y: 13.78d
+		}
+		{
+			id: "0FFB1F93986942E5"
+			tasks: [{
+				consume_items: false
+				id: "0CA10479E63046AB"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Evocation Upgrade Orb"
+			x: -4.59d
+			y: 17.23d
+		}
+		{
+			id: "5B93E7DB21354580"
+			tasks: [{
+				consume_items: false
+				id: "47CE47C6A82C40EF"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			title: "Gather Magic Scroll"
+			x: -5.06d
+			y: 15.81d
+		}
+		{
+			id: "3932BC4DC37A4087"
+			tasks: [{
+				consume_items: false
+				id: "6BAC2154B3464136"
+				item: "supplementaries:bomb"
+				type: "item"
+			}]
+			title: "Gather Bomb"
+			x: -5.54d
+			y: 14.39d
+		}
+		{
+			id: "264632FE98A84214"
+			tasks: [{
+				consume_items: false
+				id: "38196EEF387686CA"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			title: "Gather Firework Rocket"
+			x: -6.01d
+			y: 12.96d
+		}
+		{
+			dependencies: [
+				"0FFB1F93986942E5"
+				"5B93E7DB21354580"
+				"3932BC4DC37A4087"
+				"264632FE98A84214"
+			]
+			id: "00ECA4B363B447D5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_8"
+					id: "25A991E8DEEA4F3A"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4313D359FAFC45C6"
+					item: "fiomcraft_engine:potion_fool_7"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "48E610C9A1C1F8DC"
+				item: "fiomcraft_engine:potion_fool_7"
+				type: "item"
+			}]
+			title: "Craft Potion of Magician Ascension"
+			x: -8.59d
+			y: 15.82d
+		}
+		{
+			dependencies: ["00ECA4B363B447D5"]
+			id: "570C25982B30DAC7"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "72147C0AF378FB19"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 7: Magician"
+			x: -12.22d
+			y: 15.83d
+		}
+		{
+			id: "1CBCE8C19CB29307"
+			tasks: [{
+				consume_items: false
+				id: "23A2AA248BB1B6C7"
+				item: {
+					Count: 1
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Totem Of Possession"
+			x: -16.95d
+			y: 17.91d
+		}
+		{
+			id: "352C3978BA164F98"
+			tasks: [{
+				consume_items: false
+				id: "2B7FB2B604E2C6D5"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			title: "Gather Sol Visage"
+			x: -16.5d
+			y: 16.48d
+		}
+		{
+			id: "3C8BDB94FC524136"
+			tasks: [{
+				consume_items: false
+				id: "7429216E9DC548F0"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			title: "Gather Villager Hat"
+			x: -16.05d
+			y: 15.05d
+		}
+		{
+			id: "0AC2C152729741C2"
+			tasks: [{
+				consume_items: false
+				id: "61B175B7A3E549FE"
+				item: "born_in_chaos_v1:spiritual_dust"
+				type: "item"
+			}]
+			title: "Gather Frightful Dust"
+			x: -15.6d
+			y: 13.62d
+		}
+		{
+			id: "41ABFAA401064093"
+			tasks: [{
+				consume_items: false
+				id: "025A239550524E49"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Gather Ender Eye"
+			x: -15.15d
+			y: 12.19d
+		}
+		{
+			dependencies: [
+				"352C3978BA164F98"
+				"3C8BDB94FC524136"
+				"41ABFAA401064093"
+			]
+			id: "0EA75AA0DB444915"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_7"
+					id: "44A58EED4CDA4A07"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "193B28AB79C64B2C"
+					item: "fiomcraft_engine:potion_fool_6"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "090A033CD0076A2D"
+				item: "fiomcraft_engine:potion_fool_6"
+				type: "item"
+			}]
+			title: "Craft Potion of Faceless Ascension"
+			x: -19.9d
+			y: 13.42d
+		}
+		{
+			dependencies: ["0EA75AA0DB444915"]
+			id: "51C5E86F1DD940A9"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "525E7C91503343A0"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 6: Faceless"
+			x: -23.6d
+			y: 10.92d
+		}
+		{
+			id: "7F44B998837C6E37"
+			tasks: [{
+				consume_items: false
+				id: "73C46E4C32AB7DF9"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			title: "Gather Void Core"
+			x: -29.85d
+			y: 9.94d
+		}
+		{
+			id: "64DF3233EE1D48DF"
+			tasks: [{
+				consume_items: false
+				id: "17298413F39412FB"
+				item: "goety:pine_wood"
+				type: "item"
+			}]
+			title: "Gather Skeleton Servant Scroll"
+			x: -28.7d
+			y: 8.99d
+		}
+		{
+			id: "4E6A0BF578973F69"
+			tasks: [{
+				consume_items: false
+				id: "1245274E959AD5D4"
+				item: "alexscaves:moth_dust"
+				type: "item"
+			}]
+			title: "Gather Moth Dust"
+			x: -27.54d
+			y: 8.03d
+		}
+		{
+			id: "5F1D1AF1912100FC"
+			tasks: [{
+				consume_items: false
+				id: "3EFDEBEBA3F947DA"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Ender Upgrade Orb"
+			x: -26.38d
+			y: 7.08d
+		}
+		{
+			id: "7EC9744A8B900C2B"
+			tasks: [{
+				consume_items: false
+				id: "72AE20B9DCB9E54A"
+				item: "iceandfire:ectoplasm"
+				type: "item"
+			}]
+			title: "Gather Ectoplasm"
+			x: -25.23d
+			y: 6.12d
+		}
+		{
+			id: "7061DFBBA7A04924"
+			tasks: [{
+				consume_items: false
+				id: "6894671C4FB3AE1C"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			title: "Gather Lead"
+			x: -24.07d
+			y: 5.17d
+		}
+		{
+			dependencies: [
+				"64DF3233EE1D48DF"
+				"7061DFBBA7A04924"
+			]
+			id: "050A33D4E5CD4EA9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_6"
+					id: "184EAF8774DA4EDD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4E02032538AC58A8"
+					item: "fiomcraft_engine:potion_fool_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5821AE7F07CEC53F"
+				item: "fiomcraft_engine:potion_fool_5"
+				type: "item"
+			}]
+			title: "Craft Potion of Marionettist Ascension"
+			x: -29.81d
+			y: 3.39d
+		}
+		{
+			dependencies: ["050A33D4E5CD4EA9"]
+			id: "4CE2DE28DE704046"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "5278707DEB0A4F7E"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 5: Marionettist"
+			x: -31.97d
+			y: -1.49d
+		}
+		{
+			id: "152C67CDAD244082"
+			tasks: [{
+				consume_items: false
+				id: "67A8C4EF15A74EA0"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "Gather Abyssal Egg"
+			x: -37.73d
+			y: -6.34d
+		}
+		{
+			id: "0DD8F4DF96A2D24C"
+			tasks: [{
+				consume_items: false
+				id: "05677A1CD8364A40"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			title: "Gather Pure Darkness"
+			x: -36.25d
+			y: -6.55d
+		}
+		{
+			id: "2F36C6608B024D3D"
+			tasks: [{
+				consume_items: false
+				id: "52B74E4286E64507"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Scroll"
+			x: -34.76d
+			y: -6.77d
+		}
+		{
+			id: "0B922CDA0EC1DB83"
+			tasks: [{
+				consume_items: false
+				id: "7DBBC211AF654390"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "Gather Blank Rune"
+			x: -33.28d
+			y: -6.98d
+		}
+		{
+			id: "4221F1305F620182"
+			tasks: [{
+				consume_items: false
+				id: "46A1ED30195F3634"
+				item: {
+					Count: 1
+					id: "aquamirae:abyssal_tiara"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Abyssal Tiara"
+			x: -31.79d
+			y: -7.19d
+		}
+		{
+			id: "16B878A1C2E943CD"
+			tasks: [{
+				consume_items: false
+				id: "129BAA33BDC5BB47"
+				item: "born_in_chaos_v1:soul_strider"
+				type: "item"
+			}]
+			title: "Gather Soul Strider"
+			x: -30.31d
+			y: -7.41d
+		}
+		{
+			id: "1DFE81764BF8473F"
+			tasks: [{
+				consume_items: false
+				id: "276291E81B9E4E81"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "Gather Chorus Fruit"
+			x: -28.82d
+			y: -7.62d
+		}
+		{
+			dependencies: [
+				"152C67CDAD244082"
+				"2F36C6608B024D3D"
+				"16B878A1C2E943CD"
+				"1DFE81764BF8473F"
+			]
+			id: "273C4D4358674FE2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_5"
+					id: "2A6156108735774A"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "5B4E29ABD0898B8E"
+					item: "fiomcraft_engine:potion_fool_4"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5DC24FAD1C9C4FB2"
+				item: "fiomcraft_engine:potion_fool_4"
+				type: "item"
+			}]
+			title: "Craft Potion of Bizarro Sorcerer Ascension"
+			x: -33.61d
+			y: -12.91d
+		}
+		{
+			dependencies: ["273C4D4358674FE2"]
+			id: "0EA2CA63139B42C7"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "215AFE7AE09F4C50"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 4: Bizarro Sorcerer"
+			x: -32.85d
+			y: -19.1d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "509D08A5C1497F8A"
+			tasks: [{
+				consume_items: false
+				id: "6835BF1D8333EFEC"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Gather Scroll Forge"
+			x: -35.8d
+			y: -27.34d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "150CAECB3D2E4F54"
+			tasks: [{
+				consume_items: false
+				id: "6471AE226A5D22C4"
+				item: "alexscaves:telecore"
+				type: "item"
+			}]
+			title: "Gather Telecore"
+			x: -34.41d
+			y: -26.77d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "3C554B316432471E"
+			tasks: [{
+				consume_items: false
+				id: "305D0750D543D071"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Gather Witherite Ingot"
+			x: -33.02d
+			y: -26.21d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "42C227CFF49A42DA"
+			tasks: [{
+				consume_items: false
+				id: "3617A5688BD9C65C"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			title: "Gather Dread Shard"
+			x: -31.63d
+			y: -25.64d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "74F844D68407FB9A"
+			tasks: [{
+				consume_items: false
+				id: "6336971418EC4513"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Gather Unholy Blood"
+			x: -30.24d
+			y: -25.08d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "4954B05B6D87B94F"
+			tasks: [{
+				consume_items: false
+				id: "067DFED46056539F"
+				item: "tetra:pristine_lapis"
+				type: "item"
+			}]
+			title: "Gather Pristine Lapis"
+			x: -28.85d
+			y: -24.51d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "6EDBE685D7632D13"
+			tasks: [{
+				id: "51E18BA0933316A2"
+				item: "alexscaves:tesla_bulb"
+				type: "item"
+			}]
+			title: "Gather Super Magnet"
+			x: -27.46d
+			y: -23.95d
+		}
+		{
+			dependencies: ["0EA2CA63139B42C7"]
+			id: "6CEFA96B3B437140"
+			tasks: [{
+				consume_items: false
+				id: "23392833D2A49F14"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Gather Nether Star"
+			x: -26.07d
+			y: -23.38d
+		}
+		{
+			dependencies: [
+				"3C554B316432471E"
+				"42C227CFF49A42DA"
+			]
+			id: "7893042DED5B4763"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_4"
+					id: "7F8DB0B7F2214C52"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "12402BED0D1945D2"
+					item: "fiomcraft_engine:potion_fool_3"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4901DBF7F2FC4F53"
+				item: "fiomcraft_engine:potion_fool_3"
+				type: "item"
+			}]
+			title: "Craft Potion of Scholar of Yore Ascension"
+			x: -27.82d
+			y: -31.46d
+		}
+		{
+			dependencies: ["7893042DED5B4763"]
+			id: "4668D98346C795C7"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "4AD8F9FAE48B8897"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 3: Scholar of Yore"
+			x: -23.52d
+			y: -37.18d
+		}
+		{
+			id: "668B6DF4252145EB"
+			tasks: [{
+				consume_items: false
+				id: "453AAA0246BA0774"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "Gather Enderite Ingot"
+			x: -21.8d
+			y: -47.01d
+		}
+		{
+			id: "43CBBC394ABA456A"
+			tasks: [{
+				consume_items: false
+				id: "3E0EABFF2A86A7D2"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			title: "Gather Dragon Bone"
+			x: -20.87d
+			y: -45.83d
+		}
+		{
+			id: "7C95600CBC27D0D7"
+			tasks: [{
+				consume_items: false
+				id: "1DE7C0DBB9CAAFF1"
+				item: "alexscaves:volcanic_core"
+				type: "item"
+			}]
+			title: "Gather Volcanic Core"
+			x: -19.94d
+			y: -44.65d
+		}
+		{
+			id: "16340EB36BB54953"
+			tasks: [{
+				consume_items: false
+				id: "119B5D3D6274BA89"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Gather Divine Amulet"
+			x: -19.01d
+			y: -43.47d
+		}
+		{
+			id: "7BC1FB1DE5D242AD"
+			tasks: [{
+				consume_items: false
+				id: "6B5399FC874F32BC"
+				item: "goety:howling_soul"
+				type: "item"
+			}]
+			title: "Gather Lich Skull"
+			x: -18.09d
+			y: -42.3d
+		}
+		{
+			id: "5DBA24DB23A94DB5"
+			tasks: [{
+				consume_items: false
+				id: "226DEBDD83DB46BE"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "Gather Frozen Emerald"
+			x: -17.16d
+			y: -41.12d
+		}
+		{
+			id: "06CFAFC67FCA452B"
+			tasks: [{
+				consume_items: false
+				id: "623BF678367ABC01"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			title: "Gather Wrought Helm"
+			x: -16.23d
+			y: -39.94d
+		}
+		{
+			id: "27A80B717C8209D4"
+			tasks: [{
+				consume_items: false
+				id: "30534EEA7571EF75"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Gather Totem Of Undying"
+			x: -15.3d
+			y: -38.76d
+		}
+		{
+			id: "24BAD9051EF1903C"
+			tasks: [{
+				consume_items: false
+				id: "17F3E6C023F2BDEB"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			title: "Gather Enchanted Golden Apple"
+			x: -14.37d
+			y: -37.58d
+		}
+		{
+			dependencies: [
+				"668B6DF4252145EB"
+				"43CBBC394ABA456A"
+				"16340EB36BB54953"
+				"7BC1FB1DE5D242AD"
+				"5DBA24DB23A94DB5"
+				"06CFAFC67FCA452B"
+			]
+			id: "68928F71E35D8FE5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_3"
+					id: "1FF64C108935816F"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4513D87B5D5842AE"
+					item: "fiomcraft_engine:potion_fool_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "767322F982DB408E"
+				item: "fiomcraft_engine:potion_fool_2"
+				type: "item"
+			}]
+			title: "Craft Potion of Miracle Invoker Ascension"
+			x: -11.6d
+			y: -46.58d
+		}
+		{
+			id: "58FD173CD7AE4D3B"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "40768A7A1131F741"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 2: Miracle Invoker"
+			x: -4.2d
+			y: -49.82d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "5F0A7A3AF3574F49"
+			tasks: [{
+				consume_items: false
+				id: "7770299C3F9D5B15"
+				item: {
+					Count: 1
+					id: "tetra:modular_greatsword"
+					tag: {
+						Damage: 0
+						"greatsword/basic_hilt_material": "basic_hilt/stick"
+						"greatsword/blade": "tetra:greatsword/longsword_blade"
+						"greatsword/decorative_pommel_material": "decorative_pommel/iron"
+						"greatsword/guard": "greatsword/makeshift_guard"
+						"greatsword/hilt": "greatsword/basic_hilt"
+						"greatsword/makeshift_guard_material": "makeshift_guard/iron"
+						"greatsword/pommel": "greatsword/decorative_pommel"
+						id: "b56741b4-2960-4bc4-b954-18dbd707cad9"
+						"tetra:greatsword/longsword_blade_material": "longsword_blade/ignitium_ingot"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather The Incinerator"
+			x: 2.88d
+			y: -58.52d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "515E0E274AED4F1B"
+			tasks: [{
+				consume_items: false
+				id: "546B8EB3D8A3327C"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "Gather Wither Assault Shoulder Weapon"
+			x: 3.12d
+			y: -57.03d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "7AA75C8584B54293"
+			tasks: [{
+				consume_items: false
+				id: "247D4E94536D4A74"
+				item: "iceandfire:dragon_skull_fire"
+				type: "item"
+			}]
+			title: "Gather Dragon Skull"
+			x: 3.35d
+			y: -55.55d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "2AC34484377F49DB"
+			tasks: [{
+				consume_items: false
+				id: "6A6FEE114BDB45A8"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			title: "Gather Fissure Core"
+			x: 3.59d
+			y: -54.07d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "0169BFFF5410A6C9"
+			tasks: [{
+				consume_items: false
+				id: "4C3B43088D200EDA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Tarnished Helmet"
+			x: 3.83d
+			y: -52.59d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "0C91025036F85315"
+			tasks: [{
+				consume_items: false
+				id: "205E0E88D2924657"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Wand"
+			x: 4.06d
+			y: -51.11d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "20FF14460B103503"
+			tasks: [{
+				consume_items: false
+				id: "403973D62F314C03"
+				item: {
+					Count: 1
+					id: "tetra:pristine_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Pristine Netherite"
+			x: 4.3d
+			y: -49.63d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "760151B24A4548F5"
+			tasks: [{
+				consume_items: false
+				id: "102EBB8C69CB3F97"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "Gather Recovery Compass"
+			x: 4.53d
+			y: -48.15d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "51049FDA5AF94C69"
+			tasks: [{
+				consume_items: false
+				id: "020174D0DE32436B"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Gather Dragon Breath"
+			x: 4.77d
+			y: -46.67d
+		}
+		{
+			dependencies: ["58FD173CD7AE4D3B"]
+			id: "017090905F087EEC"
+			tasks: [{
+				consume_items: false
+				id: "02E32340695B952E"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Gather Beacon"
+			x: 5.01d
+			y: -45.18d
+		}
+		{
+			dependencies: [
+				"5F0A7A3AF3574F49"
+				"7AA75C8584B54293"
+				"2AC34484377F49DB"
+				"760151B24A4548F5"
+				"51049FDA5AF94C69"
+			]
+			id: "79DCE7D06E4CABAE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_2"
+					id: "7BCD865957EE4ACD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "3F582A4EE4967E08"
+					item: "fiomcraft_engine:potion_fool_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "713B5C517ED8175A"
+				item: "fiomcraft_engine:potion_fool_1"
+				type: "item"
+			}]
+			title: "Craft Potion of Attendant of Mysteries Ascension"
+			x: 12.62d
+			y: -52.5d
+		}
+		{
+			id: "16F65E4EB6C1AD17"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "403D160D068985FD"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 1: Attendant of Mysteries"
+			x: 21.6d
+			y: -51.67d
+		}
+		{
+			id: "4F97C09A2CA5406C"
+			tasks: [{
+				consume_items: false
+				id: "2BFA5EAD6E6B4567"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/void_worm_pickaxe_left"
+						"double/head_right": "double/void_worm_pickaxe_right"
+						"double/void_worm_pickaxe_left_material": "void_worm_pickaxe/void_worm_pickaxe"
+						"double/void_worm_pickaxe_right_material": "void_worm_pickaxe/void_worm_pickaxe"
+						id: "d9911b47-d619-474b-ba1a-4622a9abb7ed"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Void Forge"
+			x: 33.15d
+			y: -56.32d
+		}
+		{
+			id: "738462B9681611E2"
+			tasks: [{
+				consume_items: false
+				id: "61C2070E26B8871A"
+				item: "cataclysm:enderite_block"
+				type: "item"
+			}]
+			title: "Gather Enderite Block"
+			x: 32.64d
+			y: -54.91d
+		}
+		{
+			id: "137788B665604088"
+			tasks: [{
+				consume_items: false
+				id: "3C594D739139F5E7"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "bd2e677e-d420-4793-b605-45a0527bba78"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/katana_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/katana_blade_material": "katana_blade/iceandfire_lightning_dragonsteel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Dragonsteel Lightning Sword"
+			x: 32.13d
+			y: -53.5d
+		}
+		{
+			id: "3062C4238ACD491C"
+			tasks: [{
+				consume_items: false
+				id: "7C01C56EFF79C87F"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Gather Tremorzilla Egg"
+			x: 31.62d
+			y: -52.09d
+		}
+		{
+			id: "57023C35859091F7"
+			tasks: [{
+				consume_items: false
+				id: "030201F6BEAEB25F"
+				item: "irons_spellbooks:wayward_compass"
+				type: "item"
+			}]
+			title: "Gather Wayward Compass"
+			x: 31.12d
+			y: -50.68d
+		}
+		{
+			id: "4A9BD9E2AEA057BA"
+			tasks: [{
+				consume_items: false
+				id: "659605A8A5034C9F"
+				item: "goety:nether_staff"
+				type: "item"
+			}]
+			title: "Gather Nether Meteor Scroll"
+			x: 30.61d
+			y: -49.27d
+		}
+		{
+			id: "34EF57BA8AD75516"
+			tasks: [{
+				consume_items: false
+				id: "2359D97AC17AAB9D"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Earth Talisman"
+			x: 30.1d
+			y: -47.85d
+		}
+		{
+			id: "5DB3407D4EB300A9"
+			tasks: [{
+				consume_items: false
+				id: "10FF6E1A7F4A466D"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Gather Dragon Egg"
+			x: 29.59d
+			y: -46.44d
+		}
+		{
+			id: "43B093B639434562"
+			tasks: [{
+				consume_items: false
+				id: "49F1C02A95D32993"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Gather End Crystal"
+			x: 29.08d
+			y: -45.03d
+		}
+		{
+			id: "527348A0379D0EC2"
+			tasks: [{
+				consume_items: false
+				id: "119ED9118DEBC3E4"
+				item: "minecraft:purpur_block"
+				type: "item"
+			}]
+			title: "Gather Purpur Block"
+			x: 28.58d
+			y: -43.62d
+		}
+		{
+			id: "21D52808EE062240"
+			tasks: [{
+				consume_items: false
+				id: "559D190C344A4ED0"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Gather Conduit"
+			x: 28.07d
+			y: -42.21d
+		}
+		{
+			dependencies: [
+				"4F97C09A2CA5406C"
+				"137788B665604088"
+				"3062C4238ACD491C"
+				"43B093B639434562"
+			]
+			id: "31FE8DF5972E493F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_fool_1"
+					id: "1C373C4B2A0D4DAD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "723FCB04FBC14958"
+					item: "fiomcraft_engine:potion_fool_0"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "6D07214F29D1D26A"
+				item: "fiomcraft_engine:potion_fool_0"
+				type: "item"
+			}]
+			title: "Craft Potion of Fool Ascension"
+			x: 39.38d
+			y: -45.27d
+		}
+		{
+			id: "28D9083329CC413C"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "0CE3E094E7094909"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 0: Fool"
+			x: 47.62d
+			y: -39.7d
+		}
+		{
+			icon: "fiomcraft_engine:demoness_core_0"
+			id: "718B1046F08F448B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "63E65B521A7E42EB"
+				item: "fiomcraft_engine:blank_core"
+				type: "item"
+			}]
+			title: "Pathway of the Demoness"
+			x: -0.91d
+			y: 1.78d
+		}
+		{
+			dependencies: ["718B1046F08F448B"]
+			id: "7C814AAE06C69BE4"
+			tasks: [{
+				consume_items: false
+				id: "1BA229E37A2D4D7C"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "ef093e90-1637-4532-ba47-95daaf180528"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/basic_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/basic_blade_material": "basic_blade/iron"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Iron Sword"
+			x: -1.93d
+			y: 3.83d
+		}
+		{
+			dependencies: ["718B1046F08F448B"]
+			id: "0935BA6CF0CB443B"
+			tasks: [{
+				consume_items: false
+				id: "669A0AE7C2A84AB2"
+				item: "alexsmobs:centipede_leg"
+				type: "item"
+			}]
+			title: "Gather Centipede Leg"
+			x: -2.81d
+			y: 2.61d
+		}
+		{
+			dependencies: ["0935BA6CF0CB443B"]
+			id: "2C73E0EE477E4459"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_unawakened"
+					elevate_perms: true
+					id: "51B5DA66F66C9588"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "28A121D32AC74C50"
+					item: "fiomcraft_engine:potion_demoness_9"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "53130018A55C1CAC"
+				item: "fiomcraft_engine:potion_demoness_9"
+				type: "item"
+			}]
+			title: "Craft Potion of Assassin Ascension"
+			x: -4.28d
+			y: 4.21d
+		}
+		{
+			dependencies: ["2C73E0EE477E4459"]
+			id: "381714AB95FC6887"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "5623B989C3794B6D"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 9: Assassin"
+			x: -6.53d
+			y: 4.63d
+		}
+		{
+			id: "6EBA552D608143A4"
+			tasks: [{
+				consume_items: false
+				id: "427BFFC4242455EA"
+				item: "alexsmobs:komodo_spit"
+				type: "item"
+			}]
+			title: "Gather Komodo Spit"
+			x: -9.31d
+			y: 5.87d
+		}
+		{
+			id: "1067EFBC51D740B5"
+			tasks: [{
+				id: "572E2A75FAB8ABC4"
+				item: "goety:grave_dust"
+				type: "item"
+			}]
+			title: "Gather Foul Berries"
+			x: -8.98d
+			y: 4.41d
+		}
+		{
+			id: "13FED74331B0B3CB"
+			tasks: [{
+				consume_items: false
+				id: "5F0D05545D204627"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			title: "Gather Spider Eye"
+			x: -8.64d
+			y: 2.95d
+		}
+		{
+			dependencies: [
+				"6EBA552D608143A4"
+				"1067EFBC51D740B5"
+			]
+			id: "4A62C0F183AE3284"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_9"
+					id: "150905F423524640"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0B1AE3EF28701761"
+					item: "fiomcraft_engine:potion_demoness_8"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "7286B1BF2C9A75A4"
+				item: "fiomcraft_engine:potion_demoness_8"
+				type: "item"
+			}]
+			title: "Craft Potion of Instigator Ascension"
+			x: -11.48d
+			y: 3.51d
+		}
+		{
+			id: "00F6127FB23EB7B2"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "7122DCA2E6E0471F"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 8: Instigator"
+			x: -13.87d
+			y: 1.91d
+		}
+		{
+			id: "4D2885C2490B4188"
+			tasks: [{
+				consume_items: false
+				id: "0F1914F59C2E4628"
+				item: "born_in_chaos_v1:spider_mandible"
+				type: "item"
+			}]
+			title: "Gather Spider Mandible"
+			x: -17.81d
+			y: 0.96d
+		}
+		{
+			id: "2D7C71DA1382203B"
+			tasks: [{
+				consume_items: false
+				id: "50A5F526FB0F890B"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Fire Upgrade Orb"
+			x: -16.6d
+			y: 0.07d
+		}
+		{
+			id: "041FA3F0978A0D8A"
+			tasks: [{
+				consume_items: false
+				id: "797DE88039FD43F5"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			title: "Gather Magic Scroll"
+			x: -15.39d
+			y: -0.82d
+		}
+		{
+			id: "41F400F0895B423C"
+			tasks: [{
+				consume_items: false
+				id: "1A6DB052E3DD0E91"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Gather Brewing Stand"
+			x: -14.19d
+			y: -1.71d
+		}
+		{
+			dependencies: [
+				"4D2885C2490B4188"
+				"41F400F0895B423C"
+			]
+			id: "7CC9C7A60571E5AE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_8"
+					id: "2E3227D0BE27475F"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "3741AC6E1D3C4547"
+					item: "fiomcraft_engine:potion_demoness_7"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "7D3F9708B1B84685"
+				item: "fiomcraft_engine:potion_demoness_7"
+				type: "item"
+			}]
+			title: "Craft Potion of Witch Ascension"
+			x: -17.7d
+			y: -3.28d
+		}
+		{
+			id: "78850C967A42487C"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "7008B78C46501570"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 7: Witch"
+			x: -18.83d
+			y: -6.73d
+		}
+		{
+			dependencies: ["78850C967A42487C"]
+			id: "45B6098CCE2BE6DB"
+			tasks: [{
+				consume_items: false
+				id: "62348A5B7CAA422A"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Gorgon Head"
+			x: -22.27d
+			y: -10.58d
+		}
+		{
+			dependencies: ["78850C967A42487C"]
+			id: "0997235EF0B8478A"
+			tasks: [{
+				consume_items: false
+				id: "6925CFA578114AE3"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Blood Upgrade Orb"
+			x: -20.77d
+			y: -10.6d
+		}
+		{
+			dependencies: ["78850C967A42487C"]
+			id: "7B2AF84A984280B4"
+			tasks: [{
+				consume_items: false
+				id: "61D09EFF93B69DE4"
+				item: "alexscaves:moth_dust"
+				type: "item"
+			}]
+			title: "Gather Moth Dust"
+			x: -19.27d
+			y: -10.61d
+		}
+		{
+			dependencies: ["78850C967A42487C"]
+			id: "3E3D7C3A0545DA57"
+			tasks: [{
+				consume_items: false
+				id: "5EF9A8B229C34B66"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			title: "Gather Fin"
+			x: -17.77d
+			y: -10.63d
+		}
+		{
+			dependencies: ["78850C967A42487C"]
+			id: "79AF6E7C1BC7257C"
+			tasks: [{
+				consume_items: false
+				id: "425AC8E69D0949B9"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "Gather Ghast Tear"
+			x: -16.27d
+			y: -10.64d
+		}
+		{
+			dependencies: ["0997235EF0B8478A"]
+			id: "7D98EF7B8E829FFD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_7"
+					id: "0A660D2DE88AFBEC"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "578F296487FABD2F"
+					item: "fiomcraft_engine:potion_demoness_6"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "28C1802DE4594AF8"
+				item: "fiomcraft_engine:potion_demoness_6"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness of Pleasure Ascension"
+			x: -18.91d
+			y: -14.78d
+		}
+		{
+			id: "4883AFC11AB14FE9"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "15A2DAD0B87740B4"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 6: Demoness of Pleasure"
+			x: -17.67d
+			y: -19.07d
+		}
+		{
+			dependencies: ["4883AFC11AB14FE9"]
+			id: "225328E26B1D83FE"
+			tasks: [{
+				consume_items: false
+				id: "5C35EB2788D84F3D"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "Gather Ignitium Ingot"
+			x: -18.68d
+			y: -25.32d
+		}
+		{
+			dependencies: ["4883AFC11AB14FE9"]
+			id: "340364DCD6004B34"
+			tasks: [{
+				consume_items: false
+				id: "77BFC32612E89F82"
+				item: "iceandfire:fire_dragon_blood"
+				type: "item"
+			}]
+			title: "Gather Fire Dragon Blood"
+			x: -17.42d
+			y: -24.51d
+		}
+		{
+			dependencies: ["4883AFC11AB14FE9"]
+			id: "36B0BFE81D09798C"
+			tasks: [{
+				consume_items: false
+				id: "4A74E0D3DCF1375E"
+				item: "born_in_chaos_v1:pieceofdarkmetal"
+				type: "item"
+			}]
+			title: "Gather Piece Of Dark Metal"
+			x: -16.15d
+			y: -23.71d
+		}
+		{
+			dependencies: ["4883AFC11AB14FE9"]
+			id: "3C1E0CA24D494FAE"
+			tasks: [{
+				consume_items: false
+				id: "7CEC5465A33E4462"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Gather Unholy Blood"
+			x: -14.89d
+			y: -22.9d
+		}
+		{
+			dependencies: ["4883AFC11AB14FE9"]
+			id: "436B73E28FDC5AD0"
+			tasks: [{
+				consume_items: false
+				id: "32F58A2D01E64662"
+				item: "alexscaves:toxic_paste"
+				type: "item"
+			}]
+			title: "Gather Toxic Paste"
+			x: -13.62d
+			y: -22.1d
+		}
+		{
+			dependencies: ["4883AFC11AB14FE9"]
+			id: "6AB9A85FC5494817"
+			tasks: [{
+				consume_items: false
+				id: "7AFAA7436B8C4BE6"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			title: "Gather Poisonous Potato"
+			x: -12.35d
+			y: -21.29d
+		}
+		{
+			dependencies: [
+				"340364DCD6004B34"
+				"6AB9A85FC5494817"
+			]
+			id: "31D2376CFED7448B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_6"
+					id: "0D1039A086434035"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "635A4A6DDFBE61BE"
+					item: "fiomcraft_engine:potion_demoness_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "441D1FF17EC86AFA"
+				item: "fiomcraft_engine:potion_demoness_5"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness of Affliction Ascension"
+			x: -12.44d
+			y: -27.3d
+		}
+		{
+			dependencies: ["31D2376CFED7448B"]
+			id: "2B34EF9FCDEC43F8"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "042ECF475E9A4099"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 5: Demoness of Affliction"
+			x: -8.46d
+			y: -30.86d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "00B83BDDB4DD4A1D"
+			tasks: [{
+				consume_items: false
+				id: "1C06205519B2CC0D"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "47f64a50-4a02-465b-9bc1-7c16696c1f72"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/knife"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/knife_material": "knife/irons_spellbooks_frozen_bone"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Terrible Sword"
+			x: -5.63d
+			y: -37.84d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "6DE6457B6A17CDAA"
+			tasks: [{
+				consume_items: false
+				id: "4DAAA750F306FE73"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Gather Witherite Ingot"
+			x: -4.97d
+			y: -36.5d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "725FB5F582C24292"
+			tasks: [{
+				consume_items: false
+				id: "22C8E6C04EB4F18A"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			title: "Gather Dread Shard"
+			x: -4.31d
+			y: -35.15d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "48F8BE09029A4E12"
+			tasks: [{
+				consume_items: false
+				id: "3D900E2864BC4720"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			title: "Gather Pure Darkness"
+			x: -3.65d
+			y: -33.8d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "47B461C742825810"
+			tasks: [{
+				consume_items: false
+				id: "74F190C68C5D4499"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Scroll"
+			x: -2.98d
+			y: -32.46d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "7147CA764A56AF7C"
+			tasks: [{
+				consume_items: false
+				id: "5477EF6EB6CB403D"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Evocation Upgrade Orb"
+			x: -2.32d
+			y: -31.11d
+		}
+		{
+			dependencies: ["2B34EF9FCDEC43F8"]
+			id: "3CC9F6384AD74121"
+			tasks: [{
+				consume_items: false
+				id: "7B9BDA6B0A10FBB7"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			title: "Gather Wither Rose"
+			x: -1.66d
+			y: -29.77d
+		}
+		{
+			dependencies: [
+				"00B83BDDB4DD4A1D"
+				"725FB5F582C24292"
+				"48F8BE09029A4E12"
+				"3CC9F6384AD74121"
+			]
+			id: "07469B35D39940B1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_5"
+					id: "7B7BA55BA83A48B3"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7D65C27561A4467B"
+					item: "fiomcraft_engine:potion_demoness_4"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "59BEF459C3B0780D"
+				item: "fiomcraft_engine:potion_demoness_4"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness of Despair Ascension"
+			x: 1.89d
+			y: -35.95d
+		}
+		{
+			dependencies: ["07469B35D39940B1"]
+			id: "68BBD14F02783381"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "6593C38D0E074BEF"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 4: Demoness of Despair"
+			x: 8.02d
+			y: -37.14d
+		}
+		{
+			id: "5DC5F8DB083F4A18"
+			tasks: [{
+				consume_items: false
+				id: "4F0B1B8B99CF558C"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "Gather Abyssal Egg"
+			x: 14.94d
+			y: -42.49d
+		}
+		{
+			id: "019016CE66B34408"
+			tasks: [{
+				consume_items: false
+				id: "2B17D7F293234BDC"
+				item: "iceandfire:dragonscales_red"
+				type: "item"
+			}]
+			title: "Gather Fire Dragon Scales"
+			x: 14.83d
+			y: -41.0d
+		}
+		{
+			id: "2BFE77BE1CDC4D6C"
+			tasks: [{
+				id: "5194BB37C63AFA33"
+				item: {
+					Count: 1
+					id: "goety:alarming_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Gather Soul Strider"
+			x: 14.72d
+			y: -39.5d
+		}
+		{
+			id: "36BD66C5F7F74A46"
+			tasks: [{
+				consume_items: false
+				id: "681C8B8125584CAD"
+				item: {
+					Count: 1
+					id: "goety:cursed_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Cursed Knight Armor Chest"
+			x: 14.61d
+			y: -38.0d
+		}
+		{
+			id: "10A1D9A244E4BDAC"
+			tasks: [{
+				consume_items: false
+				id: "65B984E647894243"
+				item: "alexscaves:vesper_wing"
+				type: "item"
+			}]
+			title: "Gather Vesper Wing"
+			x: 14.51d
+			y: -36.51d
+		}
+		{
+			id: "065451CB24149ADB"
+			tasks: [{
+				consume_items: false
+				id: "0C0F4242FE658C6B"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "Gather Fire Rune"
+			x: 14.4d
+			y: -35.01d
+		}
+		{
+			id: "2A276201254C48FB"
+			tasks: [{
+				consume_items: false
+				id: "5CDCE7735420B6C5"
+				item: "tetra:pristine_diamond"
+				type: "item"
+			}]
+			title: "Gather Pristine Diamond"
+			x: 14.29d
+			y: -33.52d
+		}
+		{
+			id: "26DB11415022AFF7"
+			tasks: [{
+				consume_items: false
+				id: "26BD62C223913AA2"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Gather Nether Star"
+			x: 14.18d
+			y: -32.02d
+		}
+		{
+			dependencies: [
+				"019016CE66B34408"
+				"2BFE77BE1CDC4D6C"
+				"36BD66C5F7F74A46"
+			]
+			id: "5ED46F2101784348"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_4"
+					id: "1407E3479C418F92"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "47429F1C445CCB85"
+					item: "fiomcraft_engine:potion_demoness_3"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "11C82FA8B17147DF"
+				item: "fiomcraft_engine:potion_demoness_3"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness of Unaging Ascension"
+			x: 21.33d
+			y: -36.18d
+		}
+		{
+			dependencies: ["5ED46F2101784348"]
+			id: "41712E300F104849"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2B583F76FA1C70F8"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 3: Demoness of Unaging"
+			x: 28.09d
+			y: -33.86d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "477EEFBD27604E1C"
+			tasks: [{
+				consume_items: false
+				id: "700DD422B8EC4C05"
+				item: {
+					Count: 1
+					id: "tetra:modular_greatsword"
+					tag: {
+						Damage: 0
+						"greatsword/basic_hilt_material": "basic_hilt/stick"
+						"greatsword/blade": "tetra:greatsword/longsword_blade"
+						"greatsword/decorative_pommel_material": "decorative_pommel/iron"
+						"greatsword/guard": "greatsword/makeshift_guard"
+						"greatsword/hilt": "greatsword/basic_hilt"
+						"greatsword/makeshift_guard_material": "makeshift_guard/iron"
+						"greatsword/pommel": "greatsword/decorative_pommel"
+						id: "2a114fbb-a20d-4f49-94c3-cbc1e7b5f4e9"
+						"tetra:greatsword/longsword_blade_material": "longsword_blade/ignitium_ingot"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather The Incinerator"
+			x: 37.97d
+			y: -35.26d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "36CD62932EED465E"
+			tasks: [{
+				consume_items: false
+				id: "0804DFE13681AE14"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			title: "Gather Dragon Bone"
+			x: 37.14d
+			y: -34.01d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "28B60CC555FD2E16"
+			tasks: [{
+				consume_items: false
+				id: "4DD6A0393634424B"
+				item: "alexscaves:volcanic_core"
+				type: "item"
+			}]
+			title: "Gather Volcanic Core"
+			x: 36.3d
+			y: -32.76d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "67DECE1E0CB64EDB"
+			tasks: [{
+				consume_items: false
+				id: "747387F9C2F7497C"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Gather Divine Amulet"
+			x: 35.47d
+			y: -31.52d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "6CA1E402BC7749F5"
+			tasks: [{
+				consume_items: false
+				id: "24BFBCC584C9D01A"
+				item: "goety:howling_soul"
+				type: "item"
+			}]
+			title: "Gather Lich Skull"
+			x: 34.64d
+			y: -30.27d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "4EA5A527A28549B5"
+			tasks: [{
+				consume_items: false
+				id: "086BAE32591E17DC"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "Gather Frozen Emerald"
+			x: 33.8d
+			y: -29.02d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "2DF6A4382F4CDE7C"
+			tasks: [{
+				consume_items: false
+				id: "790C708704B5C729"
+				item: "mowziesmobs:naga_fang"
+				type: "item"
+			}]
+			title: "Gather Storm Amulet"
+			x: 32.97d
+			y: -27.78d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "120A609B84054290"
+			tasks: [{
+				consume_items: false
+				id: "5965D49F6C282222"
+				item: "tetra:pristine_emerald"
+				type: "item"
+			}]
+			title: "Gather Pristine Emerald"
+			x: 32.14d
+			y: -26.53d
+		}
+		{
+			dependencies: ["41712E300F104849"]
+			id: "6A1F0000BF014547"
+			tasks: [{
+				consume_items: false
+				id: "59588BC1159A4FB3"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Gather Totem Of Undying"
+			x: 31.3d
+			y: -25.28d
+		}
+		{
+			dependencies: [
+				"477EEFBD27604E1C"
+				"36CD62932EED465E"
+				"6CA1E402BC7749F5"
+				"4EA5A527A28549B5"
+				"120A609B84054290"
+				"6A1F0000BF014547"
+			]
+			id: "6A061C124DA1A352"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_3"
+					id: "7127C43145E50C3D"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "03DA477E78845349"
+					item: "fiomcraft_engine:potion_demoness_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "6B6B6A9BC45D4895"
+				item: "fiomcraft_engine:potion_demoness_2"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness of Catastrophe Ascension"
+			x: 40.71d
+			y: -25.42d
+		}
+		{
+			id: "5412240D711844CC"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "15F390791043811E"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 2: Demoness of Catastrophe"
+			x: 46.09d
+			y: -19.39d
+		}
+		{
+			id: "5A6ECE5B0EACC590"
+			tasks: [{
+				consume_items: false
+				id: "5BBF1AFD02BF0427"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			title: "Gather Bulwark Of The Flame"
+			x: 56.54d
+			y: -15.34d
+		}
+		{
+			id: "395CB71598D44D07"
+			tasks: [{
+				consume_items: false
+				id: "7609C433571BCD45"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "Gather Enderite Ingot"
+			x: 55.21d
+			y: -14.66d
+		}
+		{
+			id: "7B8614EC08924D60"
+			tasks: [{
+				consume_items: false
+				id: "7C0FB883F1A44C44"
+				item: "iceandfire:dragon_skull_fire"
+				type: "item"
+			}]
+			title: "Gather Dragon Skull"
+			x: 53.87d
+			y: -13.98d
+		}
+		{
+			id: "61A7F6432D39417A"
+			tasks: [{
+				consume_items: false
+				id: "7F78BB612D1B4D30"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			title: "Gather Fissure Core"
+			x: 52.54d
+			y: -13.29d
+		}
+		{
+			id: "7D1620DCEF20535A"
+			tasks: [{
+				consume_items: false
+				id: "1CABAA6DDF74F3CA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Tarnished Helmet"
+			x: 51.2d
+			y: -12.61d
+		}
+		{
+			id: "6BDA91A0F2D742BE"
+			tasks: [{
+				consume_items: false
+				id: "0D56B234079E42B5"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Wand"
+			x: 49.86d
+			y: -11.93d
+		}
+		{
+			id: "0036C2159144BA68"
+			tasks: [{
+				consume_items: false
+				id: "0BAAE1F830D14279"
+				item: {
+					Count: 1
+					id: "tetra:pristine_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Pristine Netherite"
+			x: 48.53d
+			y: -11.25d
+		}
+		{
+			id: "762C219E806F4437"
+			tasks: [{
+				consume_items: false
+				id: "194175252E524AC9"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Gather Dragon Breath"
+			x: 47.19d
+			y: -10.57d
+		}
+		{
+			id: "2598DF11D975449A"
+			tasks: [{
+				consume_items: false
+				id: "0EB99D91D3C439A3"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "Gather Crying Obsidian"
+			x: 45.86d
+			y: -9.88d
+		}
+		{
+			id: "7E47CF18DD599706"
+			tasks: [{
+				consume_items: false
+				id: "46390452A5A9DD27"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Gather Beacon"
+			x: 44.52d
+			y: -9.2d
+		}
+		{
+			dependencies: [
+				"395CB71598D44D07"
+				"7B8614EC08924D60"
+				"61A7F6432D39417A"
+				"6BDA91A0F2D742BE"
+				"762C219E806F4437"
+				"2598DF11D975449A"
+			]
+			id: "678848AA5175DBBE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_2"
+					id: "57FCA5EE83482D8C"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "62E074559D264105"
+					item: "fiomcraft_engine:potion_demoness_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "7FC00FF6F6F73140"
+				item: "fiomcraft_engine:potion_demoness_1"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness of Apocalypse Ascension"
+			x: 53.83d
+			y: -4.22d
+		}
+		{
+			id: "15B4A0008AFC4344"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2D6F3C404FEB4983"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 1: Demoness of Apocalypse"
+			x: 55.81d
+			y: 4.57d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "5F818667D92FB8CB"
+			tasks: [{
+				consume_items: false
+				id: "3B6034AF65464712"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "165e52f3-b93d-40c0-9e4f-f708f4e99cb9"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Infernal Forge"
+			x: 63.81d
+			y: 14.12d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "4BFBD989DF801839"
+			tasks: [{
+				consume_items: false
+				id: "09AC64E38B4646E2"
+				item: "cataclysm:ignitium_block"
+				type: "item"
+			}]
+			title: "Gather Ignitium Block"
+			x: 62.31d
+			y: 14.07d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "73321D7C32D60534"
+			tasks: [{
+				consume_items: false
+				id: "02BF638D8A3A4FA0"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "e06190c7-eb19-4705-9041-6258a2657d43"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/executioner_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/executioner_blade_material": "executioner_blade/iceandfire_fire_dragonsteel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Dragonsteel Fire Sword"
+			x: 60.81d
+			y: 14.03d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "39CFC52019694A17"
+			tasks: [{
+				consume_items: false
+				id: "7DE43B78C8E941DF"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Gather Tremorzilla Egg"
+			x: 59.31d
+			y: 13.98d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "7BDA55ADB84B4EB3"
+			tasks: [{
+				consume_items: false
+				id: "53666177012D46E3"
+				item: "irons_spellbooks:wayward_compass"
+				type: "item"
+			}]
+			title: "Gather Wayward Compass"
+			x: 57.81d
+			y: 13.93d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "1177A8F0E0DC24F8"
+			tasks: [{
+				consume_items: false
+				id: "59BAC578D2069D46"
+				item: "goety:nether_staff"
+				type: "item"
+			}]
+			title: "Gather Nether Meteor Scroll"
+			x: 56.31d
+			y: 13.89d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "15CEE9508A4E4D7B"
+			tasks: [{
+				consume_items: false
+				id: "27A219BC65A2725E"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Earth Talisman"
+			x: 54.81d
+			y: 13.84d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "46B34B0F9AE478C9"
+			tasks: [{
+				consume_items: false
+				id: "5AF2C0B7CBE3D929"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Gather Dragon Egg"
+			x: 53.31d
+			y: 13.79d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "1AF7683DC3B7464E"
+			tasks: [{
+				consume_items: false
+				id: "7219A17832CF441C"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Gather End Crystal"
+			x: 51.82d
+			y: 13.75d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "2F7352B1EB7D4282"
+			tasks: [{
+				consume_items: false
+				id: "3FE4AFC946C1510F"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			title: "Gather Enchanted Golden Apple"
+			x: 50.32d
+			y: 13.7d
+		}
+		{
+			dependencies: ["15B4A0008AFC4344"]
+			id: "1BAA4280B26B4CEE"
+			tasks: [{
+				consume_items: false
+				id: "4E865492FC54415A"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Gather Conduit"
+			x: 48.82d
+			y: 13.65d
+		}
+		{
+			dependencies: [
+				"39CFC52019694A17"
+				"7BDA55ADB84B4EB3"
+				"15CEE9508A4E4D7B"
+				"1AF7683DC3B7464E"
+				"2F7352B1EB7D4282"
+			]
+			id: "086B4823F4AB4125"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_demoness_1"
+					id: "40B4F377E57B4352"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2485EBA9EB1A05D8"
+					item: "fiomcraft_engine:potion_demoness_0"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "6F2801F835164594"
+				item: "fiomcraft_engine:potion_demoness_0"
+				type: "item"
+			}]
+			title: "Craft Potion of Demoness Ascension"
+			x: 55.22d
+			y: 23.46d
+		}
+		{
+			dependencies: ["086B4823F4AB4125"]
+			id: "2E7D14B130914E6F"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "20F02ABC19A10962"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 0: Demoness"
+			x: 52.47d
+			y: 33.03d
+		}
+		{
+			icon: "fiomcraft_engine:hanged_man_core_0"
+			id: "7692309F2D31444A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "63201775A9734518"
+				item: "fiomcraft_engine:blank_core"
+				type: "item"
+			}]
+			title: "Pathway of the Hanged Man"
+			x: -1.97d
+			y: -0.32d
+		}
+		{
+			dependencies: ["7692309F2D31444A"]
+			id: "4015D9E2609B41CD"
+			tasks: [{
+				consume_items: false
+				id: "55E8D6F5133D4430"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "Gather Rotten Flesh"
+			x: -4.24d
+			y: -0.65d
+		}
+		{
+			dependencies: ["7692309F2D31444A"]
+			id: "3BE552361B808A7A"
+			tasks: [{
+				consume_items: false
+				id: "1005BBA4A5494D57"
+				item: "alexsmobs:maggot"
+				type: "item"
+			}]
+			title: "Gather Maggot"
+			x: -3.35d
+			y: -1.86d
+		}
+		{
+			dependencies: ["4015D9E2609B41CD"]
+			id: "179ECD06D6F140F3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_unawakened"
+					elevate_perms: true
+					id: "260647B1DB1F8865"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "496DB50BCFDE40DD"
+					item: "fiomcraft_engine:potion_hanged_man_9"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "515CD462AAF64F8E"
+				item: "fiomcraft_engine:potion_hanged_man_9"
+				type: "item"
+			}]
+			title: "Craft Potion of Secrets Suppliant Ascension"
+			x: -5.32d
+			y: -2.77d
+		}
+		{
+			dependencies: ["179ECD06D6F140F3"]
+			id: "79807687B6E94D66"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "0BA456004CCE4668"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 9: Secrets Suppliant"
+			x: -6.42d
+			y: -4.78d
+		}
+		{
+			dependencies: ["79807687B6E94D66"]
+			id: "24B0FB64189E9288"
+			tasks: [{
+				consume_items: false
+				id: "131DAB2206935442"
+				item: "born_in_chaos_v1:spiritual_dust"
+				type: "item"
+			}]
+			title: "Gather Frightful Dust"
+			x: -8.46d
+			y: -7.04d
+		}
+		{
+			dependencies: ["79807687B6E94D66"]
+			id: "5CEE41047F753BDA"
+			tasks: [{
+				consume_items: false
+				id: "245343DD4DFD4A41"
+				item: "goety:foul_berries"
+				type: "item"
+			}]
+			title: "Gather Foul Berries"
+			x: -6.97d
+			y: -7.17d
+		}
+		{
+			dependencies: ["79807687B6E94D66"]
+			id: "6F3A6451DB4F3A35"
+			tasks: [{
+				consume_items: false
+				id: "26D76CAEF9004E15"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "Gather Bone"
+			x: -5.47d
+			y: -7.31d
+		}
+		{
+			id: "10C690A49D62463D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_9"
+					id: "1EF92AF4EA4C4FC5"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0861C8A2971E44FF"
+					item: "fiomcraft_engine:potion_hanged_man_8"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "5D6851FB2BDF7901"
+				item: "fiomcraft_engine:potion_hanged_man_8"
+				type: "item"
+			}]
+			title: "Craft Potion of Listener Ascension"
+			x: -6.88d
+			y: -9.83d
+		}
+		{
+			dependencies: ["10C690A49D62463D"]
+			id: "462FB8989B6D5ED3"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "5B283095DD6089F8"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 8: Listener"
+			x: -6.1d
+			y: -12.6d
+		}
+		{
+			id: "0F1F30BA125640A0"
+			tasks: [{
+				consume_items: false
+				id: "546C894CED5A4D71"
+				item: "alexscaves:corrodent_teeth"
+				type: "item"
+			}]
+			title: "Gather Corrodent Teeth"
+			x: -6.42d
+			y: -16.64d
+		}
+		{
+			id: "256BAA0A05E7F72E"
+			tasks: [{
+				consume_items: false
+				id: "19EB39289E7E4F2A"
+				item: "born_in_chaos_v1:pieceofdarkmetal"
+				type: "item"
+			}]
+			title: "Gather Piece Of Dark Metal"
+			x: -5.2d
+			y: -15.76d
+		}
+		{
+			id: "079556CDF83D496E"
+			tasks: [{
+				consume_items: false
+				id: "09A39CDA5B5DF4C8"
+				item: "iceandfire:troll_leather_forest"
+				type: "item"
+			}]
+			title: "Gather Troll Leather"
+			x: -3.98d
+			y: -14.89d
+		}
+		{
+			id: "67183D2CC60A1B5E"
+			tasks: [{
+				consume_items: false
+				id: "5C2889EE3C454935"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			title: "Gather Spider Eye"
+			x: -2.76d
+			y: -14.02d
+		}
+		{
+			dependencies: [
+				"0F1F30BA125640A0"
+				"079556CDF83D496E"
+			]
+			id: "4594752D46C9415B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_8"
+					id: "52D99B469A7CC835"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7C9051D4B2E849A5"
+					item: "fiomcraft_engine:potion_hanged_man_7"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "3B9A2DAABC1F4C59"
+				item: "fiomcraft_engine:potion_hanged_man_7"
+				type: "item"
+			}]
+			title: "Craft Potion of Hidden Champion Ascension"
+			x: -2.35d
+			y: -17.85d
+		}
+		{
+			dependencies: ["4594752D46C9415B"]
+			id: "3D8B3904FFB34BA1"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "55897112BEE44DFD"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 7: Hidden Champion"
+			x: 0.58d
+			y: -19.99d
+		}
+		{
+			dependencies: ["3D8B3904FFB34BA1"]
+			id: "4080B794077C4ACC"
+			tasks: [{
+				consume_items: false
+				id: "5864E0FE91DC495A"
+				item: "born_in_chaos_v1:monster_flesh"
+				type: "item"
+			}]
+			title: "Gather Decaying Flesh"
+			x: 3.18d
+			y: -24.45d
+		}
+		{
+			dependencies: ["3D8B3904FFB34BA1"]
+			id: "4AC82651DEE14384"
+			tasks: [{
+				consume_items: false
+				id: "0C4649B5D9504958"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Zombie Servant Scroll"
+			x: 3.66d
+			y: -23.03d
+		}
+		{
+			dependencies: ["3D8B3904FFB34BA1"]
+			id: "657A1DF256FD49C3"
+			tasks: [{
+				consume_items: false
+				id: "497032A556314B67"
+				item: "alexscaves:toxic_paste"
+				type: "item"
+			}]
+			title: "Gather Toxic Paste"
+			x: 4.14d
+			y: -21.61d
+		}
+		{
+			dependencies: ["3D8B3904FFB34BA1"]
+			id: "623D871F27805580"
+			tasks: [{
+				consume_items: false
+				id: "35A4721993271D06"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Blood Upgrade Orb"
+			x: 4.61d
+			y: -20.19d
+		}
+		{
+			dependencies: ["3D8B3904FFB34BA1"]
+			id: "6E0F02839F64265C"
+			tasks: [{
+				consume_items: false
+				id: "59C04E4E356546A7"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			title: "Gather Wither Rose"
+			x: 5.09d
+			y: -18.76d
+		}
+		{
+			dependencies: [
+				"4080B794077C4ACC"
+				"657A1DF256FD49C3"
+			]
+			id: "5637D712431B4CAE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_7"
+					id: "73A3E60F5FCCEA02"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7A7016AD663DC004"
+					item: "fiomcraft_engine:potion_hanged_man_6"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4A8DB2549A64479F"
+				item: "fiomcraft_engine:potion_hanged_man_6"
+				type: "item"
+			}]
+			title: "Craft Potion of Rose Bishop Ascension"
+			x: 8.21d
+			y: -22.55d
+		}
+		{
+			dependencies: ["5637D712431B4CAE"]
+			id: "374C5B498E4A425D"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "6204EE7FDA254CFE"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 6: Rose Bishop"
+			x: 12.67d
+			y: -22.7d
+		}
+		{
+			dependencies: ["374C5B498E4A425D"]
+			id: "337CA931F9894BB2"
+			tasks: [{
+				consume_items: false
+				id: "547854450A1E51C7"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Gather Unholy Blood"
+			x: 18.31d
+			y: -25.59d
+		}
+		{
+			dependencies: ["374C5B498E4A425D"]
+			id: "3A8D0388856C4043"
+			tasks: [{
+				consume_items: false
+				id: "4467B2C4ADCF45AF"
+				item: "iceandfire:ectoplasm"
+				type: "item"
+			}]
+			title: "Gather Ectoplasm"
+			x: 17.93d
+			y: -24.14d
+		}
+		{
+			dependencies: ["374C5B498E4A425D"]
+			id: "6BCC780314EF9839"
+			tasks: [{
+				consume_items: false
+				id: "3E1A664A03ACA262"
+				item: "born_in_chaos_v1:spiritual_dust"
+				type: "item"
+			}]
+			title: "Gather Spiritual Dust"
+			x: 17.56d
+			y: -22.69d
+		}
+		{
+			dependencies: ["374C5B498E4A425D"]
+			id: "6180DBCCAB114835"
+			tasks: [{
+				consume_items: false
+				id: "71B7BE148C7B489B"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			title: "Gather Pure Darkness"
+			x: 17.18d
+			y: -21.23d
+		}
+		{
+			dependencies: ["374C5B498E4A425D"]
+			id: "6254D6978FC0492E"
+			tasks: [{
+				consume_items: false
+				id: "0933D750E17A2BC7"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Ender Upgrade Orb"
+			x: 16.81d
+			y: -19.78d
+		}
+		{
+			dependencies: ["374C5B498E4A425D"]
+			id: "54D4BA78D5FC95B3"
+			tasks: [{
+				consume_items: false
+				id: "58074C4A377B4BF4"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			title: "Gather Phantom Membrane"
+			x: 16.43d
+			y: -18.33d
+		}
+		{
+			dependencies: [
+				"337CA931F9894BB2"
+				"3A8D0388856C4043"
+				"6180DBCCAB114835"
+				"6254D6978FC0492E"
+			]
+			id: "2DC13DBF8ACC4BF9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_6"
+					id: "49F77B6715DDCC03"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "57299EB06EF2459F"
+					item: "fiomcraft_engine:potion_hanged_man_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "31496D80CC8B4876"
+				item: "fiomcraft_engine:potion_hanged_man_5"
+				type: "item"
+			}]
+			title: "Craft Potion of Shepherd Ascension"
+			x: 22.12d
+			y: -20.26d
+		}
+		{
+			dependencies: ["2DC13DBF8ACC4BF9"]
+			id: "1170BF54B7C94285"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "48A09CEFC871FFD4"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 5: Shepherd"
+			x: 26.74d
+			y: -17.58d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "4FCB995685336081"
+			tasks: [{
+				consume_items: false
+				id: "435C1A2A4B1E4E76"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Gather Witherite Ingot"
+			x: 34.25d
+			y: -17.05d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "728C7EF21827442F"
+			tasks: [{
+				consume_items: false
+				id: "62234EC994D7466D"
+				item: {
+					Count: 1
+					id: "goety:cursed_knight_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Cursed Knight Armor Chest"
+			x: 33.17d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "6A412C514A787205"
+			tasks: [{
+				consume_items: false
+				id: "600855FD336A44F6"
+				item: "born_in_chaos_v1:lifestealer_bone"
+				type: "item"
+			}]
+			title: "Gather Lifestealer Bone"
+			x: 32.1d
+			y: -14.96d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "25B553C224DBEFA8"
+			tasks: [{
+				consume_items: false
+				id: "3616A55636CFAA57"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "287170f8-2dd8-4c63-a1bd-d21717238f20"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/executioner_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/executioner_blade_material": "executioner_blade/iron"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Dread Sword"
+			x: 31.02d
+			y: -13.91d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "5C819A7557344B8B"
+			tasks: [{
+				consume_items: false
+				id: "5BD7FB58968A13AE"
+				item: {
+					Count: 1
+					id: "aquamirae:abyssal_tiara"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Abyssal Tiara"
+			x: 29.95d
+			y: -12.87d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "61006616B6DE4DF4"
+			tasks: [{
+				consume_items: false
+				id: "6E32E6426C19494F"
+				item: {
+					Count: 1
+					id: "tetra:pristine_amethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Pristine Iron"
+			x: 28.87d
+			y: -11.82d
+		}
+		{
+			dependencies: ["1170BF54B7C94285"]
+			id: "2EDCA71DCDD04359"
+			tasks: [{
+				consume_items: false
+				id: "06B1E9E923D04395"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Gather Obsidian"
+			x: 27.8d
+			y: -10.78d
+		}
+		{
+			dependencies: [
+				"5C819A7557344B8B"
+				"61006616B6DE4DF4"
+				"2EDCA71DCDD04359"
+			]
+			id: "19E9DE0D401D4565"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_5"
+					id: "6CFCC3604B1149BD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1151DA40349C4DAF"
+					item: "fiomcraft_engine:potion_hanged_man_4"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "074CA34E0980CB13"
+				item: "fiomcraft_engine:potion_hanged_man_4"
+				type: "item"
+			}]
+			title: "Craft Potion of Black Knight Ascension"
+			x: 34.78d
+			y: -9.31d
+		}
+		{
+			dependencies: ["19E9DE0D401D4565"]
+			id: "79188BE610E54A47"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "781D2CE07D44804B"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 4: Black Knight"
+			x: 37.8d
+			y: -3.85d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "50F5B13937BE4F24"
+			tasks: [{
+				consume_items: false
+				id: "4275781B3905F102"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "Gather Wither Assault Shoulder Weapon"
+			x: 45.03d
+			y: 1.08d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "50593EFB7A4F4BC4"
+			tasks: [{
+				consume_items: false
+				id: "789EE09DC98143B8"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			title: "Gather Dread Shard"
+			x: 43.57d
+			y: 1.44d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "09BF389C0101A125"
+			tasks: [{
+				consume_items: false
+				id: "51C3365B9F384C58"
+				item: "alexscaves:vesper_wing"
+				type: "item"
+			}]
+			title: "Gather Vesper Wing"
+			x: 42.12d
+			y: 1.8d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "1F62BB2D3B724421"
+			tasks: [{
+				consume_items: false
+				id: "751F5B83693640BA"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Scroll"
+			x: 40.66d
+			y: 2.16d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "7463BB5F2DBFB847"
+			tasks: [{
+				consume_items: false
+				id: "659BDF49E24A35E7"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "Gather Blood Rune"
+			x: 39.2d
+			y: 2.51d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "7039C6E7FDA93EF1"
+			tasks: [{
+				id: "78D3787136CDBB5B"
+				item: {
+					Count: 1
+					id: "goety:alarming_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Gather Soul Strider"
+			x: 37.75d
+			y: 2.87d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "0B133FC89E614446"
+			tasks: [{
+				consume_items: false
+				id: "7978DB72E43C9359"
+				item: "tetra:pristine_diamond"
+				type: "item"
+			}]
+			title: "Gather Pristine Diamond"
+			x: 36.29d
+			y: 3.23d
+		}
+		{
+			dependencies: ["79188BE610E54A47"]
+			id: "1D1DA6C341FBCF3F"
+			tasks: [{
+				consume_items: false
+				id: "674E917D3FE5413F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Gather Nether Star"
+			x: 34.83d
+			y: 3.59d
+		}
+		{
+			dependencies: [
+				"50F5B13937BE4F24"
+				"50593EFB7A4F4BC4"
+				"1F62BB2D3B724421"
+				"0B133FC89E614446"
+			]
+			id: "423FFEB921984FB0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_4"
+					id: "32ADA38F158C1696"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "148649B4FC324499"
+					item: "fiomcraft_engine:potion_hanged_man_3"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "2043731C9FA94484"
+				item: "fiomcraft_engine:potion_hanged_man_3"
+				type: "item"
+			}]
+			title: "Craft Potion of Trinity Templar Ascension"
+			x: 41.0d
+			y: 9.1d
+		}
+		{
+			dependencies: ["423FFEB921984FB0"]
+			id: "5E8CAD707EDED8F9"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "0A2C967A6163EBDA"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 3: Trinity Templar"
+			x: 40.89d
+			y: 16.26d
+		}
+		{
+			id: "2760F446773342AA"
+			tasks: [{
+				consume_items: false
+				id: "1514E346D5A8D94D"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "Gather Abyssal Egg"
+			x: 45.27d
+			y: 25.22d
+		}
+		{
+			id: "180F9039CCF357DD"
+			tasks: [{
+				consume_items: false
+				id: "7D071E84A72FB3E7"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Gorgon Head"
+			x: 43.82d
+			y: 24.81d
+		}
+		{
+			id: "71067AF759C74DB6"
+			tasks: [{
+				consume_items: false
+				id: "46B95F2606A2EEE2"
+				item: "alexscaves:volcanic_core"
+				type: "item"
+			}]
+			title: "Gather Volcanic Core"
+			x: 42.38d
+			y: 24.4d
+		}
+		{
+			id: "6379BEC34FC345C7"
+			tasks: [{
+				consume_items: false
+				id: "660079BECD503FAA"
+				item: "goety:howling_soul"
+				type: "item"
+			}]
+			title: "Gather Lich Skull"
+			x: 40.94d
+			y: 24.0d
+		}
+		{
+			id: "2A7D812D418DF97C"
+			tasks: [{
+				consume_items: false
+				id: "0ECBE99359964D3E"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Gather Divine Amulet"
+			x: 39.49d
+			y: 23.59d
+		}
+		{
+			id: "0FAF95A84106F247"
+			tasks: [{
+				consume_items: false
+				id: "0A623C617940F77C"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "Gather Frozen Emerald"
+			x: 38.05d
+			y: 23.18d
+		}
+		{
+			id: "3386B72EE3AC3177"
+			tasks: [{
+				consume_items: false
+				id: "72945EDE7DB7DEB3"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			title: "Gather Wrought Helm"
+			x: 36.61d
+			y: 22.77d
+		}
+		{
+			id: "61A1685F2313E4BF"
+			tasks: [{
+				consume_items: false
+				id: "6C75B744B72DD068"
+				item: "tetra:pristine_emerald"
+				type: "item"
+			}]
+			title: "Gather Pristine Emerald"
+			x: 35.16d
+			y: 22.36d
+		}
+		{
+			id: "2CFBC0CCA2E74FF2"
+			tasks: [{
+				consume_items: false
+				id: "641E631785A41C17"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Gather Totem Of Undying"
+			x: 33.72d
+			y: 21.96d
+		}
+		{
+			dependencies: [
+				"2760F446773342AA"
+				"71067AF759C74DB6"
+				"6379BEC34FC345C7"
+				"2CFBC0CCA2E74FF2"
+			]
+			id: "4AF1530C7A7724AB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_3"
+					id: "67BA2CEA841F423B"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2E6D2531FC0A03A0"
+					item: "fiomcraft_engine:potion_hanged_man_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "3920F3013FDCFCCC"
+				item: "fiomcraft_engine:potion_hanged_man_2"
+				type: "item"
+			}]
+			title: "Craft Potion of Profane Presbyter Ascension"
+			x: 36.76d
+			y: 30.86d
+		}
+		{
+			id: "723202BD467818A6"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "42E0D02E45C64383"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 2: Profane Presbyter"
+			x: 32.68d
+			y: 37.84d
+		}
+		{
+			id: "7CCCE4DA4845AF37"
+			tasks: [{
+				consume_items: false
+				id: "0177B7A425FC6CB3"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/reaping_scythe_left"
+						"double/head_right": "double/reaping_scythe_right"
+						"double/reaping_scythe_left_material": "reaping_scythe/iron"
+						"double/reaping_scythe_right_material": "reaping_scythe/iron"
+						id: "863e3064-9327-42a1-8751-f7b84459e205"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Meat Shredder"
+			x: 32.06d
+			y: 49.03d
+		}
+		{
+			id: "0096B9C4AB984260"
+			tasks: [{
+				consume_items: false
+				id: "582C01A7ECF5476B"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "Gather Enderite Ingot"
+			x: 31.0d
+			y: 47.97d
+		}
+		{
+			id: "0365A6C836DE9302"
+			tasks: [{
+				consume_items: false
+				id: "00A6F65ED21D4FD4"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			title: "Gather Dragon Bone"
+			x: 29.94d
+			y: 46.92d
+		}
+		{
+			id: "0DBDBAECB7C04618"
+			tasks: [{
+				consume_items: false
+				id: "26C051C1C6CE9C2D"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			title: "Gather Fissure Core"
+			x: 28.88d
+			y: 45.86d
+		}
+		{
+			id: "42E4F8F17C174CC2"
+			tasks: [{
+				consume_items: false
+				id: "19EBF3D135340EFA"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Wand"
+			x: 27.82d
+			y: 44.8d
+		}
+		{
+			id: "32FCA316268E8AD3"
+			tasks: [{
+				consume_items: false
+				id: "00218CBFC16947A0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Tarnished Helmet"
+			x: 26.75d
+			y: 43.74d
+		}
+		{
+			id: "6C9605475C1A1CC1"
+			tasks: [{
+				consume_items: false
+				id: "2BC2D509297F4D86"
+				item: {
+					Count: 1
+					id: "tetra:pristine_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Pristine Netherite"
+			x: 25.69d
+			y: 42.68d
+		}
+		{
+			id: "7EB19AC245314AE9"
+			tasks: [{
+				consume_items: false
+				id: "637D682606042F36"
+				item: "born_in_chaos_v1:corpse_maggot"
+				type: "item"
+			}]
+			title: "Gather Corpse Fly"
+			x: 24.63d
+			y: 41.62d
+		}
+		{
+			id: "56C465B51C464884"
+			tasks: [{
+				consume_items: false
+				id: "5C7EE24F2E9218E0"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Gather Dragon Breath"
+			x: 23.57d
+			y: 40.56d
+		}
+		{
+			id: "042867F5D2B50268"
+			tasks: [{
+				consume_items: false
+				id: "6507E2CA1AE07743"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Gather Beacon"
+			x: 22.51d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"0096B9C4AB984260"
+				"42E4F8F17C174CC2"
+				"7EB19AC245314AE9"
+				"56C465B51C464884"
+			]
+			id: "0ED1E3B62FA34555"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_2"
+					id: "2347B03E14B1B305"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "705726719B1D42F1"
+					item: "fiomcraft_engine:potion_hanged_man_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "43590C45065F43B3"
+				item: "fiomcraft_engine:potion_hanged_man_1"
+				type: "item"
+			}]
+			title: "Craft Potion of Dark Angel Ascension"
+			x: 20.65d
+			y: 49.9d
+		}
+		{
+			dependencies: ["0ED1E3B62FA34555"]
+			id: "23F0407F98174210"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2E8B2CFE5FF6417E"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 1: Dark Angel"
+			x: 12.9d
+			y: 54.49d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "5D3AEDF69A500859"
+			tasks: [{
+				consume_items: false
+				id: "4521BE1798B84A8C"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/void_worm_pickaxe_left"
+						"double/head_right": "double/void_worm_pickaxe_right"
+						"double/void_worm_pickaxe_left_material": "void_worm_pickaxe/void_worm_pickaxe"
+						"double/void_worm_pickaxe_right_material": "void_worm_pickaxe/void_worm_pickaxe"
+						id: "bd150bb3-85d4-4c0b-b0a3-a452e77a148d"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Void Forge"
+			x: 6.29d
+			y: 65.05d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "5036B180795F4A6C"
+			tasks: [{
+				consume_items: false
+				id: "10D3E3EDA1090384"
+				item: "cataclysm:witherite_block"
+				type: "item"
+			}]
+			title: "Gather Witherite Block"
+			x: 5.87d
+			y: 63.61d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "306D07F3DEB6A089"
+			tasks: [{
+				consume_items: false
+				id: "16DC9C8B890E4802"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "cf33de76-354b-4852-8bca-45ba68c26b15"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/katana_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/katana_blade_material": "katana_blade/iceandfire_lightning_dragonsteel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Dragonsteel Lightning Sword"
+			x: 5.45d
+			y: 62.17d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "239246A9302C4EFD"
+			tasks: [{
+				consume_items: false
+				id: "46B02C4E1892912E"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Gather Tremorzilla Egg"
+			x: 5.03d
+			y: 60.73d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "206B7ED2968F0E0B"
+			tasks: [{
+				consume_items: false
+				id: "2F75CA2F327149FC"
+				item: "irons_spellbooks:wayward_compass"
+				type: "item"
+			}]
+			title: "Gather Wayward Compass"
+			x: 4.61d
+			y: 59.29d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "2B55647E95F06415"
+			tasks: [{
+				consume_items: false
+				id: "61606F966E814A33"
+				item: "goety:nether_staff"
+				type: "item"
+			}]
+			title: "Gather Nether Meteor Scroll"
+			x: 4.19d
+			y: 57.85d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "640A5446192F2277"
+			tasks: [{
+				consume_items: false
+				id: "56DCA23E4EF14FCB"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Earth Talisman"
+			x: 3.78d
+			y: 56.41d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "19824B8B4A374B9E"
+			tasks: [{
+				consume_items: false
+				id: "1404F25EFA654D8B"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Gather Dragon Egg"
+			x: 3.36d
+			y: 54.97d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "7C9DEB5EEC0B3860"
+			tasks: [{
+				consume_items: false
+				id: "177282E23F3A0524"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Gather End Crystal"
+			x: 2.94d
+			y: 53.53d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "1E4F5721FD544452"
+			tasks: [{
+				consume_items: false
+				id: "69B3F24648B94D18"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "Gather Crying Obsidian"
+			x: 2.52d
+			y: 52.09d
+		}
+		{
+			dependencies: ["23F0407F98174210"]
+			id: "21BAC95965B54E41"
+			tasks: [{
+				consume_items: false
+				id: "7A48BD38796E484D"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Gather Conduit"
+			x: 2.1d
+			y: 50.65d
+		}
+		{
+			dependencies: [
+				"5036B180795F4A6C"
+				"239246A9302C4EFD"
+				"19824B8B4A374B9E"
+				"1E4F5721FD544452"
+				"21BAC95965B54E41"
+			]
+			id: "1EDC3198EFE5496B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_hanged_man_1"
+					id: "419DF9A52DDF17CC"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "49446902EAA241C1"
+					item: "fiomcraft_engine:potion_hanged_man_0"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4CA618D8863BC701"
+				item: "fiomcraft_engine:potion_hanged_man_0"
+				type: "item"
+			}]
+			title: "Craft Potion of Hanged Man Ascension"
+			x: -5.25d
+			y: 59.77d
+		}
+		{
+			dependencies: ["1EDC3198EFE5496B"]
+			id: "12BC744DA5C44D6A"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "093D8977A0BE4C1E"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 0: Hanged Man"
+			x: -15.2d
+			y: 60.11d
+		}
+		{
+			icon: "fiomcraft_engine:visionary_core_0"
+			id: "46DA4D6246A25B70"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "4C0CF1B93297A4C8"
+				item: "fiomcraft_engine:blank_core"
+				type: "item"
+			}]
+			title: "Pathway of the Visionary"
+			x: -0.31d
+			y: -1.98d
+		}
+		{
+			id: "3E33AED71F69A6EC"
+			tasks: [{
+				consume_items: false
+				id: "09A6F9F1984245D4"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			title: "Gather Spyglass"
+			x: -0.69d
+			y: -4.23d
+		}
+		{
+			id: "1AD4DED2B77C448E"
+			tasks: [{
+				consume_items: false
+				id: "480BC186C0C343ED"
+				item: "alexsmobs:farseer_arm"
+				type: "item"
+			}]
+			title: "Gather Farseer Arm"
+			x: 0.74d
+			y: -3.77d
+		}
+		{
+			dependencies: ["1AD4DED2B77C448E"]
+			id: "05D99FAF0D0845BC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_unawakened"
+					id: "67041776A80440F5"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "34EEB34DB2AD40BD"
+					item: "fiomcraft_engine:potion_visionary_9"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "2D41534ED095B621"
+				item: "fiomcraft_engine:potion_visionary_9"
+				type: "item"
+			}]
+			title: "Craft Potion of Spectator Ascension"
+			x: 0.99d
+			y: -5.92d
+		}
+		{
+			dependencies: ["05D99FAF0D0845BC"]
+			id: "077022C75CFB95C0"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "5733628687FCBD63"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 9: Spectator"
+			x: 2.56d
+			y: -7.58d
+		}
+		{
+			id: "5AB77A3931DC405B"
+			tasks: [{
+				consume_items: false
+				id: "0BC2E74773DF4473"
+				item: "alexsmobs:cosmic_cod"
+				type: "item"
+			}]
+			title: "Gather Cosmic Cod"
+			x: 4.08d
+			y: -10.22d
+		}
+		{
+			id: "0C42F374E11CC7B2"
+			tasks: [{
+				consume_items: false
+				id: "7670C17ABEB74EBD"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "Gather Arcane Essence"
+			x: 4.67d
+			y: -8.84d
+		}
+		{
+			id: "6B303E3397584045"
+			tasks: [{
+				consume_items: false
+				id: "31B4329423600BAA"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Gather Ender Pearl"
+			x: 5.26d
+			y: -7.46d
+		}
+		{
+			dependencies: [
+				"5AB77A3931DC405B"
+				"6B303E3397584045"
+			]
+			id: "4EEE458AF10D4D03"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_9"
+					id: "6BAF68495CD24A4C"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "13FEE2ED11344CC6"
+					item: "fiomcraft_engine:potion_visionary_8"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "57A7A2CCEDE8571E"
+				item: "fiomcraft_engine:potion_visionary_8"
+				type: "item"
+			}]
+			title: "Craft Potion of Telepathist Ascension"
+			x: 7.22d
+			y: -9.58d
+		}
+		{
+			dependencies: ["4EEE458AF10D4D03"]
+			id: "49BE85826429AE9F"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "6A1447376A1E290D"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 8: Telepathist"
+			x: 10.1d
+			y: -9.7d
+		}
+		{
+			id: "25B47359B9BE3964"
+			tasks: [{
+				consume_items: false
+				id: "3C664778E79D494D"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Evocation Upgrade Orb"
+			x: 13.84d
+			y: -11.24d
+		}
+		{
+			id: "5E2394B234CB4534"
+			tasks: [{
+				consume_items: false
+				id: "59B3D7CDDF5F00D8"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			title: "Gather Magic Scroll"
+			x: 13.39d
+			y: -9.81d
+		}
+		{
+			id: "1BE1E5E5D68A48D9"
+			tasks: [{
+				consume_items: false
+				id: "5B30B6F344464DFC"
+				item: "alexscaves:telecore"
+				type: "item"
+			}]
+			title: "Gather Telecore"
+			x: 12.93d
+			y: -8.38d
+		}
+		{
+			id: "57C36CF76FB25738"
+			tasks: [{
+				consume_items: false
+				id: "5A7D557938C74599"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "Gather Golden Apple"
+			x: 12.48d
+			y: -6.95d
+		}
+		{
+			dependencies: [
+				"5E2394B234CB4534"
+				"1BE1E5E5D68A48D9"
+			]
+			id: "45D4E2847CA34E84"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_8"
+					id: "39BEFB9E6AF64B7F"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "74F727B46C384C20"
+					item: "fiomcraft_engine:potion_visionary_7"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "59C70F3FDDE24F4C"
+				item: "fiomcraft_engine:potion_visionary_7"
+				type: "item"
+			}]
+			title: "Craft Potion of Psychiatrist Ascension"
+			x: 16.25d
+			y: -7.75d
+		}
+		{
+			dependencies: ["45D4E2847CA34E84"]
+			id: "1FC10912A2AEFD63"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "4A4869A57F8412C0"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 7: Psychiatrist"
+			x: 19.19d
+			y: -5.62d
+		}
+		{
+			id: "22A3A9492CF54CC0"
+			tasks: [{
+				consume_items: false
+				id: "0416FE83C6FD42F3"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Lightning Upgrade Orb"
+			x: 24.24d
+			y: -4.53d
+		}
+		{
+			id: "539B42E2C8E644E9"
+			tasks: [{
+				consume_items: false
+				id: "5502C8545BE92E1A"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			title: "Gather Villager Hat"
+			x: 23.03d
+			y: -3.64d
+		}
+		{
+			id: "1C0CDC8F2483826E"
+			tasks: [{
+				consume_items: false
+				id: "526D81D9A805FBAD"
+				item: "alexsmobs:mimic_octopus_bucket"
+				type: "item"
+			}]
+			title: "Gather Mimic Octopus Bucket"
+			x: 21.83d
+			y: -2.74d
+		}
+		{
+			id: "52C3FC357C1D4CB1"
+			tasks: [{
+				consume_items: false
+				id: "1E6699733CD84216"
+				item: "iceandfire:stymphalian_bird_feather"
+				type: "item"
+			}]
+			title: "Gather Stymphalian Bird Feather"
+			x: 20.62d
+			y: -1.85d
+		}
+		{
+			id: "4B9A4E7C18A3BAC1"
+			tasks: [{
+				consume_items: false
+				id: "478CE22A9B0A1F75"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "Gather Ghast Tear"
+			x: 19.42d
+			y: -0.96d
+		}
+		{
+			dependencies: [
+				"22A3A9492CF54CC0"
+				"539B42E2C8E644E9"
+				"52C3FC357C1D4CB1"
+			]
+			id: "61401CF0A2074FBD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_7"
+					id: "2AFAF0D57CE94022"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "66FA7C9DFE88923D"
+					item: "fiomcraft_engine:potion_visionary_6"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "6EF2C3729984431F"
+				item: "fiomcraft_engine:potion_visionary_6"
+				type: "item"
+			}]
+			title: "Craft Potion of Hypnotist Ascension"
+			x: 23.99d
+			y: 0.84d
+		}
+		{
+			dependencies: ["61401CF0A2074FBD"]
+			id: "46BE60083EEDAD1F"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "23734844CCF6D7B1"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 6: Hypnotist"
+			x: 25.51d
+			y: 5.04d
+		}
+		{
+			id: "1DB51633FE1953CD"
+			tasks: [{
+				consume_items: false
+				id: "0BBE0621DA084E29"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "Gather Enderite Ingot"
+			x: 30.0d
+			y: 9.5d
+		}
+		{
+			id: "6B3EC11C4BDE3D54"
+			tasks: [{
+				consume_items: false
+				id: "14926F74EAE343D6"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Ender Upgrade Orb"
+			x: 28.5d
+			y: 9.6d
+		}
+		{
+			id: "60F039D199AC44B5"
+			tasks: [{
+				consume_items: false
+				id: "6A18BEBAC3820755"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			title: "Gather Pure Darkness"
+			x: 27.0d
+			y: 9.69d
+		}
+		{
+			id: "586A0BC064FE4159"
+			tasks: [{
+				consume_items: false
+				id: "032DF88ECA8C451B"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Scroll"
+			x: 25.51d
+			y: 9.78d
+		}
+		{
+			id: "0FAD12D30E584127"
+			tasks: [{
+				consume_items: false
+				id: "1F81A06403A44438"
+				item: "born_in_chaos_v1:spiritual_dust"
+				type: "item"
+			}]
+			title: "Gather Frightful Dust"
+			x: 24.01d
+			y: 9.87d
+		}
+		{
+			id: "3007679BF3C340C0"
+			tasks: [{
+				consume_items: false
+				id: "5A06FD1B39874F8A"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			title: "Gather Phantom Membrane"
+			x: 22.51d
+			y: 9.96d
+		}
+		{
+			dependencies: [
+				"60F039D199AC44B5"
+				"586A0BC064FE4159"
+				"0FAD12D30E584127"
+				"3007679BF3C340C0"
+			]
+			id: "5FC2CE91F57C4225"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_6"
+					id: "1B6F60EAA5754550"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "1A360831B8E24C11"
+					item: "fiomcraft_engine:potion_visionary_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "05F2C65E5F514666"
+				item: "fiomcraft_engine:potion_visionary_5"
+				type: "item"
+			}]
+			title: "Craft Potion of Dreamwalker Ascension"
+			x: 26.11d
+			y: 14.78d
+		}
+		{
+			dependencies: ["5FC2CE91F57C4225"]
+			id: "1FB5BA19B031DD7E"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "5648253F7623C0FF"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 5: Dreamwalker"
+			x: 24.98d
+			y: 20.0d
+		}
+		{
+			id: "2A7002181F244A7B"
+			tasks: [{
+				consume_items: false
+				id: "036925209A6E938C"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			title: "Gather Void Core"
+			x: 26.8d
+			y: 27.31d
+		}
+		{
+			id: "6B70EBE6ED2B9E7C"
+			tasks: [{
+				consume_items: false
+				id: "1EB006DE07484895"
+				item: "iceandfire:lightning_dragon_blood"
+				type: "item"
+			}]
+			title: "Gather Lightning Dragon Blood"
+			x: 25.47d
+			y: 26.61d
+		}
+		{
+			id: "16596C448EB04E27"
+			tasks: [{
+				consume_items: false
+				id: "19C0BCEFB4A84095"
+				item: "alexscaves:moth_dust"
+				type: "item"
+			}]
+			title: "Gather Moth Dust"
+			x: 24.15d
+			y: 25.91d
+		}
+		{
+			id: "63DD5CFBE88EF7F2"
+			tasks: [{
+				consume_items: false
+				id: "76FB4630B7FD123D"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "Gather Blank Rune"
+			x: 22.82d
+			y: 25.21d
+		}
+		{
+			id: "340A1652E8DA4825"
+			tasks: [{
+				consume_items: false
+				id: "419E022305008230"
+				item: "goety:pine_wood"
+				type: "item"
+			}]
+			title: "Gather Skeleton Servant Scroll"
+			x: 21.49d
+			y: 24.51d
+		}
+		{
+			id: "4AFC659136CB4548"
+			tasks: [{
+				consume_items: false
+				id: "308DB21E8F2A495B"
+				item: "tetra:pristine_lapis"
+				type: "item"
+			}]
+			title: "Gather Pristine Lapis"
+			x: 20.17d
+			y: 23.81d
+		}
+		{
+			id: "68FD386C54FBA37D"
+			tasks: [{
+				consume_items: false
+				id: "4E041C54546D4731"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Gather Obsidian"
+			x: 18.84d
+			y: 23.11d
+		}
+		{
+			dependencies: [
+				"2A7002181F244A7B"
+				"16596C448EB04E27"
+				"340A1652E8DA4825"
+				"4AFC659136CB4548"
+			]
+			id: "45818F37B6CB6C10"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_5"
+					id: "1E3FF45FB6CE661E"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0FF154FC9097532E"
+					item: "fiomcraft_engine:potion_visionary_4"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4D95FD2E9CF3861C"
+				item: "fiomcraft_engine:potion_visionary_4"
+				type: "item"
+			}]
+			title: "Craft Potion of Manipulator Ascension"
+			x: 19.6d
+			y: 30.2d
+		}
+		{
+			id: "56BF2D27185749B5"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "176AAE5CB0BE479B"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 4: Manipulator"
+			x: 15.35d
+			y: 34.76d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "1E50AD438A124E47"
+			tasks: [{
+				consume_items: false
+				id: "0091188F62C821A9"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Gather Scroll Forge"
+			x: 12.89d
+			y: 43.16d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "3B1008CC81EB4331"
+			tasks: [{
+				consume_items: false
+				id: "220F985E88E84648"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Gather Witherite Ingot"
+			x: 12.1d
+			y: 41.88d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "46BDDC9FD9549660"
+			tasks: [{
+				consume_items: false
+				id: "4C99BD0199484B5C"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			title: "Gather Dread Shard"
+			x: 11.31d
+			y: 40.61d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "74AA06083E51F3DC"
+			tasks: [{
+				consume_items: false
+				id: "137DC388E09CDB89"
+				item: "alexscaves:uranium"
+				type: "item"
+			}]
+			title: "Gather Uranium"
+			x: 10.51d
+			y: 39.34d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "5D9521445B204FE4"
+			tasks: [{
+				consume_items: false
+				id: "5AEA56F9FAEA6E44"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Gather Unholy Blood"
+			x: 9.72d
+			y: 38.06d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "721A2991F541C8C8"
+			tasks: [{
+				consume_items: false
+				id: "7E4E8218853D3E11"
+				item: "tetra:pristine_diamond"
+				type: "item"
+			}]
+			title: "Gather Pristine Diamond"
+			x: 8.93d
+			y: 36.79d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "6397354D65D0C030"
+			tasks: [{
+				id: "2CDCA55F843A8E26"
+				item: "alexscaves:tesla_bulb"
+				type: "item"
+			}]
+			title: "Gather Super Magnet"
+			x: 8.14d
+			y: 35.51d
+		}
+		{
+			dependencies: ["56BF2D27185749B5"]
+			id: "39FC088744F484C2"
+			tasks: [{
+				consume_items: false
+				id: "0B206AD54B63EB6A"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Gather Nether Star"
+			x: 7.35d
+			y: 34.24d
+		}
+		{
+			dependencies: [
+				"1E50AD438A124E47"
+				"5D9521445B204FE4"
+			]
+			id: "6204B360EA1F4623"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_4"
+					id: "527FD4EEED45A4AD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "45B39BF6875AA40F"
+					item: "fiomcraft_engine:potion_visionary_3"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "669C1B12319246FC"
+				item: "fiomcraft_engine:potion_visionary_3"
+				type: "item"
+			}]
+			title: "Craft Potion of Dream Weaver Ascension"
+			x: 4.02d
+			y: 41.81d
+		}
+		{
+			dependencies: ["6204B360EA1F4623"]
+			id: "41A0CD6EC095460B"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "33E6144D150D4725"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 3: Dream Weaver"
+			x: -2.82d
+			y: 43.91d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "151EEE02CC386F7C"
+			tasks: [{
+				consume_items: false
+				id: "73A6FC4F072C4E19"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "Gather Wither Assault Shoulder Weapon"
+			x: -10.0d
+			y: 50.84d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "7328BBEEA93F4179"
+			tasks: [{
+				consume_items: false
+				id: "129770195D3EFD19"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			title: "Gather Dragon Bone"
+			x: -10.05d
+			y: 49.34d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "4534F9B0F3AFD282"
+			tasks: [{
+				consume_items: false
+				id: "326E69FF82FB4E64"
+				item: "alexscaves:volcanic_core"
+				type: "item"
+			}]
+			title: "Gather Volcanic Core"
+			x: -10.11d
+			y: 47.85d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "7EEC34905AEA4EC2"
+			tasks: [{
+				consume_items: false
+				id: "55F802563BA846AC"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Gather Divine Amulet"
+			x: -10.17d
+			y: 46.35d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "67F0B3BC2CCF47DC"
+			tasks: [{
+				consume_items: false
+				id: "724A42E7170B4A2B"
+				item: "goety:howling_soul"
+				type: "item"
+			}]
+			title: "Gather Lich Skull"
+			x: -10.23d
+			y: 44.85d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "3C05265345EA4C05"
+			tasks: [{
+				consume_items: false
+				id: "09A89A3D83BE48CC"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "Gather Frozen Emerald"
+			x: -10.29d
+			y: 43.35d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "52568D56EAC44C11"
+			tasks: [{
+				consume_items: false
+				id: "163042D95A2A9086"
+				item: "mowziesmobs:naga_fang"
+				type: "item"
+			}]
+			title: "Gather Storm Amulet"
+			x: -10.35d
+			y: 41.85d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "5145ECFC432E9626"
+			tasks: [{
+				consume_items: false
+				id: "44C06E7ACE5B4490"
+				item: "tetra:pristine_emerald"
+				type: "item"
+			}]
+			title: "Gather Pristine Emerald"
+			x: -10.4d
+			y: 40.35d
+		}
+		{
+			dependencies: ["41A0CD6EC095460B"]
+			id: "6B6D794A9C9BC8D1"
+			tasks: [{
+				consume_items: false
+				id: "10589C94A59D460D"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Gather Totem Of Undying"
+			x: -10.46d
+			y: 38.85d
+		}
+		{
+			dependencies: [
+				"7328BBEEA93F4179"
+				"7EEC34905AEA4EC2"
+				"67F0B3BC2CCF47DC"
+				"3C05265345EA4C05"
+				"52568D56EAC44C11"
+			]
+			id: "6FC8FCC36EFF6CAE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_3"
+					id: "58779C41E6066F4D"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "38DEE20CFFBF477B"
+					item: "fiomcraft_engine:potion_visionary_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "20577C699FA3FBE8"
+				item: "fiomcraft_engine:potion_visionary_2"
+				type: "item"
+			}]
+			title: "Craft Potion of Discerner Ascension"
+			x: -17.99d
+			y: 44.5d
+		}
+		{
+			id: "4C1D3B73C3AD4DB5"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "280E85BCF3286B2F"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 2: Discerner"
+			x: -25.89d
+			y: 42.78d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "37BCA268E9A04F4C"
+			tasks: [{
+				consume_items: false
+				id: "19BD442A582E4FF1"
+				item: {
+					Count: 1
+					id: "tetra:modular_greatsword"
+					tag: {
+						Damage: 0
+						"greatsword/basic_hilt_material": "basic_hilt/stick"
+						"greatsword/blade": "tetra:greatsword/longsword_blade"
+						"greatsword/decorative_pommel_material": "decorative_pommel/iron"
+						"greatsword/guard": "greatsword/makeshift_guard"
+						"greatsword/hilt": "greatsword/basic_hilt"
+						"greatsword/makeshift_guard_material": "makeshift_guard/iron"
+						"greatsword/pommel": "greatsword/decorative_pommel"
+						id: "754fdf24-d157-49d1-bc59-447e76f16187"
+						"tetra:greatsword/longsword_blade_material": "longsword_blade/ignitium_ingot"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather The Incinerator"
+			x: -36.73d
+			y: 45.65d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "60AEF5416B245CD3"
+			tasks: [{
+				consume_items: false
+				id: "541AF0F2FF3B45F9"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "Gather Abyssal Egg"
+			x: -36.05d
+			y: 44.31d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "6B4B0B19ACE8841E"
+			tasks: [{
+				consume_items: false
+				id: "61A9A089C2434E49"
+				item: "iceandfire:dragon_skull_fire"
+				type: "item"
+			}]
+			title: "Gather Dragon Skull"
+			x: -35.37d
+			y: 42.97d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "079CCCDA573241AE"
+			tasks: [{
+				consume_items: false
+				id: "10C892693872965A"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			title: "Gather Fissure Core"
+			x: -34.69d
+			y: 41.63d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "105DD3FC6504E2DA"
+			tasks: [{
+				consume_items: false
+				id: "41D45AD618FF298C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Tarnished Helmet"
+			x: -34.01d
+			y: 40.3d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "559297BDF766485F"
+			tasks: [{
+				consume_items: false
+				id: "269E8677144C24E9"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Wand"
+			x: -33.33d
+			y: 38.96d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "10F68170A2BCA215"
+			tasks: [{
+				consume_items: false
+				id: "05FF3DCCB0AE48AC"
+				item: {
+					Count: 1
+					id: "tetra:pristine_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Pristine Netherite"
+			x: -32.65d
+			y: 37.62d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "337B8F8D2CBEE18A"
+			tasks: [{
+				consume_items: false
+				id: "22ADBB381D9C488C"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "Gather Recovery Compass"
+			x: -31.97d
+			y: 36.29d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "1CFA2C081B105508"
+			tasks: [{
+				consume_items: false
+				id: "4BBFEB46A605E6DA"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Gather Dragon Breath"
+			x: -31.29d
+			y: 34.95d
+		}
+		{
+			dependencies: ["4C1D3B73C3AD4DB5"]
+			id: "73166AD3251D4268"
+			tasks: [{
+				consume_items: false
+				id: "0F75E61514984787"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Gather Beacon"
+			x: -30.61d
+			y: 33.61d
+		}
+		{
+			dependencies: [
+				"37BCA268E9A04F4C"
+				"079CCCDA573241AE"
+				"559297BDF766485F"
+				"73166AD3251D4268"
+			]
+			id: "6BE6CDB87E6D4923"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_2"
+					id: "63EB431D352D4A71"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "37A6C7E4259858DB"
+					item: "fiomcraft_engine:potion_visionary_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "6FA995F1AA3E41EB"
+				item: "fiomcraft_engine:potion_visionary_1"
+				type: "item"
+			}]
+			title: "Craft Potion of Author Ascension"
+			x: -41.07d
+			y: 35.06d
+		}
+		{
+			dependencies: ["6BE6CDB87E6D4923"]
+			id: "5C117594C1BCCD06"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "41D9A0BFDDBB437E"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 1: Author"
+			x: -47.84d
+			y: 29.11d
+		}
+		{
+			id: "21C50706021B0CA6"
+			tasks: [{
+				consume_items: false
+				id: "7276B54B4EB2DB71"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/void_worm_pickaxe_left"
+						"double/head_right": "double/void_worm_pickaxe_right"
+						"double/void_worm_pickaxe_left_material": "void_worm_pickaxe/void_worm_pickaxe"
+						"double/void_worm_pickaxe_right_material": "void_worm_pickaxe/void_worm_pickaxe"
+						id: "8f80fc98-c819-4fe7-9316-7253f77c2741"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Void Forge"
+			x: -59.92d
+			y: 26.08d
+		}
+		{
+			id: "2D932E6336724AF4"
+			tasks: [{
+				consume_items: false
+				id: "075843085815D58C"
+				item: "cataclysm:enderite_block"
+				type: "item"
+			}]
+			title: "Gather Enderite Block"
+			x: -58.68d
+			y: 25.24d
+		}
+		{
+			id: "0319975B803148A8"
+			tasks: [{
+				consume_items: false
+				id: "74EDE97757794C72"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "ca4984e1-bef4-4123-b114-6ecff3c29f63"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/katana_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/katana_blade_material": "katana_blade/iceandfire_lightning_dragonsteel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Dragonsteel Lightning Sword"
+			x: -57.44d
+			y: 24.4d
+		}
+		{
+			id: "36F2462A281075D5"
+			tasks: [{
+				consume_items: false
+				id: "2BC45860087CDD96"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Gather Tremorzilla Egg"
+			x: -56.2d
+			y: 23.55d
+		}
+		{
+			id: "7190FBC4AE7C25C3"
+			tasks: [{
+				consume_items: false
+				id: "0980755DBA2B116F"
+				item: "irons_spellbooks:wayward_compass"
+				type: "item"
+			}]
+			title: "Gather Wayward Compass"
+			x: -54.96d
+			y: 22.71d
+		}
+		{
+			id: "7D0F4CAB59E9169C"
+			tasks: [{
+				consume_items: false
+				id: "7542A5663F87476F"
+				item: "goety:nether_staff"
+				type: "item"
+			}]
+			title: "Gather Nether Meteor Scroll"
+			x: -53.72d
+			y: 21.87d
+		}
+		{
+			id: "06FDE6482D774F3A"
+			tasks: [{
+				consume_items: false
+				id: "366D7697181246F6"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Earth Talisman"
+			x: -52.48d
+			y: 21.02d
+		}
+		{
+			id: "25326BBCFA304613"
+			tasks: [{
+				consume_items: false
+				id: "7A6AFFD3733F4A7E"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Gather Dragon Egg"
+			x: -51.24d
+			y: 20.18d
+		}
+		{
+			id: "58B1A604C894CE56"
+			tasks: [{
+				consume_items: false
+				id: "482951CD09004A25"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Gather End Crystal"
+			x: -50.0d
+			y: 19.34d
+		}
+		{
+			id: "0EDBC73F603CBE3F"
+			tasks: [{
+				consume_items: false
+				id: "5E488651496256C0"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			title: "Gather Enchanted Golden Apple"
+			x: -48.76d
+			y: 18.49d
+		}
+		{
+			id: "3397D46ECE5A557D"
+			tasks: [{
+				consume_items: false
+				id: "67EFEEB9319871CA"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Gather Conduit"
+			x: -47.52d
+			y: 17.65d
+		}
+		{
+			dependencies: [
+				"2D932E6336724AF4"
+				"0319975B803148A8"
+				"06FDE6482D774F3A"
+				"25326BBCFA304613"
+			]
+			id: "1AADA96606D63C47"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_visionary_1"
+					id: "25148C390C54D919"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "48AD9C4D91EB4937"
+					item: "fiomcraft_engine:potion_visionary_0"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "6067519755944C13"
+				item: "fiomcraft_engine:potion_visionary_0"
+				type: "item"
+			}]
+			title: "Craft Potion of Visionary Ascension"
+			x: -58.47d
+			y: 13.48d
+		}
+		{
+			id: "54247450437679E6"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "588FFF1541EA4387"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 0: Visionary"
+			x: -61.86d
+			y: 4.12d
+		}
+		{
+			icon: "fiomcraft_engine:white_tower_core_0"
+			id: "521A046A3647CFA9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "7E941683556B4102"
+				item: "fiomcraft_engine:blank_core"
+				type: "item"
+			}]
+			title: "Pathway of the White Tower"
+			x: 1.78d
+			y: -0.9d
+		}
+		{
+			id: "2C85B9FD873749F2"
+			tasks: [{
+				consume_items: false
+				id: "31F35B89D6C647F5"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "Gather Book"
+			x: 3.81d
+			y: -1.96d
+		}
+		{
+			id: "7AA8FA7062744BEC"
+			tasks: [{
+				consume_items: false
+				id: "3892ED738E0187D6"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "Gather Source Gem"
+			x: 3.81d
+			y: -0.46d
+		}
+		{
+			dependencies: [
+				"2C85B9FD873749F2"
+				"7AA8FA7062744BEC"
+			]
+			id: "064946BE48394228"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_unawakened"
+					id: "32C131851B7A4D6D"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0EBAB46EB4E6422E"
+					item: "fiomcraft_engine:potion_white_tower_9"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "593D4A5EAE55498B"
+				item: "fiomcraft_engine:potion_white_tower_9"
+				type: "item"
+			}]
+			title: "Craft Potion of Reader Ascension"
+			x: 5.93d
+			y: -0.89d
+		}
+		{
+			dependencies: ["064946BE48394228"]
+			id: "1391D3E7CA754550"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "75989BD51C9C779B"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 9: Reader"
+			x: 8.0d
+			y: 0.09d
+		}
+		{
+			dependencies: ["1391D3E7CA754550"]
+			id: "694AE8A315284556"
+			tasks: [{
+				consume_items: false
+				id: "7F4DEB8A7BEC515A"
+				item: "irons_spellbooks:scroll"
+				type: "item"
+			}]
+			title: "Gather Scroll"
+			x: 10.98d
+			y: 0.72d
+		}
+		{
+			dependencies: ["1391D3E7CA754550"]
+			id: "7256659312C14454"
+			tasks: [{
+				consume_items: false
+				id: "7D57A6F7E2375EE0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			title: "Gather Experience Nugget"
+			x: 9.85d
+			y: 1.71d
+		}
+		{
+			dependencies: ["1391D3E7CA754550"]
+			id: "60294F3DB83CAE62"
+			tasks: [{
+				consume_items: false
+				id: "659F307968B84447"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			title: "Gather Bookshelf"
+			x: 8.73d
+			y: 2.7d
+		}
+		{
+			dependencies: [
+				"694AE8A315284556"
+				"7256659312C14454"
+			]
+			id: "29B0C94CAA88425E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_9"
+					id: "50618EDC2BC71EBD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "23BCCB786A6A4888"
+					item: "fiomcraft_engine:potion_white_tower_8"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "2E011566BC6DD14F"
+				item: "fiomcraft_engine:potion_white_tower_8"
+				type: "item"
+			}]
+			title: "Craft Potion of Student of Ratiocination Ascension"
+			x: 11.35d
+			y: 3.91d
+		}
+		{
+			dependencies: ["29B0C94CAA88425E"]
+			id: "6E2AED69F6634487"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "44B1C741AB574C80"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 8: Student of Ratiocination"
+			x: 12.34d
+			y: 6.61d
+		}
+		{
+			dependencies: ["6E2AED69F6634487"]
+			id: "479B0CBEA8E9DB71"
+			tasks: [{
+				consume_items: false
+				id: "64ACD3D5BC3E41F3"
+				item: "alexscaves:notor_gizmo"
+				type: "item"
+			}]
+			title: "Gather Notor Gizmo"
+			x: 14.97d
+			y: 9.69d
+		}
+		{
+			dependencies: ["6E2AED69F6634487"]
+			id: "0BEE952662BA0745"
+			tasks: [{
+				consume_items: false
+				id: "01876CCDDD4D978D"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Holy Upgrade Orb"
+			x: 13.47d
+			y: 9.7d
+		}
+		{
+			dependencies: ["6E2AED69F6634487"]
+			id: "404BB8C97F77450A"
+			tasks: [{
+				consume_items: false
+				id: "5D864A5A132D4C3B"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			title: "Gather Magic Scroll"
+			x: 11.97d
+			y: 9.71d
+		}
+		{
+			dependencies: ["6E2AED69F6634487"]
+			id: "05EDF2F19DD537CE"
+			tasks: [{
+				consume_items: false
+				id: "6A3C0C0888B0A9F1"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			title: "Gather Spyglass"
+			x: 10.47d
+			y: 9.72d
+		}
+		{
+			dependencies: ["404BB8C97F77450A"]
+			id: "19943C9BFB05674A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_8"
+					id: "2831CA66877648B9"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "723CE771C6AF19A6"
+					item: "fiomcraft_engine:potion_white_tower_7"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "1A790E1E0521489D"
+				item: "fiomcraft_engine:potion_white_tower_7"
+				type: "item"
+			}]
+			title: "Craft Potion of Detective Ascension"
+			x: 12.39d
+			y: 13.06d
+		}
+		{
+			id: "182FD6494052472D"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "3591C92AA80245C0"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 7: Detective"
+			x: 11.28d
+			y: 16.52d
+		}
+		{
+			dependencies: ["182FD6494052472D"]
+			id: "5AD4261364194AD7"
+			tasks: [{
+				consume_items: false
+				id: "06257973185E48B0"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Gather Precision Mechanism"
+			x: 11.8d
+			y: 21.65d
+		}
+		{
+			dependencies: ["182FD6494052472D"]
+			id: "206303069D5445EF"
+			tasks: [{
+				consume_items: false
+				id: "00A662B67FA34AA3"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "Gather Source Jar"
+			x: 10.58d
+			y: 20.78d
+		}
+		{
+			dependencies: ["182FD6494052472D"]
+			id: "5F2E23434E14A7F0"
+			tasks: [{
+				consume_items: false
+				id: "3156B909FD6E4407"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			title: "Gather Evocation Upgrade Orb"
+			x: 9.35d
+			y: 19.91d
+		}
+		{
+			dependencies: ["182FD6494052472D"]
+			id: "478BBC4C20CB428E"
+			tasks: [{
+				consume_items: false
+				id: "455D6970C04EE4D8"
+				item: "alexscaves:magnetic_activator"
+				type: "item"
+			}]
+			title: "Gather Magnetic Core"
+			x: 8.13d
+			y: 19.04d
+		}
+		{
+			dependencies: ["182FD6494052472D"]
+			id: "5BA9783099158F35"
+			tasks: [{
+				consume_items: false
+				id: "033327F241088179"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Gather Enchanting Table"
+			x: 6.91d
+			y: 18.17d
+		}
+		{
+			dependencies: [
+				"5AD4261364194AD7"
+				"478BBC4C20CB428E"
+			]
+			id: "39C9EEB5538F3D6B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_7"
+					id: "792749C5AC4FA293"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4460296543BE4459"
+					item: "fiomcraft_engine:potion_white_tower_6"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "45E57FB5A7B33C00"
+				item: "fiomcraft_engine:potion_white_tower_6"
+				type: "item"
+			}]
+			title: "Craft Potion of Polymath Ascension"
+			x: 6.61d
+			y: 23.07d
+		}
+		{
+			id: "79994A21FF64482C"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2D2E4245840ED6BC"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 6: Polymath"
+			x: 3.09d
+			y: 25.82d
+		}
+		{
+			dependencies: ["79994A21FF64482C"]
+			id: "4D6168420F6E4B75"
+			tasks: [{
+				consume_items: false
+				id: "6351E0EA74D84FB8"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "Gather Ignitium Ingot"
+			x: 0.23d
+			y: 31.46d
+		}
+		{
+			dependencies: ["79994A21FF64482C"]
+			id: "7AE66049B9FEF6F2"
+			tasks: [{
+				consume_items: false
+				id: "2FAFE63D4007026C"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Gather Scroll Forge"
+			x: -0.32d
+			y: 30.07d
+		}
+		{
+			dependencies: ["79994A21FF64482C"]
+			id: "7533101383F0B3D0"
+			tasks: [{
+				consume_items: false
+				id: "0A4FFC4A44064FB8"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "Gather Holy Water"
+			x: -0.87d
+			y: 28.67d
+		}
+		{
+			dependencies: ["79994A21FF64482C"]
+			id: "3C9DA1F44317B499"
+			tasks: [{
+				consume_items: false
+				id: "461AFBCA297BB62E"
+				item: "iceandfire:silver_ingot"
+				type: "item"
+			}]
+			title: "Gather Silver Ingot"
+			x: -1.42d
+			y: 27.28d
+		}
+		{
+			dependencies: ["79994A21FF64482C"]
+			id: "7A18E1A502FD3C27"
+			tasks: [{
+				consume_items: false
+				id: "09E8EBF5A2F29EE8"
+				item: "alexscaves:telecore"
+				type: "item"
+			}]
+			title: "Gather Telecore"
+			x: -1.97d
+			y: 25.88d
+		}
+		{
+			dependencies: ["79994A21FF64482C"]
+			id: "6CEC030C788C8451"
+			tasks: [{
+				consume_items: false
+				id: "7E75F9016D2580EA"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			title: "Gather Lapis Block"
+			x: -2.52d
+			y: 24.49d
+		}
+		{
+			dependencies: ["4D6168420F6E4B75"]
+			id: "015B19996EC64E19"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_6"
+					id: "3A13B6DBFDFD51CD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "2D6949CB725315D8"
+					item: "fiomcraft_engine:potion_white_tower_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "3AD3AF9D5AC7287B"
+				item: "fiomcraft_engine:potion_white_tower_5"
+				type: "item"
+			}]
+			title: "Craft Potion of Mysticism Magus Ascension"
+			x: -5.99d
+			y: 29.4d
+		}
+		{
+			dependencies: ["015B19996EC64E19"]
+			id: "2EBFB7BA56494E2E"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "7442B1F93D4E4E66"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 5: Mysticism Magus"
+			x: -11.3d
+			y: 29.94d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "2D532389ECEF7CDD"
+			tasks: [{
+				consume_items: false
+				id: "17B99E48F1884E12"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Gather Witherite Ingot"
+			x: -17.69d
+			y: 33.92d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "1A73149F4DBAC038"
+			tasks: [{
+				consume_items: false
+				id: "429892E8FE2A9C05"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "Gather Blank Rune"
+			x: -17.43d
+			y: 32.45d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "410F1DBC328E443B"
+			tasks: [{
+				consume_items: false
+				id: "4BED5DA9690A41B7"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "Gather Archmage Spell Book"
+			x: -17.18d
+			y: 30.97d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "7F3B938F0B4544DD"
+			tasks: [{
+				consume_items: false
+				id: "7299F67D794742A5"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			title: "Gather Heavy Bone"
+			x: -16.92d
+			y: 29.49d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "10239D51A8904B67"
+			tasks: [{
+				consume_items: false
+				id: "6D2C1F284791A1E9"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Scroll"
+			x: -16.66d
+			y: 28.01d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "745BFA5C3EA14B2A"
+			tasks: [{
+				consume_items: false
+				id: "61E55D37B2BF753B"
+				item: "tetra:pristine_lapis"
+				type: "item"
+			}]
+			title: "Gather Pristine Lapis"
+			x: -16.41d
+			y: 26.53d
+		}
+		{
+			dependencies: ["2EBFB7BA56494E2E"]
+			id: "2DAB2DD92824490A"
+			tasks: [{
+				consume_items: false
+				id: "5D2F2CA393BD5B03"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Gather Obsidian"
+			x: -16.15d
+			y: 25.06d
+		}
+		{
+			dependencies: [
+				"410F1DBC328E443B"
+				"7F3B938F0B4544DD"
+				"10239D51A8904B67"
+				"745BFA5C3EA14B2A"
+				"2DAB2DD92824490A"
+			]
+			id: "46403A6CD7BC300D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_5"
+					id: "2C50EBD1364C5903"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4E7F95FCDABB49AB"
+					item: "fiomcraft_engine:potion_white_tower_4"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "522B833279FE6B5F"
+				item: "fiomcraft_engine:potion_white_tower_4"
+				type: "item"
+			}]
+			title: "Craft Potion of Mysticologist Ascension"
+			x: -22.66d
+			y: 27.97d
+		}
+		{
+			id: "067DAFEB11F24C68"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "4CC7FED545F24A2A"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 4: Mysticologist"
+			x: -28.32d
+			y: 25.34d
+		}
+		{
+			id: "10CD4D5F54C84CDF"
+			tasks: [{
+				consume_items: false
+				id: "116093CF3FD4EBE8"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			title: "Gather Void Core"
+			x: -37.06d
+			y: 25.6d
+		}
+		{
+			id: "725FD849DB2AF923"
+			tasks: [{
+				consume_items: false
+				id: "1D98BC1069E60BE1"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			title: "Gather Dragon Bone"
+			x: -36.1d
+			y: 24.45d
+		}
+		{
+			id: "1347B7671FD3CBDC"
+			tasks: [{
+				consume_items: false
+				id: "7089D3B9EA69B4CD"
+				item: "alexscaves:uranium"
+				type: "item"
+			}]
+			title: "Gather Uranium"
+			x: -35.13d
+			y: 23.3d
+		}
+		{
+			id: "3E4CB3DBFA3B42A7"
+			tasks: [{
+				consume_items: false
+				id: "5691C0A8A93B41B7"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "Gather Holy Rune"
+			x: -34.16d
+			y: 22.16d
+		}
+		{
+			id: "0A11AAD2BFFE4938"
+			tasks: [{
+				consume_items: false
+				id: "2FD5ECDD666418BE"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "Gather Unholy Blood"
+			x: -33.19d
+			y: 21.01d
+		}
+		{
+			id: "7A8304377D6D4B9E"
+			tasks: [{
+				consume_items: false
+				id: "19392514E2534C9E"
+				item: "tetra:pristine_diamond"
+				type: "item"
+			}]
+			title: "Gather Pristine Diamond"
+			x: -32.23d
+			y: 19.86d
+		}
+		{
+			id: "6F03A302B8CBA750"
+			tasks: [{
+				id: "326064DE2B39F654"
+				item: "alexscaves:tesla_bulb"
+				type: "item"
+			}]
+			title: "Gather Super Magnet"
+			x: -31.26d
+			y: 18.72d
+		}
+		{
+			id: "606E14E5F99D2B10"
+			tasks: [{
+				consume_items: false
+				id: "13B6AF27EBA14B7B"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Gather Nether Star"
+			x: -30.29d
+			y: 17.57d
+		}
+		{
+			dependencies: [
+				"10CD4D5F54C84CDF"
+				"3E4CB3DBFA3B42A7"
+				"0A11AAD2BFFE4938"
+				"7A8304377D6D4B9E"
+			]
+			id: "3B0AD5123CFF4AFE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_4"
+					id: "20B7069CF77BECBB"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "702216EB11A5BD40"
+					item: "fiomcraft_engine:potion_white_tower_3"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "1EA42F1393C612C7"
+				item: "fiomcraft_engine:potion_white_tower_3"
+				type: "item"
+			}]
+			title: "Craft Potion of Cognizer Ascension"
+			x: -38.52d
+			y: 16.74d
+		}
+		{
+			dependencies: ["3B0AD5123CFF4AFE"]
+			id: "2C44726B66468E5F"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "3429B79C3E244976"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 3: Cognizer"
+			x: -42.63d
+			y: 10.88d
+		}
+		{
+			id: "2A7F7069EEC43917"
+			tasks: [{
+				consume_items: false
+				id: "50B2A9A0AE4D44AD"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "Gather Wither Assault Shoulder Weapon"
+			x: -51.44d
+			y: 6.21d
+		}
+		{
+			id: "4B250345197C2E7B"
+			tasks: [{
+				consume_items: false
+				id: "2D0C0807E60B48C5"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			title: "Gather Dread Shard"
+			x: -50.04d
+			y: 5.69d
+		}
+		{
+			id: "09080AE76B349A74"
+			tasks: [{
+				consume_items: false
+				id: "71E198DF83BF3D7F"
+				item: "alexscaves:volcanic_core"
+				type: "item"
+			}]
+			title: "Gather Volcanic Core"
+			x: -48.63d
+			y: 5.17d
+		}
+		{
+			id: "7CA0E99248C04D32"
+			tasks: [{
+				consume_items: false
+				id: "3447E835AB901698"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			title: "Gather Divine Amulet"
+			x: -47.22d
+			y: 4.65d
+		}
+		{
+			id: "1B92D256317FF593"
+			tasks: [{
+				consume_items: false
+				id: "35C29A13CFF04DFA"
+				item: "goety:howling_soul"
+				type: "item"
+			}]
+			title: "Gather Lich Skull"
+			x: -45.81d
+			y: 4.13d
+		}
+		{
+			id: "7A62D2F8A36E4D25"
+			tasks: [{
+				consume_items: false
+				id: "29FBAC9645544EF0"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			title: "Gather Frozen Emerald"
+			x: -44.41d
+			y: 3.61d
+		}
+		{
+			id: "00975118660B49FC"
+			tasks: [{
+				consume_items: false
+				id: "5F53194B469D457A"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			title: "Gather Wrought Helm"
+			x: -43.0d
+			y: 3.09d
+		}
+		{
+			id: "735D4A35D67634ED"
+			tasks: [{
+				consume_items: false
+				id: "4086FB694277461F"
+				item: "tetra:pristine_emerald"
+				type: "item"
+			}]
+			title: "Gather Pristine Emerald"
+			x: -41.59d
+			y: 2.57d
+		}
+		{
+			id: "44C5DEC2E5F15032"
+			tasks: [{
+				consume_items: false
+				id: "27D1606A976446C2"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Gather Totem Of Undying"
+			x: -40.18d
+			y: 2.06d
+		}
+		{
+			dependencies: [
+				"7CA0E99248C04D32"
+				"7A62D2F8A36E4D25"
+				"00975118660B49FC"
+			]
+			id: "75F90FFCED4DDC20"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_3"
+					id: "72EC32FF3C5A4CF0"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "59E8660535274373"
+					item: "fiomcraft_engine:potion_white_tower_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "05D95BEC8C7136D4"
+				item: "fiomcraft_engine:potion_white_tower_2"
+				type: "item"
+			}]
+			title: "Craft Potion of Wisdom Angel Ascension"
+			x: -47.88d
+			y: -3.36d
+		}
+		{
+			id: "66BA160BE20358E2"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "0A69F6A26D5F6A07"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 2: Wisdom Angel"
+			x: -48.68d
+			y: -11.4d
+		}
+		{
+			id: "3D1A8BA5F83F46B2"
+			tasks: [{
+				consume_items: false
+				id: "202B50066AA94245"
+				item: {
+					Count: 1
+					id: "tetra:modular_greatsword"
+					tag: {
+						Damage: 0
+						"greatsword/basic_hilt_material": "basic_hilt/stick"
+						"greatsword/blade": "tetra:greatsword/longsword_blade"
+						"greatsword/decorative_pommel_material": "decorative_pommel/iron"
+						"greatsword/guard": "greatsword/makeshift_guard"
+						"greatsword/hilt": "greatsword/basic_hilt"
+						"greatsword/makeshift_guard_material": "makeshift_guard/iron"
+						"greatsword/pommel": "greatsword/decorative_pommel"
+						id: "ceb394ea-afc0-4123-b747-29d5e0aff97a"
+						"tetra:greatsword/longsword_blade_material": "longsword_blade/ignitium_ingot"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather The Incinerator"
+			x: -54.76d
+			y: -20.82d
+		}
+		{
+			id: "045640AD506A2283"
+			tasks: [{
+				consume_items: false
+				id: "539910E51688A905"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "Gather Enderite Ingot"
+			x: -53.28d
+			y: -20.59d
+		}
+		{
+			id: "7C3C5406CC3735FD"
+			tasks: [{
+				consume_items: false
+				id: "53891D502DCB769C"
+				item: "iceandfire:dragon_skull_fire"
+				type: "item"
+			}]
+			title: "Gather Dragon Skull"
+			x: -51.8d
+			y: -20.36d
+		}
+		{
+			id: "66FE896EDF126209"
+			tasks: [{
+				consume_items: false
+				id: "044145958F52432E"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			title: "Gather Fissure Core"
+			x: -50.32d
+			y: -20.12d
+		}
+		{
+			id: "37CBACACF30F4DC7"
+			tasks: [{
+				consume_items: false
+				id: "5D882BBF663F4172"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Tarnished Helmet"
+			x: -48.83d
+			y: -19.89d
+		}
+		{
+			id: "58F15E3BD677425F"
+			tasks: [{
+				consume_items: false
+				id: "74D7E8D213004A2A"
+				item: "goety:dark_wand"
+				type: "item"
+			}]
+			title: "Gather Dark Wand"
+			x: -47.35d
+			y: -19.66d
+		}
+		{
+			id: "4836891D1DBB43AA"
+			tasks: [{
+				consume_items: false
+				id: "135699DE10E0492D"
+				item: {
+					Count: 1
+					id: "tetra:pristine_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Pristine Netherite"
+			x: -45.87d
+			y: -19.42d
+		}
+		{
+			id: "7D4B25B8BBE244E0"
+			tasks: [{
+				consume_items: false
+				id: "044A676902D74C0E"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "Gather Recovery Compass"
+			x: -44.39d
+			y: -19.19d
+		}
+		{
+			id: "1C662DBFBBF66A81"
+			tasks: [{
+				consume_items: false
+				id: "114D98703E56A7FD"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "Gather Dragon Breath"
+			x: -42.91d
+			y: -18.96d
+		}
+		{
+			id: "6F6D87B1C74C4895"
+			tasks: [{
+				consume_items: false
+				id: "63F0174C18704DD5"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Gather Beacon"
+			x: -41.43d
+			y: -18.72d
+		}
+		{
+			dependencies: [
+				"3D1A8BA5F83F46B2"
+				"37CBACACF30F4DC7"
+				"58F15E3BD677425F"
+				"4836891D1DBB43AA"
+				"7D4B25B8BBE244E0"
+				"6F6D87B1C74C4895"
+			]
+			id: "00D50203FEC2DEA3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_2"
+					id: "2EFE6E5CC84449E1"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "7ED358D13DF5614E"
+					item: "fiomcraft_engine:potion_white_tower_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "4C7B78D0FC5A59E8"
+				item: "fiomcraft_engine:potion_white_tower_1"
+				type: "item"
+			}]
+			title: "Craft Potion of Omniscient Eye Ascension"
+			x: -46.03d
+			y: -28.23d
+		}
+		{
+			id: "5EB5E9C4B41E7492"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "46319A94369C496E"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 1: Omniscient Eye"
+			x: -42.47d
+			y: -36.51d
+		}
+		{
+			id: "0DC24301FD382886"
+			tasks: [{
+				consume_items: false
+				id: "74031036D9415540"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/void_worm_pickaxe_left"
+						"double/head_right": "double/void_worm_pickaxe_right"
+						"double/void_worm_pickaxe_left_material": "void_worm_pickaxe/void_worm_pickaxe"
+						"double/void_worm_pickaxe_right_material": "void_worm_pickaxe/void_worm_pickaxe"
+						id: "803ee3f5-c003-4199-b8a9-0e9f1288723a"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Void Forge"
+			x: -43.32d
+			y: -48.93d
+		}
+		{
+			id: "522777CA44E747D5"
+			tasks: [{
+				consume_items: false
+				id: "75EED63FE39E4F5C"
+				item: "cataclysm:ignitium_block"
+				type: "item"
+			}]
+			title: "Gather Ignitium Block"
+			x: -42.14d
+			y: -48.01d
+		}
+		{
+			id: "1B45DF3611C6F42E"
+			tasks: [{
+				consume_items: false
+				id: "2B253CF45AAE470F"
+				item: {
+					Count: 1
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						id: "159ec4a8-e7d6-4f8f-a6df-ce5962df8969"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "tetra:sword/executioner_blade"
+						"sword/hilt": "sword/basic_hilt"
+						"tetra:sword/executioner_blade_material": "executioner_blade/iceandfire_fire_dragonsteel"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Dragonsteel Fire Sword"
+			x: -40.95d
+			y: -47.09d
+		}
+		{
+			id: "2C5D2450303F9F4A"
+			tasks: [{
+				consume_items: false
+				id: "7B1EE2CD5E3BEE7A"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Gather Tremorzilla Egg"
+			x: -39.77d
+			y: -46.17d
+		}
+		{
+			id: "7422D1055BA8A404"
+			tasks: [{
+				consume_items: false
+				id: "2E5284B705644120"
+				item: "irons_spellbooks:wayward_compass"
+				type: "item"
+			}]
+			title: "Gather Wayward Compass"
+			x: -38.58d
+			y: -45.25d
+		}
+		{
+			id: "42DB57B3FDC3A2B0"
+			tasks: [{
+				consume_items: false
+				id: "4A33719E9A19425B"
+				item: "goety:nether_staff"
+				type: "item"
+			}]
+			title: "Gather Nether Meteor Scroll"
+			x: -37.4d
+			y: -44.33d
+		}
+		{
+			id: "25D0411FFBB94220"
+			tasks: [{
+				consume_items: false
+				id: "4E92DFE5F80B49B2"
+				item: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gather Earth Talisman"
+			x: -36.21d
+			y: -43.42d
+		}
+		{
+			id: "3A710E926A20D49B"
+			tasks: [{
+				consume_items: false
+				id: "377C36E8357CEA92"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Gather Dragon Egg"
+			x: -35.03d
+			y: -42.5d
+		}
+		{
+			id: "6EED759DD7CE472D"
+			tasks: [{
+				consume_items: false
+				id: "7C15B420F9CB74B4"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Gather End Crystal"
+			x: -33.84d
+			y: -41.58d
+		}
+		{
+			id: "1EC9B9AF923748A7"
+			tasks: [{
+				consume_items: false
+				id: "7E292E647446A0CA"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			title: "Gather Enchanted Golden Apple"
+			x: -32.65d
+			y: -40.66d
+		}
+		{
+			id: "58854820B71A4940"
+			tasks: [{
+				consume_items: false
+				id: "2F095730BE3B4EC4"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Gather Conduit"
+			x: -31.47d
+			y: -39.74d
+		}
+		{
+			dependencies: [
+				"522777CA44E747D5"
+				"25D0411FFBB94220"
+				"6EED759DD7CE472D"
+				"1EC9B9AF923748A7"
+				"58854820B71A4940"
+			]
+			id: "70EF83B07A75B5DF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tag @p add digested_white_tower_1"
+					id: "31332FD6E7694372"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					id: "0BB4774011097123"
+					item: "fiomcraft_engine:potion_white_tower_0"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "3D652E95F5B08E8B"
+				item: "fiomcraft_engine:potion_white_tower_0"
+				type: "item"
+			}]
+			title: "Craft Potion of White Tower Ascension"
+			x: -30.88d
+			y: -51.44d
+		}
+		{
+			id: "7ADFCA7F02CD4628"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "424A47240B184DCC"
+				title: "I have drank the Potion and Ascended!"
+				type: "checkmark"
+			}]
+			title: "Ascend to Sequence 0: White Tower"
+			x: -23.04d
+			y: -57.56d
+		}
+	]
+	title: "Eclipse Domain"
+}

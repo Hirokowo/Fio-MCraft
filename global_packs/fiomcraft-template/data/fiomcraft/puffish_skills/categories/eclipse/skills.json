@@ -1,0 +1,3002 @@
+{
+	"fool_9": {
+		"definition": "root_fool_9_def",
+		"x": 121.35,
+		"y": 88.17,
+		"root": true
+	},
+	"fool_9_R01": {
+		"definition": "vg_damage",
+		"x": 159.03,
+		"y": 189.46,
+		"root": false
+	},
+	"fool_9_R02": {
+		"definition": "vg_damage",
+		"x": 190.48,
+		"y": 275.2,
+		"root": false
+	},
+	"fool_9_R0A3": {
+		"definition": "ec_power_ender",
+		"x": 205.37,
+		"y": 359.83,
+		"root": false
+	},
+	"fool_9_R0B3": {
+		"definition": "vg_damage",
+		"x": 271.95,
+		"y": 275.17,
+		"root": false
+	},
+	"fool_9_R0B4": {
+		"definition": "ec_power_evocation",
+		"x": 411.6,
+		"y": 226.46,
+		"root": false
+	},
+	"fool_9_R11": {
+		"definition": "vg_haste",
+		"x": 214.74,
+		"y": 92.84,
+		"root": false
+	},
+	"fool_9_R12": {
+		"definition": "vg_speed",
+		"x": 323.78,
+		"y": 94.33,
+		"root": false
+	},
+	"fool_9_R1A3": {
+		"definition": "vg_haste",
+		"x": 433.02,
+		"y": 98.21,
+		"root": false
+	},
+	"fool_9_R1B3": {
+		"definition": "vg_damage",
+		"x": 376.32,
+		"y": 154.66,
+		"root": false
+	},
+	"fool_8": {
+		"definition": "fool_8_def",
+		"x": 237.91,
+		"y": 202.78,
+		"root": false
+	},
+	"fool_8_R01": {
+		"definition": "ec_power_evocation",
+		"x": 285.16,
+		"y": 354.07,
+		"root": false
+	},
+	"fool_8_R0A2": {
+		"definition": "ec_mana_regen",
+		"x": 306.72,
+		"y": 436.12,
+		"root": false
+	},
+	"fool_8_R0A3": {
+		"definition": "vg_damage",
+		"x": 354.57,
+		"y": 500.23,
+		"root": false
+	},
+	"fool_8_R0B2": {
+		"definition": "vg_damage",
+		"x": 361.55,
+		"y": 377.87,
+		"root": false
+	},
+	"fool_8_R0B3": {
+		"definition": "ec_power_ender",
+		"x": 446.42,
+		"y": 346.55,
+		"root": false
+	},
+	"fool_8_R11": {
+		"definition": "ec_max_mana",
+		"x": 330.45,
+		"y": 220.61,
+		"root": false
+	},
+	"fool_8_R1A2": {
+		"definition": "ec_mana_regen",
+		"x": 491.51,
+		"y": 230.34,
+		"root": false
+	},
+	"fool_8_R1B2": {
+		"definition": "vg_haste",
+		"x": 380.42,
+		"y": 300.13,
+		"root": false
+	},
+	"fool_8_R1B3": {
+		"definition": "vg_haste",
+		"x": 425.73,
+		"y": 425.63,
+		"root": false
+	},
+	"fool_7": {
+		"definition": "fool_7_def",
+		"x": 519.61,
+		"y": 314.25,
+		"root": false
+	},
+	"fool_7_R01": {
+		"definition": "ec_power_ender",
+		"x": 539.81,
+		"y": 435.44,
+		"root": false
+	},
+	"fool_7_R02": {
+		"definition": "vg_speed",
+		"x": 569.04,
+		"y": 512.12,
+		"root": false
+	},
+	"fool_7_R03": {
+		"definition": "ec_power_evocation",
+		"x": 586.92,
+		"y": 598.02,
+		"root": false
+	},
+	"fool_7_R0A4": {
+		"definition": "vg_speed",
+		"x": 631.34,
+		"y": 690.54,
+		"root": false
+	},
+	"fool_7_R0B4": {
+		"definition": "ec_power_evocation",
+		"x": 664.46,
+		"y": 617.72,
+		"root": false
+	},
+	"fool_7_R11": {
+		"definition": "vg_damage",
+		"x": 597.59,
+		"y": 332.12,
+		"root": false
+	},
+	"fool_7_R12": {
+		"definition": "vg_haste",
+		"x": 704.22,
+		"y": 336.26,
+		"root": false
+	},
+	"fool_7_R1A3": {
+		"definition": "ec_max_mana",
+		"x": 803.8,
+		"y": 340.85,
+		"root": false
+	},
+	"fool_7_R1B3": {
+		"definition": "ec_max_mana",
+		"x": 737.42,
+		"y": 409.05,
+		"root": false
+	},
+	"fool_6": {
+		"definition": "fool_6_def",
+		"x": 657.67,
+		"y": 415.4,
+		"root": false
+	},
+	"fool_6_R01": {
+		"definition": "ec_mana_regen",
+		"x": 712.48,
+		"y": 494.17,
+		"root": false
+	},
+	"fool_6_R0A2": {
+		"definition": "ec_power_evocation",
+		"x": 737.09,
+		"y": 584.19,
+		"root": false
+	},
+	"fool_6_R0A3": {
+		"definition": "ec_power_evocation",
+		"x": 802.15,
+		"y": 640.19,
+		"root": false
+	},
+	"fool_6_R0B2": {
+		"definition": "ec_power_evocation",
+		"x": 787.46,
+		"y": 522.04,
+		"root": false
+	},
+	"fool_6_R0B3": {
+		"definition": "vg_damage",
+		"x": 937.83,
+		"y": 529.3,
+		"root": false
+	},
+	"fool_6_R11": {
+		"definition": "vg_speed",
+		"x": 816.02,
+		"y": 423.91,
+		"root": false
+	},
+	"fool_6_R1A2": {
+		"definition": "ec_mana_regen",
+		"x": 896.02,
+		"y": 424.26,
+		"root": false
+	},
+	"fool_6_R1B2": {
+		"definition": "ec_power_evocation",
+		"x": 863.95,
+		"y": 498.6,
+		"root": false
+	},
+	"fool_6_R1B3": {
+		"definition": "ec_mana_regen",
+		"x": 880.28,
+		"y": 593.7,
+		"root": false
+	},
+	"fool_5": {
+		"definition": "fool_5_def",
+		"x": 727.02,
+		"y": 667.67,
+		"root": false
+	},
+	"fool_5_R01": {
+		"definition": "vg_speed",
+		"x": 796.03,
+		"y": 761.73,
+		"root": false
+	},
+	"fool_5_R0A2": {
+		"definition": "vg_damage",
+		"x": 821.13,
+		"y": 849.27,
+		"root": false
+	},
+	"fool_5_R0A3": {
+		"definition": "ec_power_ender",
+		"x": 860.22,
+		"y": 930.14,
+		"root": false
+	},
+	"fool_5_R0B2": {
+		"definition": "ec_power_ender",
+		"x": 889.56,
+		"y": 807.83,
+		"root": false
+	},
+	"fool_5_R0B3": {
+		"definition": "vg_haste",
+		"x": 1038.05,
+		"y": 761.4,
+		"root": false
+	},
+	"fool_5_R11": {
+		"definition": "vg_haste",
+		"x": 874.88,
+		"y": 673.52,
+		"root": false
+	},
+	"fool_5_R1A2": {
+		"definition": "vg_damage",
+		"x": 955.39,
+		"y": 662.02,
+		"root": false
+	},
+	"fool_5_R1A3": {
+		"definition": "vg_speed",
+		"x": 1038.58,
+		"y": 671.55,
+		"root": false
+	},
+	"fool_5_R1B2": {
+		"definition": "ec_max_mana",
+		"x": 924.82,
+		"y": 736.02,
+		"root": false
+	},
+	"fool_4": {
+		"definition": "fool_4_def",
+		"x": 969.38,
+		"y": 802.45,
+		"root": false
+	},
+	"fool_4_R01": {
+		"definition": "ec_power_ender",
+		"x": 1018.41,
+		"y": 875.54,
+		"root": false
+	},
+	"fool_4_R0A2": {
+		"definition": "vg_haste",
+		"x": 1031.97,
+		"y": 966.69,
+		"root": false
+	},
+	"fool_4_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": 1083.73,
+		"y": 1044.85,
+		"root": false
+	},
+	"fool_4_R0B2": {
+		"definition": "ec_power_ender",
+		"x": 1089.88,
+		"y": 911.49,
+		"root": false
+	},
+	"fool_4_R0B3": {
+		"definition": "vg_haste",
+		"x": 1215.39,
+		"y": 901.52,
+		"root": false
+	},
+	"fool_4_R11": {
+		"definition": "ec_power_evocation",
+		"x": 1114.49,
+		"y": 784.99,
+		"root": false
+	},
+	"fool_4_R1A2": {
+		"definition": "ec_max_mana",
+		"x": 1197.49,
+		"y": 793.88,
+		"root": false
+	},
+	"fool_4_R1B2": {
+		"definition": "ec_max_mana",
+		"x": 1148.72,
+		"y": 857.29,
+		"root": false
+	},
+	"fool_4_R1B3": {
+		"definition": "vg_speed",
+		"x": 1168.13,
+		"y": 966.17,
+		"root": false
+	},
+	"fool_3": {
+		"definition": "fool_3_def",
+		"x": 1318.21,
+		"y": 752.77,
+		"root": false
+	},
+	"fool_3_R01": {
+		"definition": "vg_speed",
+		"x": 1347.14,
+		"y": 827.34,
+		"root": false
+	},
+	"fool_3_R0A2": {
+		"definition": "vg_haste",
+		"x": 1370.01,
+		"y": 903.99,
+		"root": false
+	},
+	"fool_3_R0A3": {
+		"definition": "ec_power_evocation",
+		"x": 1420.58,
+		"y": 965.96,
+		"root": false
+	},
+	"fool_3_R0B2": {
+		"definition": "ec_power_evocation",
+		"x": 1436.56,
+		"y": 844.8,
+		"root": false
+	},
+	"fool_3_R0B3": {
+		"definition": "ec_power_ender",
+		"x": 1516.49,
+		"y": 841.46,
+		"root": false
+	},
+	"fool_3_R11": {
+		"definition": "ec_power_ender",
+		"x": 1431.74,
+		"y": 761.96,
+		"root": false
+	},
+	"fool_3_R12": {
+		"definition": "ec_power_evocation",
+		"x": 1537.99,
+		"y": 764.4,
+		"root": false
+	},
+	"fool_3_R1A3": {
+		"definition": "ec_max_mana",
+		"x": 1617.69,
+		"y": 771.29,
+		"root": false
+	},
+	"fool_3_R1B3": {
+		"definition": "vg_speed",
+		"x": 1591.46,
+		"y": 869.39,
+		"root": false
+	},
+	"fool_2": {
+		"definition": "fool_2_def",
+		"x": 1385.47,
+		"y": 1038.0,
+		"root": false
+	},
+	"fool_2_R01": {
+		"definition": "ec_max_mana",
+		"x": 1432.53,
+		"y": 1126.65,
+		"root": false
+	},
+	"fool_2_R0A2": {
+		"definition": "vg_speed",
+		"x": 1466.5,
+		"y": 1237.71,
+		"root": false
+	},
+	"fool_2_R0A3": {
+		"definition": "ec_max_mana",
+		"x": 1490.53,
+		"y": 1334.79,
+		"root": false
+	},
+	"fool_2_R0B2": {
+		"definition": "vg_speed",
+		"x": 1502.82,
+		"y": 1166.44,
+		"root": false
+	},
+	"fool_2_R0B3": {
+		"definition": "vg_haste",
+		"x": 1624.52,
+		"y": 1137.03,
+		"root": false
+	},
+	"fool_2_R11": {
+		"definition": "vg_haste",
+		"x": 1476.79,
+		"y": 1022.87,
+		"root": false
+	},
+	"fool_2_R1A2": {
+		"definition": "ec_max_mana",
+		"x": 1575.75,
+		"y": 1029.49,
+		"root": false
+	},
+	"fool_2_R1B2": {
+		"definition": "vg_haste",
+		"x": 1522.08,
+		"y": 1088.81,
+		"root": false
+	},
+	"fool_2_R1B3": {
+		"definition": "ec_power_evocation",
+		"x": 1575.37,
+		"y": 1200.14,
+		"root": false
+	},
+	"fool_1": {
+		"definition": "fool_1_def",
+		"x": 1405.15,
+		"y": 1289.04,
+		"root": false
+	},
+	"fool_1_R01": {
+		"definition": "ec_mana_regen",
+		"x": 1423.69,
+		"y": 1378.74,
+		"root": false
+	},
+	"fool_1_R0A2": {
+		"definition": "ec_power_evocation",
+		"x": 1480.07,
+		"y": 1446.48,
+		"root": false
+	},
+	"fool_1_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": 1513.63,
+		"y": 1534.53,
+		"root": false
+	},
+	"fool_1_R0B2": {
+		"definition": "ec_power_ender",
+		"x": 1542.29,
+		"y": 1395.79,
+		"root": false
+	},
+	"fool_1_R0B3": {
+		"definition": "vg_speed",
+		"x": 1627.21,
+		"y": 1379.94,
+		"root": false
+	},
+	"fool_1_R11": {
+		"definition": "ec_power_ender",
+		"x": 1539.94,
+		"y": 1271.87,
+		"root": false
+	},
+	"fool_1_R12": {
+		"definition": "vg_speed",
+		"x": 1635.68,
+		"y": 1289.88,
+		"root": false
+	},
+	"fool_1_R13": {
+		"definition": "ec_power_ender",
+		"x": 1726.63,
+		"y": 1294.43,
+		"root": false
+	},
+	"fool_1_R14": {
+		"definition": "ec_power_ender",
+		"x": 1853.19,
+		"y": 1269.45,
+		"root": false
+	},
+	"fool_0": {
+		"definition": "fool_0_def",
+		"x": 1758.13,
+		"y": 1142.78,
+		"root": false
+	},
+	"fool_0_R01": {
+		"definition": "vg_speed",
+		"x": 1787.01,
+		"y": 1218.55,
+		"root": false
+	},
+	"fool_0_R02": {
+		"definition": "ec_mana_regen",
+		"x": 1809.3,
+		"y": 1336.33,
+		"root": false
+	},
+	"fool_0_R03": {
+		"definition": "vg_speed",
+		"x": 1857.62,
+		"y": 1403.8,
+		"root": false
+	},
+	"fool_0_R0A4": {
+		"definition": "ec_mana_regen",
+		"x": 1894.93,
+		"y": 1501.68,
+		"root": false
+	},
+	"fool_0_R0B4": {
+		"definition": "ec_power_evocation",
+		"x": 1964.54,
+		"y": 1431.61,
+		"root": false
+	},
+	"fool_0_R11": {
+		"definition": "vg_haste",
+		"x": 1866.94,
+		"y": 1148.22,
+		"root": false
+	},
+	"fool_0_R1A2": {
+		"definition": "ec_power_ender",
+		"x": 1954.09,
+		"y": 1152.58,
+		"root": false
+	},
+	"fool_0_R1B2": {
+		"definition": "vg_haste",
+		"x": 1925.31,
+		"y": 1234.83,
+		"root": false
+	},
+	"fool_0_R1B3": {
+		"definition": "ec_power_ender",
+		"x": 1956.8,
+		"y": 1340.15,
+		"root": false
+	},
+	"demoness_9": {
+		"definition": "root_demoness_9_def",
+		"x": -46.35,
+		"y": 142.66,
+		"root": true
+	},
+	"demoness_9_R01": {
+		"definition": "ec_power_fire",
+		"x": -134.59,
+		"y": 200.61,
+		"root": false
+	},
+	"demoness_9_R02": {
+		"definition": "ec_power_fire",
+		"x": -223.55,
+		"y": 256.84,
+		"root": false
+	},
+	"demoness_9_R0A3": {
+		"definition": "vg_reach",
+		"x": -307.43,
+		"y": 344.78,
+		"root": false
+	},
+	"demoness_9_R0B3": {
+		"definition": "vg_health",
+		"x": -213.31,
+		"y": 336.18,
+		"root": false
+	},
+	"demoness_9_R0B4": {
+		"definition": "vg_haste",
+		"x": -173.55,
+		"y": 441.81,
+		"root": false
+	},
+	"demoness_9_R11": {
+		"definition": "vg_speed",
+		"x": -17.25,
+		"y": 241.7,
+		"root": false
+	},
+	"demoness_9_R1A2": {
+		"definition": "ec_power_evocation",
+		"x": 8.0,
+		"y": 336.56,
+		"root": false
+	},
+	"demoness_9_R1B2": {
+		"definition": "ec_max_mana",
+		"x": -65.68,
+		"y": 305.38,
+		"root": false
+	},
+	"demoness_9_R1B3": {
+		"definition": "vg_haste",
+		"x": -136.79,
+		"y": 359.49,
+		"root": false
+	},
+	"demoness_8": {
+		"definition": "demoness_8_def",
+		"x": -145.09,
+		"y": 279.92,
+		"root": false
+	},
+	"demoness_8_R01": {
+		"definition": "vg_haste",
+		"x": -251.93,
+		"y": 406.24,
+		"root": false
+	},
+	"demoness_8_R02": {
+		"definition": "vg_haste",
+		"x": -318.7,
+		"y": 450.31,
+		"root": false
+	},
+	"demoness_8_R03": {
+		"definition": "vg_speed",
+		"x": -397.69,
+		"y": 514.68,
+		"root": false
+	},
+	"demoness_8_R04": {
+		"definition": "ec_power_evocation",
+		"x": -465.05,
+		"y": 568.97,
+		"root": false
+	},
+	"demoness_8_R05": {
+		"definition": "ec_power_fire",
+		"x": -538.18,
+		"y": 627.91,
+		"root": false
+	},
+	"demoness_8_R11": {
+		"definition": "vg_speed",
+		"x": -78.43,
+		"y": 414.21,
+		"root": false
+	},
+	"demoness_8_R12": {
+		"definition": "ec_power_fire",
+		"x": -55.81,
+		"y": 490.95,
+		"root": false
+	},
+	"demoness_8_R1A3": {
+		"definition": "ec_power_fire",
+		"x": -61.64,
+		"y": 570.74,
+		"root": false
+	},
+	"demoness_8_R1B3": {
+		"definition": "ec_power_fire",
+		"x": -178.84,
+		"y": 576.66,
+		"root": false
+	},
+	"demoness_7": {
+		"definition": "demoness_7_def",
+		"x": -133.27,
+		"y": 510.92,
+		"root": false
+	},
+	"demoness_7_R01": {
+		"definition": "vg_haste",
+		"x": -258.0,
+		"y": 588.02,
+		"root": false
+	},
+	"demoness_7_R0A2": {
+		"definition": "vg_haste",
+		"x": -301.81,
+		"y": 654.92,
+		"root": false
+	},
+	"demoness_7_R0A3": {
+		"definition": "ec_power_evocation",
+		"x": -373.27,
+		"y": 710.74,
+		"root": false
+	},
+	"demoness_7_R0B2": {
+		"definition": "vg_health",
+		"x": -217.02,
+		"y": 731.44,
+		"root": false
+	},
+	"demoness_7_R0B3": {
+		"definition": "vg_haste",
+		"x": -192.75,
+		"y": 807.67,
+		"root": false
+	},
+	"demoness_7_R11": {
+		"definition": "vg_health",
+		"x": -117.5,
+		"y": 628.01,
+		"root": false
+	},
+	"demoness_7_R1A2": {
+		"definition": "vg_speed",
+		"x": -77.2,
+		"y": 697.1,
+		"root": false
+	},
+	"demoness_7_R1B2": {
+		"definition": "vg_speed",
+		"x": -204.54,
+		"y": 652.42,
+		"root": false
+	},
+	"demoness_7_R1B3": {
+		"definition": "vg_speed",
+		"x": -296.97,
+		"y": 734.72,
+		"root": false
+	},
+	"demoness_6": {
+		"definition": "demoness_6_def",
+		"x": -135.34,
+		"y": 752.01,
+		"root": false
+	},
+	"demoness_6_R01": {
+		"definition": "vg_haste",
+		"x": -272.62,
+		"y": 810.86,
+		"root": false
+	},
+	"demoness_6_R0A2": {
+		"definition": "vg_speed",
+		"x": -321.42,
+		"y": 874.14,
+		"root": false
+	},
+	"demoness_6_R0A3": {
+		"definition": "ec_power_evocation",
+		"x": -349.0,
+		"y": 949.14,
+		"root": false
+	},
+	"demoness_6_R0B2": {
+		"definition": "vg_speed",
+		"x": -229.94,
+		"y": 878.55,
+		"root": false
+	},
+	"demoness_6_R0B3": {
+		"definition": "vg_health",
+		"x": -185.73,
+		"y": 1024.18,
+		"root": false
+	},
+	"demoness_6_R11": {
+		"definition": "ec_power_fire",
+		"x": -137.85,
+		"y": 865.81,
+		"root": false
+	},
+	"demoness_6_R1A2": {
+		"definition": "vg_reach",
+		"x": -128.14,
+		"y": 945.2,
+		"root": false
+	},
+	"demoness_6_R1A3": {
+		"definition": "ec_power_evocation",
+		"x": -105.72,
+		"y": 1021.98,
+		"root": false
+	},
+	"demoness_6_R1B2": {
+		"definition": "ec_power_evocation",
+		"x": -231.45,
+		"y": 958.54,
+		"root": false
+	},
+	"demoness_5": {
+		"definition": "demoness_5_def",
+		"x": -408.65,
+		"y": 895.83,
+		"root": false
+	},
+	"demoness_5_R01": {
+		"definition": "vg_speed",
+		"x": -473.7,
+		"y": 979.13,
+		"root": false
+	},
+	"demoness_5_R0A2": {
+		"definition": "ec_max_mana",
+		"x": -554.0,
+		"y": 1047.9,
+		"root": false
+	},
+	"demoness_5_R0A3": {
+		"definition": "vg_haste",
+		"x": -641.65,
+		"y": 1118.53,
+		"root": false
+	},
+	"demoness_5_R0B2": {
+		"definition": "vg_health",
+		"x": -474.48,
+		"y": 1059.13,
+		"root": false
+	},
+	"demoness_5_R0B3": {
+		"definition": "vg_speed",
+		"x": -445.17,
+		"y": 1165.49,
+		"root": false
+	},
+	"demoness_5_R11": {
+		"definition": "vg_health",
+		"x": -364.27,
+		"y": 1027.59,
+		"root": false
+	},
+	"demoness_5_R12": {
+		"definition": "ec_power_evocation",
+		"x": -322.83,
+		"y": 1096.0,
+		"root": false
+	},
+	"demoness_5_R13": {
+		"definition": "ec_power_evocation",
+		"x": -302.09,
+		"y": 1192.89,
+		"root": false
+	},
+	"demoness_5_R14": {
+		"definition": "vg_health",
+		"x": -289.11,
+		"y": 1275.45,
+		"root": false
+	},
+	"demoness_4": {
+		"definition": "demoness_4_def",
+		"x": -403.98,
+		"y": 1096.97,
+		"root": false
+	},
+	"demoness_4_R01": {
+		"definition": "ec_power_fire",
+		"x": -524.82,
+		"y": 1172.76,
+		"root": false
+	},
+	"demoness_4_R0A2": {
+		"definition": "ec_max_mana",
+		"x": -572.63,
+		"y": 1236.89,
+		"root": false
+	},
+	"demoness_4_R0A3": {
+		"definition": "vg_reach",
+		"x": -654.54,
+		"y": 1302.69,
+		"root": false
+	},
+	"demoness_4_R0B2": {
+		"definition": "vg_health",
+		"x": -477.99,
+		"y": 1241.21,
+		"root": false
+	},
+	"demoness_4_R0B3": {
+		"definition": "ec_power_fire",
+		"x": -478.14,
+		"y": 1321.21,
+		"root": false
+	},
+	"demoness_4_R11": {
+		"definition": "ec_max_mana",
+		"x": -379.85,
+		"y": 1211.64,
+		"root": false
+	},
+	"demoness_4_R12": {
+		"definition": "ec_power_fire",
+		"x": -377.23,
+		"y": 1291.59,
+		"root": false
+	},
+	"demoness_4_R1A3": {
+		"definition": "vg_haste",
+		"x": -331.29,
+		"y": 1357.08,
+		"root": false
+	},
+	"demoness_4_R1B3": {
+		"definition": "vg_health",
+		"x": -414.75,
+		"y": 1370.01,
+		"root": false
+	},
+	"demoness_3": {
+		"definition": "demoness_3_def",
+		"x": -251.88,
+		"y": 1347.38,
+		"root": false
+	},
+	"demoness_3_R01": {
+		"definition": "vg_haste",
+		"x": -354.55,
+		"y": 1433.62,
+		"root": false
+	},
+	"demoness_3_R0A2": {
+		"definition": "vg_speed",
+		"x": -426.06,
+		"y": 1469.46,
+		"root": false
+	},
+	"demoness_3_R0A3": {
+		"definition": "ec_max_mana",
+		"x": -503.74,
+		"y": 1488.59,
+		"root": false
+	},
+	"demoness_3_R0B2": {
+		"definition": "vg_speed",
+		"x": -361.47,
+		"y": 1543.66,
+		"root": false
+	},
+	"demoness_3_R0B3": {
+		"definition": "vg_health",
+		"x": -311.18,
+		"y": 1622.57,
+		"root": false
+	},
+	"demoness_3_R11": {
+		"definition": "ec_power_fire",
+		"x": -253.32,
+		"y": 1427.4,
+		"root": false
+	},
+	"demoness_3_R1A2": {
+		"definition": "ec_power_evocation",
+		"x": -229.25,
+		"y": 1529.32,
+		"root": false
+	},
+	"demoness_3_R1B2": {
+		"definition": "vg_speed",
+		"x": -300.15,
+		"y": 1492.27,
+		"root": false
+	},
+	"demoness_3_R1B3": {
+		"definition": "ec_power_fire",
+		"x": -429.9,
+		"y": 1585.09,
+		"root": false
+	},
+	"demoness_2": {
+		"definition": "demoness_2_def",
+		"x": -516.1,
+		"y": 1567.63,
+		"root": false
+	},
+	"demoness_2_R01": {
+		"definition": "vg_speed",
+		"x": -593.49,
+		"y": 1587.9,
+		"root": false
+	},
+	"demoness_2_R0A2": {
+		"definition": "vg_haste",
+		"x": -676.07,
+		"y": 1679.08,
+		"root": false
+	},
+	"demoness_2_R0A3": {
+		"definition": "vg_haste",
+		"x": -758.27,
+		"y": 1741.81,
+		"root": false
+	},
+	"demoness_2_R0B2": {
+		"definition": "vg_speed",
+		"x": -596.86,
+		"y": 1667.83,
+		"root": false
+	},
+	"demoness_2_R0B3": {
+		"definition": "vg_haste",
+		"x": -551.28,
+		"y": 1798.94,
+		"root": false
+	},
+	"demoness_2_R11": {
+		"definition": "vg_speed",
+		"x": -486.27,
+		"y": 1641.86,
+		"root": false
+	},
+	"demoness_2_R1A2": {
+		"definition": "vg_speed",
+		"x": -456.56,
+		"y": 1716.13,
+		"root": false
+	},
+	"demoness_2_R1B2": {
+		"definition": "vg_speed",
+		"x": -536.49,
+		"y": 1720.31,
+		"root": false
+	},
+	"demoness_2_R1B3": {
+		"definition": "vg_reach",
+		"x": -628.18,
+		"y": 1776.89,
+		"root": false
+	},
+	"demoness_1": {
+		"definition": "demoness_1_def",
+		"x": -754.2,
+		"y": 1661.91,
+		"root": false
+	},
+	"demoness_1_R01": {
+		"definition": "vg_speed",
+		"x": -835.11,
+		"y": 1719.53,
+		"root": false
+	},
+	"demoness_1_R0A2": {
+		"definition": "ec_power_fire",
+		"x": -880.96,
+		"y": 1785.09,
+		"root": false
+	},
+	"demoness_1_R0A3": {
+		"definition": "ec_power_evocation",
+		"x": -959.48,
+		"y": 1846.71,
+		"root": false
+	},
+	"demoness_1_R0B2": {
+		"definition": "ec_power_fire",
+		"x": -792.44,
+		"y": 1815.41,
+		"root": false
+	},
+	"demoness_1_R0B3": {
+		"definition": "ec_max_mana",
+		"x": -764.79,
+		"y": 1918.28,
+		"root": false
+	},
+	"demoness_1_R11": {
+		"definition": "ec_power_fire",
+		"x": -704.46,
+		"y": 1801.0,
+		"root": false
+	},
+	"demoness_1_R12": {
+		"definition": "vg_speed",
+		"x": -694.35,
+		"y": 1880.36,
+		"root": false
+	},
+	"demoness_1_R13": {
+		"definition": "ec_max_mana",
+		"x": -666.71,
+		"y": 1985.72,
+		"root": false
+	},
+	"demoness_1_R14": {
+		"definition": "vg_haste",
+		"x": -667.2,
+		"y": 2074.99,
+		"root": false
+	},
+	"demoness_0": {
+		"definition": "demoness_0_def",
+		"x": -533.99,
+		"y": 1989.58,
+		"root": false
+	},
+	"demoness_0_R01": {
+		"definition": "ec_max_mana",
+		"x": -592.63,
+		"y": 2046.01,
+		"root": false
+	},
+	"demoness_0_R02": {
+		"definition": "vg_haste",
+		"x": -712.56,
+		"y": 2140.89,
+		"root": false
+	},
+	"demoness_0_R0A3": {
+		"definition": "vg_haste",
+		"x": -782.36,
+		"y": 2179.98,
+		"root": false
+	},
+	"demoness_0_R0B3": {
+		"definition": "vg_haste",
+		"x": -711.75,
+		"y": 2220.89,
+		"root": false
+	},
+	"demoness_0_R0B4": {
+		"definition": "vg_haste",
+		"x": -666.92,
+		"y": 2320.87,
+		"root": false
+	},
+	"demoness_0_R11": {
+		"definition": "ec_max_mana",
+		"x": -505.61,
+		"y": 2094.51,
+		"root": false
+	},
+	"demoness_0_R1A2": {
+		"definition": "vg_haste",
+		"x": -478.03,
+		"y": 2196.47,
+		"root": false
+	},
+	"demoness_0_R1B2": {
+		"definition": "vg_reach",
+		"x": -571.96,
+		"y": 2168.62,
+		"root": false
+	},
+	"demoness_0_R1B3": {
+		"definition": "ec_max_mana",
+		"x": -632.17,
+		"y": 2229.1,
+		"root": false
+	},
+	"hanged_man_9": {
+		"definition": "root_hanged_man_9_def",
+		"x": -150.0,
+		"y": 0.0,
+		"root": true
+	},
+	"hanged_man_9_R01": {
+		"definition": "vg_health",
+		"x": -226.9,
+		"y": -62.28,
+		"root": false
+	},
+	"hanged_man_9_R0A2": {
+		"definition": "ec_power_blood",
+		"x": -310.79,
+		"y": -131.67,
+		"root": false
+	},
+	"hanged_man_9_R0A3": {
+		"definition": "ec_power_eldritch",
+		"x": -396.29,
+		"y": -178.17,
+		"root": false
+	},
+	"hanged_man_9_R0B2": {
+		"definition": "vg_damage",
+		"x": -350.2,
+		"y": 20.32,
+		"root": false
+	},
+	"hanged_man_9_R0B3": {
+		"definition": "ec_mana_regen",
+		"x": -406.7,
+		"y": 90.48,
+		"root": false
+	},
+	"hanged_man_9_R11": {
+		"definition": "ec_power_eldritch",
+		"x": -201.74,
+		"y": 61.01,
+		"root": false
+	},
+	"hanged_man_9_R1A2": {
+		"definition": "ec_power_blood",
+		"x": -304.72,
+		"y": 100.99,
+		"root": false
+	},
+	"hanged_man_9_R1B2": {
+		"definition": "vg_health",
+		"x": -270.21,
+		"y": 19.64,
+		"root": false
+	},
+	"hanged_man_9_R1B3": {
+		"definition": "vg_health",
+		"x": -386.2,
+		"y": -53.04,
+		"root": false
+	},
+	"hanged_man_8": {
+		"definition": "hanged_man_8_def",
+		"x": -306.21,
+		"y": -51.8,
+		"root": false
+	},
+	"hanged_man_8_R01": {
+		"definition": "ec_power_eldritch",
+		"x": -440.68,
+		"y": -111.62,
+		"root": false
+	},
+	"hanged_man_8_R02": {
+		"definition": "vg_damage",
+		"x": -508.25,
+		"y": -154.45,
+		"root": false
+	},
+	"hanged_man_8_R0A3": {
+		"definition": "vg_armor",
+		"x": -576.77,
+		"y": -195.73,
+		"root": false
+	},
+	"hanged_man_8_R0B3": {
+		"definition": "ec_power_eldritch",
+		"x": -622.9,
+		"y": -126.75,
+		"root": false
+	},
+	"hanged_man_8_R0B4": {
+		"definition": "ec_mana_regen",
+		"x": -680.59,
+		"y": -33.87,
+		"root": false
+	},
+	"hanged_man_8_R11": {
+		"definition": "vg_health",
+		"x": -429.95,
+		"y": 13.94,
+		"root": false
+	},
+	"hanged_man_8_R1A2": {
+		"definition": "vg_armor",
+		"x": -486.55,
+		"y": 85.49,
+		"root": false
+	},
+	"hanged_man_8_R1B2": {
+		"definition": "ec_power_blood",
+		"x": -488.55,
+		"y": -40.52,
+		"root": false
+	},
+	"hanged_man_8_R1B3": {
+		"definition": "ec_power_eldritch",
+		"x": -552.88,
+		"y": -88.06,
+		"root": false
+	},
+	"hanged_man_7": {
+		"definition": "hanged_man_7_def",
+		"x": -536.83,
+		"y": 23.27,
+		"root": false
+	},
+	"hanged_man_7_R01": {
+		"definition": "vg_damage",
+		"x": -601.17,
+		"y": -24.28,
+		"root": false
+	},
+	"hanged_man_7_R02": {
+		"definition": "vg_health",
+		"x": -701.36,
+		"y": -111.12,
+		"root": false
+	},
+	"hanged_man_7_R0A3": {
+		"definition": "ec_power_eldritch",
+		"x": -775.44,
+		"y": -141.32,
+		"root": false
+	},
+	"hanged_man_7_R0B3": {
+		"definition": "ec_mana_regen",
+		"x": -805.44,
+		"y": -67.16,
+		"root": false
+	},
+	"hanged_man_7_R0B4": {
+		"definition": "ec_power_blood",
+		"x": -915.57,
+		"y": 29.78,
+		"root": false
+	},
+	"hanged_man_7_R11": {
+		"definition": "ec_power_blood",
+		"x": -602.31,
+		"y": 72.21,
+		"root": false
+	},
+	"hanged_man_7_R1A2": {
+		"definition": "vg_health",
+		"x": -681.32,
+		"y": 126.02,
+		"root": false
+	},
+	"hanged_man_7_R1B2": {
+		"definition": "ec_power_eldritch",
+		"x": -677.93,
+		"y": 46.09,
+		"root": false
+	},
+	"hanged_man_7_R1B3": {
+		"definition": "vg_damage",
+		"x": -755.17,
+		"y": -4.93,
+		"root": false
+	},
+	"hanged_man_6": {
+		"definition": "hanged_man_6_def",
+		"x": -760.44,
+		"y": 74.9,
+		"root": false
+	},
+	"hanged_man_6_R01": {
+		"definition": "vg_damage",
+		"x": -839.36,
+		"y": 5.46,
+		"root": false
+	},
+	"hanged_man_6_R02": {
+		"definition": "ec_max_mana",
+		"x": -922.76,
+		"y": -50.01,
+		"root": false
+	},
+	"hanged_man_6_R03": {
+		"definition": "vg_armor",
+		"x": -1015.23,
+		"y": -142.37,
+		"root": false
+	},
+	"hanged_man_6_R0A4": {
+		"definition": "vg_damage",
+		"x": -1099.9,
+		"y": -216.35,
+		"root": false
+	},
+	"hanged_man_6_R0B4": {
+		"definition": "ec_power_eldritch",
+		"x": -1128.03,
+		"y": -63.64,
+		"root": false
+	},
+	"hanged_man_6_R11": {
+		"definition": "vg_health",
+		"x": -850.24,
+		"y": 124.23,
+		"root": false
+	},
+	"hanged_man_6_R12": {
+		"definition": "ec_power_blood",
+		"x": -937.21,
+		"y": 181.01,
+		"root": false
+	},
+	"hanged_man_6_R1A3": {
+		"definition": "ec_power_blood",
+		"x": -1004.56,
+		"y": 224.97,
+		"root": false
+	},
+	"hanged_man_6_R1B3": {
+		"definition": "ec_max_mana",
+		"x": -1014.42,
+		"y": 140.39,
+		"root": false
+	},
+	"hanged_man_5": {
+		"definition": "hanged_man_5_def",
+		"x": -1001.6,
+		"y": -63.54,
+		"root": false
+	},
+	"hanged_man_5_R01": {
+		"definition": "ec_power_blood",
+		"x": -1095.01,
+		"y": -136.5,
+		"root": false
+	},
+	"hanged_man_5_R0A2": {
+		"definition": "ec_mana_regen",
+		"x": -1177.24,
+		"y": -189.25,
+		"root": false
+	},
+	"hanged_man_5_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": -1242.36,
+		"y": -240.68,
+		"root": false
+	},
+	"hanged_man_5_R0B2": {
+		"definition": "vg_health",
+		"x": -1198.2,
+		"y": -102.15,
+		"root": false
+	},
+	"hanged_man_5_R0B3": {
+		"definition": "ec_max_mana",
+		"x": -1224.65,
+		"y": -26.65,
+		"root": false
+	},
+	"hanged_man_5_R11": {
+		"definition": "vg_health",
+		"x": -1087.09,
+		"y": 5.09,
+		"root": false
+	},
+	"hanged_man_5_R12": {
+		"definition": "vg_health",
+		"x": -1185.64,
+		"y": 43.19,
+		"root": false
+	},
+	"hanged_man_5_R1A3": {
+		"definition": "vg_armor",
+		"x": -1271.16,
+		"y": 104.92,
+		"root": false
+	},
+	"hanged_man_5_R1B3": {
+		"definition": "ec_power_blood",
+		"x": -1284.8,
+		"y": 26.1,
+		"root": false
+	},
+	"hanged_man_4": {
+		"definition": "hanged_man_4_def",
+		"x": -1277.18,
+		"y": -87.11,
+		"root": false
+	},
+	"hanged_man_4_R01": {
+		"definition": "vg_toughness",
+		"x": -1353.68,
+		"y": -110.5,
+		"root": false
+	},
+	"hanged_man_4_R0A2": {
+		"definition": "vg_damage",
+		"x": -1417.66,
+		"y": -170.56,
+		"root": false
+	},
+	"hanged_man_4_R0A3": {
+		"definition": "vg_damage",
+		"x": -1512.3,
+		"y": -218.35,
+		"root": false
+	},
+	"hanged_man_4_R0B2": {
+		"definition": "vg_health",
+		"x": -1431.99,
+		"y": -91.85,
+		"root": false
+	},
+	"hanged_man_4_R0B3": {
+		"definition": "vg_health",
+		"x": -1516.1,
+		"y": -5.56,
+		"root": false
+	},
+	"hanged_man_4_R11": {
+		"definition": "vg_armor",
+		"x": -1356.39,
+		"y": -9.62,
+		"root": false
+	},
+	"hanged_man_4_R1A2": {
+		"definition": "vg_toughness",
+		"x": -1447.81,
+		"y": 67.21,
+		"root": false
+	},
+	"hanged_man_4_R1B2": {
+		"definition": "ec_mana_regen",
+		"x": -1436.35,
+		"y": -11.97,
+		"root": false
+	},
+	"hanged_man_4_R1B3": {
+		"definition": "ec_power_blood",
+		"x": -1511.79,
+		"y": -86.17,
+		"root": false
+	},
+	"hanged_man_3": {
+		"definition": "hanged_man_3_def",
+		"x": -1494.23,
+		"y": 162.24,
+		"root": false
+	},
+	"hanged_man_3_R01": {
+		"definition": "vg_health",
+		"x": -1559.5,
+		"y": 115.98,
+		"root": false
+	},
+	"hanged_man_3_R0A2": {
+		"definition": "vg_damage",
+		"x": -1629.6,
+		"y": 72.11,
+		"root": false
+	},
+	"hanged_man_3_R0A3": {
+		"definition": "ec_power_blood",
+		"x": -1702.71,
+		"y": 39.62,
+		"root": false
+	},
+	"hanged_man_3_R0B2": {
+		"definition": "ec_power_blood",
+		"x": -1619.2,
+		"y": 169.23,
+		"root": false
+	},
+	"hanged_man_3_R0B3": {
+		"definition": "ec_mana_regen",
+		"x": -1735.32,
+		"y": 228.54,
+		"root": false
+	},
+	"hanged_man_3_R11": {
+		"definition": "vg_toughness",
+		"x": -1576.55,
+		"y": 236.9,
+		"root": false
+	},
+	"hanged_man_3_R1A2": {
+		"definition": "vg_health",
+		"x": -1664.41,
+		"y": 272.57,
+		"root": false
+	},
+	"hanged_man_3_R1B2": {
+		"definition": "ec_power_eldritch",
+		"x": -1698.35,
+		"y": 157.59,
+		"root": false
+	},
+	"hanged_man_3_R1B3": {
+		"definition": "vg_damage",
+		"x": -1762.85,
+		"y": 110.27,
+		"root": false
+	},
+	"hanged_man_2": {
+		"definition": "hanged_man_2_def",
+		"x": -1754.91,
+		"y": -20.99,
+		"root": false
+	},
+	"hanged_man_2_R01": {
+		"definition": "ec_power_blood",
+		"x": -1817.82,
+		"y": -70.4,
+		"root": false
+	},
+	"hanged_man_2_R0A2": {
+		"definition": "vg_toughness",
+		"x": -1891.58,
+		"y": -101.37,
+		"root": false
+	},
+	"hanged_man_2_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": -1962.99,
+		"y": -137.42,
+		"root": false
+	},
+	"hanged_man_2_R0B2": {
+		"definition": "ec_mana_regen",
+		"x": -1866.4,
+		"y": -6.84,
+		"root": false
+	},
+	"hanged_man_2_R0B3": {
+		"definition": "ec_power_blood",
+		"x": -2002.51,
+		"y": 66.82,
+		"root": false
+	},
+	"hanged_man_2_R11": {
+		"definition": "ec_power_eldritch",
+		"x": -1827.39,
+		"y": 63.0,
+		"root": false
+	},
+	"hanged_man_2_R1A2": {
+		"definition": "vg_damage",
+		"x": -1908.6,
+		"y": 100.13,
+		"root": false
+	},
+	"hanged_man_2_R1B2": {
+		"definition": "ec_power_blood",
+		"x": -1944.11,
+		"y": 12.14,
+		"root": false
+	},
+	"hanged_man_2_R1B3": {
+		"definition": "ec_power_eldritch",
+		"x": -1991.73,
+		"y": -52.15,
+		"root": false
+	},
+	"hanged_man_1": {
+		"definition": "hanged_man_1_def",
+		"x": -1963.98,
+		"y": -217.42,
+		"root": false
+	},
+	"hanged_man_1_R01": {
+		"definition": "vg_damage",
+		"x": -2051.92,
+		"y": -266.89,
+		"root": false
+	},
+	"hanged_man_1_R02": {
+		"definition": "ec_power_blood",
+		"x": -2129.32,
+		"y": -317.41,
+		"root": false
+	},
+	"hanged_man_1_R03": {
+		"definition": "vg_damage",
+		"x": -2222.71,
+		"y": -378.37,
+		"root": false
+	},
+	"hanged_man_1_R04": {
+		"definition": "vg_toughness",
+		"x": -2294.17,
+		"y": -425.02,
+		"root": false
+	},
+	"hanged_man_1_R05": {
+		"definition": "ec_power_eldritch",
+		"x": -2382.98,
+		"y": -483.0,
+		"root": false
+	},
+	"hanged_man_1_R11": {
+		"definition": "ec_power_blood",
+		"x": -2037.59,
+		"y": -166.31,
+		"root": false
+	},
+	"hanged_man_1_R12": {
+		"definition": "vg_health",
+		"x": -2121.51,
+		"y": -106.26,
+		"root": false
+	},
+	"hanged_man_1_R13": {
+		"definition": "ec_power_blood",
+		"x": -2197.27,
+		"y": -56.81,
+		"root": false
+	},
+	"hanged_man_1_R14": {
+		"definition": "ec_power_eldritch",
+		"x": -2268.87,
+		"y": -13.04,
+		"root": false
+	},
+	"hanged_man_0": {
+		"definition": "hanged_man_0_def",
+		"x": -2165.02,
+		"y": 112.56,
+		"root": false
+	},
+	"hanged_man_0_R01": {
+		"definition": "ec_max_mana",
+		"x": -2250.69,
+		"y": 64.87,
+		"root": false
+	},
+	"hanged_man_0_R02": {
+		"definition": "vg_damage",
+		"x": -2345.99,
+		"y": 8.25,
+		"root": false
+	},
+	"hanged_man_0_R03": {
+		"definition": "ec_power_eldritch",
+		"x": -2405.37,
+		"y": -45.35,
+		"root": false
+	},
+	"hanged_man_0_R0A4": {
+		"definition": "vg_damage",
+		"x": -2472.83,
+		"y": -88.35,
+		"root": false
+	},
+	"hanged_man_0_R0B4": {
+		"definition": "ec_power_blood",
+		"x": -2490.8,
+		"y": 5.06,
+		"root": false
+	},
+	"hanged_man_0_R11": {
+		"definition": "ec_max_mana",
+		"x": -2232.94,
+		"y": 156.9,
+		"root": false
+	},
+	"hanged_man_0_R12": {
+		"definition": "ec_mana_regen",
+		"x": -2322.66,
+		"y": 215.46,
+		"root": false
+	},
+	"hanged_man_0_R13": {
+		"definition": "ec_power_eldritch",
+		"x": -2392.38,
+		"y": 260.98,
+		"root": false
+	},
+	"hanged_man_0_R14": {
+		"definition": "ec_power_blood",
+		"x": -2459.37,
+		"y": 304.71,
+		"root": false
+	},
+	"visionary_9": {
+		"definition": "root_visionary_9_def",
+		"x": -46.35,
+		"y": -142.66,
+		"root": true
+	},
+	"visionary_9_R01": {
+		"definition": "ec_mana_regen",
+		"x": -12.35,
+		"y": -239.94,
+		"root": false
+	},
+	"visionary_9_R0A2": {
+		"definition": "ec_mana_regen",
+		"x": 20.67,
+		"y": -345.37,
+		"root": false
+	},
+	"visionary_9_R0A3": {
+		"definition": "ec_max_mana",
+		"x": 36.95,
+		"y": -450.62,
+		"root": false
+	},
+	"visionary_9_R0B2": {
+		"definition": "ec_power_lightning",
+		"x": -83.33,
+		"y": -276.84,
+		"root": false
+	},
+	"visionary_9_R0B3": {
+		"definition": "vg_reach",
+		"x": -125.46,
+		"y": -344.85,
+		"root": false
+	},
+	"visionary_9_R11": {
+		"definition": "vg_speed",
+		"x": -116.84,
+		"y": -199.47,
+		"root": false
+	},
+	"visionary_9_R12": {
+		"definition": "ec_max_mana",
+		"x": -181.07,
+		"y": -251.23,
+		"root": false
+	},
+	"visionary_9_R1A3": {
+		"definition": "vg_damage",
+		"x": -245.56,
+		"y": -299.12,
+		"root": false
+	},
+	"visionary_9_R1B3": {
+		"definition": "vg_damage",
+		"x": -202.47,
+		"y": -366.52,
+		"root": false
+	},
+	"visionary_8": {
+		"definition": "visionary_8_def",
+		"x": -52.51,
+		"y": -377.69,
+		"root": false
+	},
+	"visionary_8_R01": {
+		"definition": "vg_damage",
+		"x": -52.31,
+		"y": -457.69,
+		"root": false
+	},
+	"visionary_8_R02": {
+		"definition": "vg_reach",
+		"x": -23.66,
+		"y": -556.65,
+		"root": false
+	},
+	"visionary_8_R03": {
+		"definition": "ec_power_lightning",
+		"x": -0.17,
+		"y": -643.49,
+		"root": false
+	},
+	"visionary_8_R0A4": {
+		"definition": "vg_speed",
+		"x": 25.34,
+		"y": -737.82,
+		"root": false
+	},
+	"visionary_8_R0B4": {
+		"definition": "ec_mana_regen",
+		"x": -61.19,
+		"y": -707.39,
+		"root": false
+	},
+	"visionary_8_R11": {
+		"definition": "ec_max_mana",
+		"x": -152.7,
+		"y": -431.88,
+		"root": false
+	},
+	"visionary_8_R1A2": {
+		"definition": "ec_power_ender",
+		"x": -230.92,
+		"y": -487.25,
+		"root": false
+	},
+	"visionary_8_R1B2": {
+		"definition": "vg_speed",
+		"x": -139.61,
+		"y": -538.61,
+		"root": false
+	},
+	"visionary_8_R1B3": {
+		"definition": "vg_speed",
+		"x": -117.13,
+		"y": -621.75,
+		"root": false
+	},
+	"visionary_7": {
+		"definition": "visionary_7_def",
+		"x": -216.37,
+		"y": -569.96,
+		"root": false
+	},
+	"visionary_7_R01": {
+		"definition": "vg_damage",
+		"x": -192.56,
+		"y": -657.98,
+		"root": false
+	},
+	"visionary_7_R0A2": {
+		"definition": "ec_max_mana",
+		"x": -163.19,
+		"y": -766.59,
+		"root": false
+	},
+	"visionary_7_R0A3": {
+		"definition": "ec_power_ender",
+		"x": -135.74,
+		"y": -868.07,
+		"root": false
+	},
+	"visionary_7_R0B2": {
+		"definition": "vg_damage",
+		"x": -258.31,
+		"y": -704.31,
+		"root": false
+	},
+	"visionary_7_R0B3": {
+		"definition": "ec_power_ender",
+		"x": -358.02,
+		"y": -819.99,
+		"root": false
+	},
+	"visionary_7_R11": {
+		"definition": "ec_max_mana",
+		"x": -290.04,
+		"y": -630.88,
+		"root": false
+	},
+	"visionary_7_R12": {
+		"definition": "ec_max_mana",
+		"x": -364.5,
+		"y": -660.13,
+		"root": false
+	},
+	"visionary_7_R1A3": {
+		"definition": "vg_speed",
+		"x": -441.52,
+		"y": -735.55,
+		"root": false
+	},
+	"visionary_7_R1B3": {
+		"definition": "ec_power_lightning",
+		"x": -361.65,
+		"y": -740.07,
+		"root": false
+	},
+	"visionary_6": {
+		"definition": "visionary_6_def",
+		"x": -289.5,
+		"y": -777.96,
+		"root": false
+	},
+	"visionary_6_R01": {
+		"definition": "ec_power_lightning",
+		"x": -287.59,
+		"y": -857.91,
+		"root": false
+	},
+	"visionary_6_R02": {
+		"definition": "ec_power_lightning",
+		"x": -275.06,
+		"y": -936.88,
+		"root": false
+	},
+	"visionary_6_R03": {
+		"definition": "ec_power_lightning",
+		"x": -279.94,
+		"y": -1016.69,
+		"root": false
+	},
+	"visionary_6_R0A4": {
+		"definition": "ec_power_lightning",
+		"x": -240.93,
+		"y": -1094.07,
+		"root": false
+	},
+	"visionary_6_R0B4": {
+		"definition": "ec_mana_regen",
+		"x": -387.79,
+		"y": -1128.73,
+		"root": false
+	},
+	"visionary_6_R11": {
+		"definition": "ec_power_ender",
+		"x": -435.78,
+		"y": -838.74,
+		"root": false
+	},
+	"visionary_6_R1A2": {
+		"definition": "vg_speed",
+		"x": -486.93,
+		"y": -900.25,
+		"root": false
+	},
+	"visionary_6_R1B2": {
+		"definition": "ec_power_ender",
+		"x": -378.88,
+		"y": -912.67,
+		"root": false
+	},
+	"visionary_6_R1B3": {
+		"definition": "vg_damage",
+		"x": -357.86,
+		"y": -993.91,
+		"root": false
+	},
+	"visionary_5": {
+		"definition": "visionary_5_def",
+		"x": -200.16,
+		"y": -1010.79,
+		"root": false
+	},
+	"visionary_5_R01": {
+		"definition": "ec_power_ender",
+		"x": -167.87,
+		"y": -1126.63,
+		"root": false
+	},
+	"visionary_5_R02": {
+		"definition": "vg_damage",
+		"x": -171.52,
+		"y": -1206.54,
+		"root": false
+	},
+	"visionary_5_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": -159.54,
+		"y": -1314.01,
+		"root": false
+	},
+	"visionary_5_R0B3": {
+		"definition": "vg_reach",
+		"x": -230.72,
+		"y": -1260.34,
+		"root": false
+	},
+	"visionary_5_R0B4": {
+		"definition": "ec_power_lightning",
+		"x": -346.42,
+		"y": -1368.17,
+		"root": false
+	},
+	"visionary_5_R11": {
+		"definition": "ec_power_ender",
+		"x": -320.47,
+		"y": -1085.61,
+		"root": false
+	},
+	"visionary_5_R12": {
+		"definition": "vg_damage",
+		"x": -438.09,
+		"y": -1190.89,
+		"root": false
+	},
+	"visionary_5_R1A3": {
+		"definition": "vg_damage",
+		"x": -509.83,
+		"y": -1226.26,
+		"root": false
+	},
+	"visionary_5_R1B3": {
+		"definition": "vg_damage",
+		"x": -360.05,
+		"y": -1256.45,
+		"root": false
+	},
+	"visionary_4": {
+		"definition": "visionary_4_def",
+		"x": -322.99,
+		"y": -1185.55,
+		"root": false
+	},
+	"visionary_4_R01": {
+		"definition": "vg_reach",
+		"x": -296.8,
+		"y": -1305.42,
+		"root": false
+	},
+	"visionary_4_R02": {
+		"definition": "ec_max_mana",
+		"x": -250.49,
+		"y": -1370.65,
+		"root": false
+	},
+	"visionary_4_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": -235.93,
+		"y": -1481.16,
+		"root": false
+	},
+	"visionary_4_R0B3": {
+		"definition": "ec_power_lightning",
+		"x": -300.11,
+		"y": -1433.4,
+		"root": false
+	},
+	"visionary_4_R0B4": {
+		"definition": "vg_damage",
+		"x": -412.86,
+		"y": -1523.62,
+		"root": false
+	},
+	"visionary_4_R11": {
+		"definition": "vg_damage",
+		"x": -438.73,
+		"y": -1270.87,
+		"root": false
+	},
+	"visionary_4_R1A2": {
+		"definition": "ec_mana_regen",
+		"x": -499.43,
+		"y": -1322.95,
+		"root": false
+	},
+	"visionary_4_R1B2": {
+		"definition": "ec_mana_regen",
+		"x": -424.64,
+		"y": -1351.4,
+		"root": false
+	},
+	"visionary_4_R1B3": {
+		"definition": "ec_max_mana",
+		"x": -378.01,
+		"y": -1451.61,
+		"root": false
+	},
+	"visionary_3": {
+		"definition": "visionary_3_def",
+		"x": -581.05,
+		"y": -1294.12,
+		"root": false
+	},
+	"visionary_3_R01": {
+		"definition": "ec_power_lightning",
+		"x": -559.86,
+		"y": -1375.37,
+		"root": false
+	},
+	"visionary_3_R02": {
+		"definition": "ec_power_lightning",
+		"x": -547.24,
+		"y": -1461.66,
+		"root": false
+	},
+	"visionary_3_R03": {
+		"definition": "ec_power_ender",
+		"x": -517.54,
+		"y": -1596.36,
+		"root": false
+	},
+	"visionary_3_R04": {
+		"definition": "vg_damage",
+		"x": -478.85,
+		"y": -1666.48,
+		"root": false
+	},
+	"visionary_3_R05": {
+		"definition": "vg_damage",
+		"x": -470.72,
+		"y": -1770.08,
+		"root": false
+	},
+	"visionary_3_R11": {
+		"definition": "ec_max_mana",
+		"x": -665.04,
+		"y": -1361.8,
+		"root": false
+	},
+	"visionary_3_R1A2": {
+		"definition": "vg_speed",
+		"x": -743.3,
+		"y": -1424.87,
+		"root": false
+	},
+	"visionary_3_R1B2": {
+		"definition": "ec_max_mana",
+		"x": -642.36,
+		"y": -1449.72,
+		"root": false
+	},
+	"visionary_3_R1B3": {
+		"definition": "vg_damage",
+		"x": -621.46,
+		"y": -1532.23,
+		"root": false
+	},
+	"visionary_2": {
+		"definition": "visionary_2_def",
+		"x": -492.79,
+		"y": -1520.28,
+		"root": false
+	},
+	"visionary_2_R01": {
+		"definition": "ec_max_mana",
+		"x": -432.74,
+		"y": -1601.1,
+		"root": false
+	},
+	"visionary_2_R0A2": {
+		"definition": "vg_reach",
+		"x": -414.14,
+		"y": -1713.52,
+		"root": false
+	},
+	"visionary_2_R0A3": {
+		"definition": "ec_power_lightning",
+		"x": -423.75,
+		"y": -1834.83,
+		"root": false
+	},
+	"visionary_2_R0B2": {
+		"definition": "ec_max_mana",
+		"x": -535.43,
+		"y": -1723.03,
+		"root": false
+	},
+	"visionary_2_R0B3": {
+		"definition": "ec_max_mana",
+		"x": -613.77,
+		"y": -1767.36,
+		"root": false
+	},
+	"visionary_2_R11": {
+		"definition": "ec_power_lightning",
+		"x": -596.65,
+		"y": -1608.29,
+		"root": false
+	},
+	"visionary_2_R1A2": {
+		"definition": "ec_mana_regen",
+		"x": -684.13,
+		"y": -1665.83,
+		"root": false
+	},
+	"visionary_2_R1B2": {
+		"definition": "ec_mana_regen",
+		"x": -607.15,
+		"y": -1687.59,
+		"root": false
+	},
+	"visionary_2_R1B3": {
+		"definition": "vg_damage",
+		"x": -544.72,
+		"y": -1807.76,
+		"root": false
+	},
+	"visionary_1": {
+		"definition": "visionary_1_def",
+		"x": -353.07,
+		"y": -1797.35,
+		"root": false
+	},
+	"visionary_1_R01": {
+		"definition": "vg_damage",
+		"x": -356.82,
+		"y": -1900.67,
+		"root": false
+	},
+	"visionary_1_R0A2": {
+		"definition": "vg_damage",
+		"x": -312.87,
+		"y": -1978.8,
+		"root": false
+	},
+	"visionary_1_R0A3": {
+		"definition": "ec_power_ender",
+		"x": -313.52,
+		"y": -2060.78,
+		"root": false
+	},
+	"visionary_1_R0B2": {
+		"definition": "vg_speed",
+		"x": -392.82,
+		"y": -1976.07,
+		"root": false
+	},
+	"visionary_1_R0B3": {
+		"definition": "ec_power_lightning",
+		"x": -504.66,
+		"y": -2041.95,
+		"root": false
+	},
+	"visionary_1_R11": {
+		"definition": "vg_damage",
+		"x": -482.32,
+		"y": -1889.32,
+		"root": false
+	},
+	"visionary_1_R1A2": {
+		"definition": "ec_power_ender",
+		"x": -546.79,
+		"y": -1936.68,
+		"root": false
+	},
+	"visionary_1_R1A3": {
+		"definition": "vg_damage",
+		"x": -612.84,
+		"y": -1994.98,
+		"root": false
+	},
+	"visionary_1_R1B2": {
+		"definition": "ec_power_lightning",
+		"x": -472.48,
+		"y": -1968.71,
+		"root": false
+	},
+	"visionary_0": {
+		"definition": "visionary_0_def",
+		"x": -737.46,
+		"y": -1923.53,
+		"root": false
+	},
+	"visionary_0_R01": {
+		"definition": "ec_power_lightning",
+		"x": -712.84,
+		"y": -2014.54,
+		"root": false
+	},
+	"visionary_0_R0A2": {
+		"definition": "ec_power_lightning",
+		"x": -671.59,
+		"y": -2105.49,
+		"root": false
+	},
+	"visionary_0_R0A3": {
+		"definition": "vg_speed",
+		"x": -664.55,
+		"y": -2193.1,
+		"root": false
+	},
+	"visionary_0_R0B2": {
+		"definition": "ec_max_mana",
+		"x": -751.17,
+		"y": -2113.67,
+		"root": false
+	},
+	"visionary_0_R0B3": {
+		"definition": "ec_power_lightning",
+		"x": -850.79,
+		"y": -2146.65,
+		"root": false
+	},
+	"visionary_0_R11": {
+		"definition": "ec_max_mana",
+		"x": -812.63,
+		"y": -1984.11,
+		"root": false
+	},
+	"visionary_0_R1A2": {
+		"definition": "ec_power_lightning",
+		"x": -889.76,
+		"y": -2038.36,
+		"root": false
+	},
+	"visionary_0_R1B2": {
+		"definition": "ec_power_lightning",
+		"x": -814.06,
+		"y": -2064.22,
+		"root": false
+	},
+	"visionary_0_R1B3": {
+		"definition": "vg_speed",
+		"x": -763.69,
+		"y": -2192.68,
+		"root": false
+	},
+	"white_tower_9": {
+		"definition": "root_white_tower_9_def",
+		"x": 121.35,
+		"y": -88.17,
+		"root": true
+	},
+	"white_tower_9_R01": {
+		"definition": "ec_power_aqua",
+		"x": 208.01,
+		"y": -92.5,
+		"root": false
+	},
+	"white_tower_9_R02": {
+		"definition": "vg_armor",
+		"x": 297.95,
+		"y": -90.12,
+		"root": false
+	},
+	"white_tower_9_R0A3": {
+		"definition": "vg_knockback",
+		"x": 405.19,
+		"y": -102.37,
+		"root": false
+	},
+	"white_tower_9_R0B3": {
+		"definition": "ec_mana_regen",
+		"x": 306.34,
+		"y": -169.68,
+		"root": false
+	},
+	"white_tower_9_R0B4": {
+		"definition": "vg_armor",
+		"x": 330.17,
+		"y": -249.49,
+		"root": false
+	},
+	"white_tower_9_R11": {
+		"definition": "vg_health",
+		"x": 160.57,
+		"y": -191.05,
+		"root": false
+	},
+	"white_tower_9_R12": {
+		"definition": "ec_mana_regen",
+		"x": 190.85,
+		"y": -283.5,
+		"root": false
+	},
+	"white_tower_9_R1A3": {
+		"definition": "ec_power_holy",
+		"x": 231.19,
+		"y": -376.33,
+		"root": false
+	},
+	"white_tower_9_R1B3": {
+		"definition": "ec_power_aqua",
+		"x": 268.92,
+		"y": -300.95,
+		"root": false
+	},
+	"white_tower_8": {
+		"definition": "white_tower_8_def",
+		"x": 384.5,
+		"y": -190.76,
+		"root": false
+	},
+	"white_tower_8_R01": {
+		"definition": "vg_armor",
+		"x": 464.28,
+		"y": -198.85,
+		"root": false
+	},
+	"white_tower_8_R0A2": {
+		"definition": "ec_mana_regen",
+		"x": 556.28,
+		"y": -212.31,
+		"root": false
+	},
+	"white_tower_8_R0A3": {
+		"definition": "ec_power_holy",
+		"x": 648.15,
+		"y": -218.98,
+		"root": false
+	},
+	"white_tower_8_R0B2": {
+		"definition": "vg_armor",
+		"x": 510.78,
+		"y": -313.08,
+		"root": false
+	},
+	"white_tower_8_R0B3": {
+		"definition": "ec_max_mana",
+		"x": 564.65,
+		"y": -372.22,
+		"root": false
+	},
+	"white_tower_8_R11": {
+		"definition": "ec_power_aqua",
+		"x": 372.4,
+		"y": -317.43,
+		"root": false
+	},
+	"white_tower_8_R1A2": {
+		"definition": "vg_toughness",
+		"x": 423.25,
+		"y": -379.49,
+		"root": false
+	},
+	"white_tower_8_R1B2": {
+		"definition": "ec_max_mana",
+		"x": 440.33,
+		"y": -275.18,
+		"root": false
+	},
+	"white_tower_8_R1B3": {
+		"definition": "vg_armor",
+		"x": 586.24,
+		"y": -286.49,
+		"root": false
+	},
+	"white_tower_7": {
+		"definition": "white_tower_7_def",
+		"x": 505.87,
+		"y": -426.48,
+		"root": false
+	},
+	"white_tower_7_R01": {
+		"definition": "ec_power_aqua",
+		"x": 628.14,
+		"y": -420.88,
+		"root": false
+	},
+	"white_tower_7_R0A2": {
+		"definition": "ec_max_mana",
+		"x": 706.53,
+		"y": -404.89,
+		"root": false
+	},
+	"white_tower_7_R0A3": {
+		"definition": "vg_armor",
+		"x": 803.71,
+		"y": -429.71,
+		"root": false
+	},
+	"white_tower_7_R0B2": {
+		"definition": "ec_power_aqua",
+		"x": 695.83,
+		"y": -485.34,
+		"root": false
+	},
+	"white_tower_7_R0B3": {
+		"definition": "vg_knockback",
+		"x": 712.06,
+		"y": -587.53,
+		"root": false
+	},
+	"white_tower_7_R11": {
+		"definition": "ec_power_aqua",
+		"x": 536.0,
+		"y": -501.37,
+		"root": false
+	},
+	"white_tower_7_R1A2": {
+		"definition": "ec_mana_regen",
+		"x": 555.91,
+		"y": -600.95,
+		"root": false
+	},
+	"white_tower_7_R1A3": {
+		"definition": "vg_armor",
+		"x": 603.13,
+		"y": -703.36,
+		"root": false
+	},
+	"white_tower_7_R1B2": {
+		"definition": "vg_armor",
+		"x": 615.99,
+		"y": -499.95,
+		"root": false
+	},
+	"white_tower_6": {
+		"definition": "white_tower_6_def",
+		"x": 632.61,
+		"y": -578.21,
+		"root": false
+	},
+	"white_tower_6_R01": {
+		"definition": "ec_power_holy",
+		"x": 771.97,
+		"y": -534.51,
+		"root": false
+	},
+	"white_tower_6_R02": {
+		"definition": "ec_power_aqua",
+		"x": 843.53,
+		"y": -570.28,
+		"root": false
+	},
+	"white_tower_6_R0A3": {
+		"definition": "ec_power_holy",
+		"x": 990.1,
+		"y": -585.9,
+		"root": false
+	},
+	"white_tower_6_R0B3": {
+		"definition": "ec_power_holy",
+		"x": 890.35,
+		"y": -646.47,
+		"root": false
+	},
+	"white_tower_6_R0B4": {
+		"definition": "ec_max_mana",
+		"x": 914.9,
+		"y": -733.96,
+		"root": false
+	},
+	"white_tower_6_R11": {
+		"definition": "ec_power_aqua",
+		"x": 664.21,
+		"y": -651.7,
+		"root": false
+	},
+	"white_tower_6_R12": {
+		"definition": "ec_mana_regen",
+		"x": 709.34,
+		"y": -738.94,
+		"root": false
+	},
+	"white_tower_6_R1A3": {
+		"definition": "ec_power_holy",
+		"x": 744.3,
+		"y": -830.65,
+		"root": false
+	},
+	"white_tower_6_R1B3": {
+		"definition": "ec_max_mana",
+		"x": 808.69,
+		"y": -758.0,
+		"root": false
+	},
+	"white_tower_5": {
+		"definition": "white_tower_5_def",
+		"x": 920.11,
+		"y": -547.14,
+		"root": false
+	},
+	"white_tower_5_R01": {
+		"definition": "ec_power_holy",
+		"x": 1056.63,
+		"y": -540.61,
+		"root": false
+	},
+	"white_tower_5_R0A2": {
+		"definition": "ec_max_mana",
+		"x": 1139.8,
+		"y": -567.68,
+		"root": false
+	},
+	"white_tower_5_R0A3": {
+		"definition": "vg_toughness",
+		"x": 1227.22,
+		"y": -578.56,
+		"root": false
+	},
+	"white_tower_5_R0B2": {
+		"definition": "ec_max_mana",
+		"x": 1077.48,
+		"y": -617.84,
+		"root": false
+	},
+	"white_tower_5_R0B3": {
+		"definition": "vg_health",
+		"x": 1136.0,
+		"y": -715.69,
+		"root": false
+	},
+	"white_tower_5_R11": {
+		"definition": "ec_power_aqua",
+		"x": 971.9,
+		"y": -663.8,
+		"root": false
+	},
+	"white_tower_5_R12": {
+		"definition": "ec_max_mana",
+		"x": 994.36,
+		"y": -743.28,
+		"root": false
+	},
+	"white_tower_5_R1A3": {
+		"definition": "ec_max_mana",
+		"x": 1019.77,
+		"y": -825.49,
+		"root": false
+	},
+	"white_tower_5_R1B3": {
+		"definition": "ec_mana_regen",
+		"x": 1079.87,
+		"y": -772.69,
+		"root": false
+	},
+	"white_tower_4": {
+		"definition": "white_tower_4_def",
+		"x": 1058.58,
+		"y": -695.57,
+		"root": false
+	},
+	"white_tower_4_R01": {
+		"definition": "ec_max_mana",
+		"x": 1216.0,
+		"y": -715.95,
+		"root": false
+	},
+	"white_tower_4_R02": {
+		"definition": "ec_power_holy",
+		"x": 1294.71,
+		"y": -701.6,
+		"root": false
+	},
+	"white_tower_4_R0A3": {
+		"definition": "ec_power_holy",
+		"x": 1368.09,
+		"y": -733.45,
+		"root": false
+	},
+	"white_tower_4_R0B3": {
+		"definition": "vg_health",
+		"x": 1269.62,
+		"y": -778.0,
+		"root": false
+	},
+	"white_tower_4_R0B4": {
+		"definition": "ec_power_aqua",
+		"x": 1320.8,
+		"y": -912.89,
+		"root": false
+	},
+	"white_tower_4_R11": {
+		"definition": "ec_power_holy",
+		"x": 1130.4,
+		"y": -834.7,
+		"root": false
+	},
+	"white_tower_4_R1A2": {
+		"definition": "vg_armor",
+		"x": 1161.22,
+		"y": -908.53,
+		"root": false
+	},
+	"white_tower_4_R1B2": {
+		"definition": "ec_power_holy",
+		"x": 1210.35,
+		"y": -831.73,
+		"root": false
+	},
+	"white_tower_4_R1B3": {
+		"definition": "ec_max_mana",
+		"x": 1327.56,
+		"y": -833.17,
+		"root": false
+	},
+	"white_tower_3": {
+		"definition": "white_tower_3_def",
+		"x": 1133.16,
+		"y": -1026.76,
+		"root": false
+	},
+	"white_tower_3_R01": {
+		"definition": "ec_power_holy",
+		"x": 1221.84,
+		"y": -1031.2,
+		"root": false
+	},
+	"white_tower_3_R0A2": {
+		"definition": "vg_armor",
+		"x": 1331.94,
+		"y": -1037.2,
+		"root": false
+	},
+	"white_tower_3_R0A3": {
+		"definition": "ec_power_aqua",
+		"x": 1428.23,
+		"y": -1055.26,
+		"root": false
+	},
+	"white_tower_3_R0B2": {
+		"definition": "ec_mana_regen",
+		"x": 1293.34,
+		"y": -1109.41,
+		"root": false
+	},
+	"white_tower_3_R0B3": {
+		"definition": "ec_power_aqua",
+		"x": 1300.9,
+		"y": -1238.62,
+		"root": false
+	},
+	"white_tower_3_R11": {
+		"definition": "vg_health",
+		"x": 1155.29,
+		"y": -1114.19,
+		"root": false
+	},
+	"white_tower_3_R1A2": {
+		"definition": "ec_power_aqua",
+		"x": 1202.68,
+		"y": -1228.76,
+		"root": false
+	},
+	"white_tower_3_R1B2": {
+		"definition": "vg_armor",
+		"x": 1225.71,
+		"y": -1152.15,
+		"root": false
+	},
+	"white_tower_3_R1B3": {
+		"definition": "ec_max_mana",
+		"x": 1358.4,
+		"y": -1155.96,
+		"root": false
+	},
+	"white_tower_2": {
+		"definition": "white_tower_2_def",
+		"x": 1394.08,
+		"y": -982.91,
+		"root": false
+	},
+	"white_tower_2_R01": {
+		"definition": "ec_power_aqua",
+		"x": 1497.95,
+		"y": -1016.02,
+		"root": false
+	},
+	"white_tower_2_R02": {
+		"definition": "vg_knockback",
+		"x": 1577.49,
+		"y": -1024.59,
+		"root": false
+	},
+	"white_tower_2_R03": {
+		"definition": "ec_power_aqua",
+		"x": 1657.23,
+		"y": -1030.96,
+		"root": false
+	},
+	"white_tower_2_R0A4": {
+		"definition": "ec_power_holy",
+		"x": 1799.99,
+		"y": -1019.29,
+		"root": false
+	},
+	"white_tower_2_R0B4": {
+		"definition": "vg_health",
+		"x": 1721.81,
+		"y": -1140.07,
+		"root": false
+	},
+	"white_tower_2_R11": {
+		"definition": "vg_toughness",
+		"x": 1450.97,
+		"y": -1131.96,
+		"root": false
+	},
+	"white_tower_2_R1A2": {
+		"definition": "ec_mana_regen",
+		"x": 1482.43,
+		"y": -1205.51,
+		"root": false
+	},
+	"white_tower_2_R1A3": {
+		"definition": "vg_health",
+		"x": 1518.12,
+		"y": -1299.72,
+		"root": false
+	},
+	"white_tower_2_R1B2": {
+		"definition": "vg_health",
+		"x": 1542.92,
+		"y": -1107.64,
+		"root": false
+	},
+	"white_tower_1": {
+		"definition": "white_tower_1_def",
+		"x": 1711.49,
+		"y": -969.9,
+		"root": false
+	},
+	"white_tower_1_R01": {
+		"definition": "ec_max_mana",
+		"x": 1824.97,
+		"y": -943.29,
+		"root": false
+	},
+	"white_tower_1_R02": {
+		"definition": "vg_toughness",
+		"x": 1892.4,
+		"y": -988.69,
+		"root": false
+	},
+	"white_tower_1_R0A3": {
+		"definition": "ec_mana_regen",
+		"x": 1972.16,
+		"y": -995.08,
+		"root": false
+	},
+	"white_tower_1_R0B3": {
+		"definition": "vg_health",
+		"x": 1965.71,
+		"y": -1084.55,
+		"root": false
+	},
+	"white_tower_1_R0B4": {
+		"definition": "vg_armor",
+		"x": 1971.96,
+		"y": -1164.3,
+		"root": false
+	},
+	"white_tower_1_R11": {
+		"definition": "vg_knockback",
+		"x": 1731.52,
+		"y": -1060.66,
+		"root": false
+	},
+	"white_tower_1_R1A2": {
+		"definition": "vg_health",
+		"x": 1792.7,
+		"y": -1177.13,
+		"root": false
+	},
+	"white_tower_1_R1B2": {
+		"definition": "vg_armor",
+		"x": 1813.04,
+		"y": -1098.22,
+		"root": false
+	},
+	"white_tower_1_R1B3": {
+		"definition": "vg_toughness",
+		"x": 1887.33,
+		"y": -1068.53,
+		"root": false
+	},
+	"white_tower_0": {
+		"definition": "white_tower_0_def",
+		"x": 1704.9,
+		"y": -1379.27,
+		"root": false
+	},
+	"white_tower_0_R01": {
+		"definition": "vg_armor",
+		"x": 1816.12,
+		"y": -1378.83,
+		"root": false
+	},
+	"white_tower_0_R0A2": {
+		"definition": "ec_power_holy",
+		"x": 1929.33,
+		"y": -1388.8,
+		"root": false
+	},
+	"white_tower_0_R0A3": {
+		"definition": "ec_max_mana",
+		"x": 2012.29,
+		"y": -1394.86,
+		"root": false
+	},
+	"white_tower_0_R0B2": {
+		"definition": "ec_max_mana",
+		"x": 1874.77,
+		"y": -1503.77,
+		"root": false
+	},
+	"white_tower_0_R0B3": {
+		"definition": "vg_knockback",
+		"x": 1903.51,
+		"y": -1578.43,
+		"root": false
+	},
+	"white_tower_0_R11": {
+		"definition": "ec_mana_regen",
+		"x": 1728.87,
+		"y": -1455.59,
+		"root": false
+	},
+	"white_tower_0_R1A2": {
+		"definition": "vg_armor",
+		"x": 1769.6,
+		"y": -1549.07,
+		"root": false
+	},
+	"white_tower_0_R1B2": {
+		"definition": "ec_power_holy",
+		"x": 1808.82,
+		"y": -1458.49,
+		"root": false
+	},
+	"white_tower_0_R1B3": {
+		"definition": "vg_health",
+		"x": 1945.86,
+		"y": -1467.08,
+		"root": false
+	}
+}

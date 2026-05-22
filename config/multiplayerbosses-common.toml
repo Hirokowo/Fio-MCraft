@@ -4,7 +4,7 @@
 "Should Scale Boss Drops" = true
 #The amount to scale boss health per player after the first
 #Range: 0.0 ~ 1.7976931348623157E308
-"Health Multiplier Per Player" = 1.0
+"Health Multiplier Per Player" = 1.5
 #A flat value to increase boss health. Will override "Health Multiplier Per Player" if it is not 0
 #Range: 0.0 ~ 1.7976931348623157E308
 "Flat Health Multiplier" = 0.0
@@ -19,7 +19,7 @@
 "Use Proximity Scaling" = true
 #How far from a boss spawn position to detect players
 #Range: > 0
-"Proximity Scaling Range" = 100
+"Proximity Scaling Range" = 500
 #All bosses that should be affected by this mod. Most are usually in the "forge:bosses" tag
 "Boss Entities" = ["minecraft:wither", "minecraft:ender_dragon", "cataclysm:ancient_remnant", "cataclysm:ignis", "cataclysm:maledictus", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith"]
 #Tint colors used for loot bags dropped from bosses. Uses minecrafts integer encoded rgb format. Use -1 for no tint

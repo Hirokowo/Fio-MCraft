@@ -1,0 +1,2228 @@
+{
+	"eclipse_root": {
+		"title": "Domain of the Eclipse",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_eye"
+			}
+		},
+		"metadata": {
+			"icon": "06e8710wvn0cbzb1"
+		}
+	},
+	"ec_max_mana": {
+		"title": "Max Mana +50",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:mana_upgrade_orb"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "zqi64ynqb5o2255i"
+		}
+	},
+	"ec_mana_regen": {
+		"title": "Mana Regen +10%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aygd8qzjbo1nibsg"
+		}
+	},
+	"ec_power_ender": {
+		"title": "Ender Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_evocation": {
+		"title": "Evocation Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:totem_of_undying"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_fire": {
+		"title": "Fire Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_blood": {
+		"title": "Blood Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_lightning": {
+		"title": "Lightning Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lightning_rod"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_holy": {
+		"title": "Holy Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_eldritch": {
+		"title": "Eldritch Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:echo_shard"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"ec_power_aqua": {
+		"title": "Aqua Power +5%",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nautilus_shell"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "traveloptics:aqua_spell_power",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"vg_health": {
+		"title": "Max Health +2.0",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "zqi64ynqb5o2255i"
+		}
+	},
+	"vg_damage": {
+		"title": "Attack Damage +5%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uumxlkrq4ylmf52m"
+		}
+	},
+	"vg_haste": {
+		"title": "Attack Speed +5%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aygd8qzjbo1nibsg"
+		}
+	},
+	"vg_speed": {
+		"title": "Movement Speed +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hfxz2b7ina1uoeoe"
+		}
+	},
+	"vg_armor": {
+		"title": "Armor +1.0",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6wpwtisrxxwq4q1c"
+		}
+	},
+	"vg_toughness": {
+		"title": "Armor Toughness +0.5",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q98kyfusa8e613k3"
+		}
+	},
+	"vg_knockback": {
+		"title": "Knockback Resistance +10%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bx6tqweldpruwd11"
+		}
+	},
+	"vg_reach": {
+		"title": "Attack Reach +0.5",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:entity_reach",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iue0714ut65wdycu"
+		}
+	},
+	"root_fool_9_def": {
+		"title": "Sequence 9: Seer",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_9"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_9] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_9] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_9] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_8_def": {
+		"title": "Sequence 8: Clown",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_8"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_8] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_8] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_8] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_7_def": {
+		"title": "Sequence 7: Magician",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_7"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_7] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_7] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_7] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_6_def": {
+		"title": "Sequence 6: Faceless",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_6"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_6] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_6] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_6] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_5_def": {
+		"title": "Sequence 5: Marionettist",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_5"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_5] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_5] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_5] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_4_def": {
+		"title": "Sequence 4: Bizarro Sorcerer",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_4"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_4] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_4] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_4] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_3_def": {
+		"title": "Sequence 3: Scholar of Yore",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_3"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_3] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_3] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_3] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_2_def": {
+		"title": "Sequence 2: Miracle Invoker",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_2"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_2] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_2] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_2] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_1_def": {
+		"title": "Sequence 1: Attendant of Mysteries",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_1"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_1] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_1] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_1] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"fool_0_def": {
+		"title": "Sequence 0: Fool",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:fool_core_0"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_0] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_0] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_fool_0] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"root_demoness_9_def": {
+		"title": "Sequence 9: Assassin",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_9"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_9] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_9] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_9] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_8_def": {
+		"title": "Sequence 8: Instigator",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_8"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_8] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_8] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_8] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_7_def": {
+		"title": "Sequence 7: Witch",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_7"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_7] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_7] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_7] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_6_def": {
+		"title": "Sequence 6: Demoness of Pleasure",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_6"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_6] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_6] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_6] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_5_def": {
+		"title": "Sequence 5: Demoness of Affliction",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_5"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_5] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_5] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_5] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_4_def": {
+		"title": "Sequence 4: Demoness of Despair",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_4"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_4] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_4] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_4] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_3_def": {
+		"title": "Sequence 3: Demoness of Unaging",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_3"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_3] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_3] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_3] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_2_def": {
+		"title": "Sequence 2: Demoness of Catastrophe",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_2"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_2] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_2] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_2] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_1_def": {
+		"title": "Sequence 1: Demoness of Apocalypse",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_1"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_1] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_1] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_1] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"demoness_0_def": {
+		"title": "Sequence 0: Demoness",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:demoness_core_0"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_0] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_0] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_demoness_0] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"root_hanged_man_9_def": {
+		"title": "Sequence 9: Secrets Suppliant",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_9"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_9] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_9] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_9] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_8_def": {
+		"title": "Sequence 8: Listener",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_8"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_8] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_8] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_8] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_7_def": {
+		"title": "Sequence 7: Hidden Champion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_7"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_7] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_7] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_7] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_6_def": {
+		"title": "Sequence 6: Rose Bishop",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_6"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_6] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_6] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_6] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_5_def": {
+		"title": "Sequence 5: Shepherd",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_5"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_5] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_5] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_5] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_4_def": {
+		"title": "Sequence 4: Black Knight",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_4"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_4] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_4] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_4] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_3_def": {
+		"title": "Sequence 3: Trinity Templar",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_3"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_3] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_3] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_3] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_2_def": {
+		"title": "Sequence 2: Profane Presbyter",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_2"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_2] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_2] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_2] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_1_def": {
+		"title": "Sequence 1: Dark Angel",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_1"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_1] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_1] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_1] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"hanged_man_0_def": {
+		"title": "Sequence 0: Hanged Man",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:hanged_man_core_0"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_0] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_0] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_hanged_man_0] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"root_visionary_9_def": {
+		"title": "Sequence 9: Spectator",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_9"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_9] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_9] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_9] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_8_def": {
+		"title": "Sequence 8: Telepathist",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_8"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_8] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_8] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_8] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_7_def": {
+		"title": "Sequence 7: Psychiatrist",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_7"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_7] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_7] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_7] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_6_def": {
+		"title": "Sequence 6: Hypnotist",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_6"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_6] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_6] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_6] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_5_def": {
+		"title": "Sequence 5: Dreamwalker",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_5"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_5] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_5] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_5] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_4_def": {
+		"title": "Sequence 4: Manipulator",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_4"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_4] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_4] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_4] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_3_def": {
+		"title": "Sequence 3: Dream Weaver",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_3"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_3] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_3] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_3] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_2_def": {
+		"title": "Sequence 2: Discerner",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_2"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_2] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_2] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_2] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_1_def": {
+		"title": "Sequence 1: Author",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_1"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_1] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_1] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_1] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"visionary_0_def": {
+		"title": "Sequence 0: Visionary",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:visionary_core_0"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_0] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_0] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_visionary_0] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"root_white_tower_9_def": {
+		"title": "Sequence 9: Reader",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_9"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_9] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_9] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_9] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_8_def": {
+		"title": "Sequence 8: Student of Ratiocination",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_8"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_8] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_8] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_8] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_7_def": {
+		"title": "Sequence 7: Detective",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_7"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_7] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_7] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_7] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_6_def": {
+		"title": "Sequence 6: Polymath",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_6"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_6] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_6] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_6] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_5_def": {
+		"title": "Sequence 5: Mysticism Magus",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_5"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_5] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_5] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_5] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_4_def": {
+		"title": "Sequence 4: Mysticologist",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_4"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_4] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_4] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_4] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_3_def": {
+		"title": "Sequence 3: Cognizer",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_3"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_3] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_3] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_3] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_2_def": {
+		"title": "Sequence 2: Wisdom Angel",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_2"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_2] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_2] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_2] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_1_def": {
+		"title": "Sequence 1: Omniscient Eye",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_1"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_1] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_1] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_1] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	},
+	"white_tower_0_def": {
+		"title": "Sequence 0: White Tower",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fiomcraft_engine:white_tower_core_0"
+			}
+		},
+		"cost": 0,
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_0] run puffish_skills skills reset @s fiomcraft:eclipse"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_0] run tellraw @s {\"text\":\"[System] You cannot bypass the sequence. Your pathways have collapsed!\",\"color\":\"red\"}"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "execute unless entity @s[tag=unlocked_white_tower_0] run playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 1 0.5"
+				}
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		}
+	}
+}

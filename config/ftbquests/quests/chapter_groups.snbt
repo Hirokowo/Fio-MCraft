@@ -12,8 +12,5 @@
 		{ id: "2156AFA4B5DF976B", title: "{\"text\":\"Shop\",\"color\":\"#EFB20C\"}" }
 		{ id: "6D7A192B0CC378A4", title: "{\"text\":\"Path to Glory\",\"color\":\"#EF480C\"}" }
 		{ id: "20504C01049C8A39", title: "{\"text\":\"Monarchy\",\"color\":\"#EF500C\"}" }
-		{ id: "1000000000000001", title: "Vanguard Domain" }
-		{ id: "1000000000000002", title: "Eclipse Domain" }
-		{ id: "1000000000000003", title: "Weaver Domain" }
 	]
 }
